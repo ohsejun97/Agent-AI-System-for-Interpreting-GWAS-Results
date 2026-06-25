@@ -55,7 +55,8 @@ def map_snp_to_genes(chrom: str, pos: int, window_kb: int = 500) -> list:
     start = max(1, pos - window_kb * 1000)
     end = pos + window_kb * 1000
 
-    url = (f"https://rest.ensembl.org/overlap/region/human/"
+    # GRCh37(hg19) 좌표 기반 데이터에 맞는 전용 엔드포인트 사용
+    url = (f"https://grch37.rest.ensembl.org/overlap/region/human/"
            f"{chrom}:{start}-{end}"
            f"?feature=gene&biotype=protein_coding&content-type=application/json")
 

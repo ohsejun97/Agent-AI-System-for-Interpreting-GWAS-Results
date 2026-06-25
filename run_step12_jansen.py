@@ -57,8 +57,9 @@ print("=" * 55)
 def map_snp_to_genes(chrom, pos, window_kb=500):
     start = max(1, pos - window_kb * 1000)
     end = pos + window_kb * 1000
+    # Jansen 데이터가 GRCh37(hg19) 좌표이므로 grch37 전용 엔드포인트 사용
     url = (
-        f"https://rest.ensembl.org/overlap/region/human/"
+        f"https://grch37.rest.ensembl.org/overlap/region/human/"
         f"{chrom}:{start}-{end}"
         f"?feature=gene&biotype=protein_coding&content-type=application/json"
     )
