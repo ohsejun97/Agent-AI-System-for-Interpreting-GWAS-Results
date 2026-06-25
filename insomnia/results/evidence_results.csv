@@ -1,0 +1,26 @@
+SNP_ID,gene,gwas_catalog_traits,open_targets_diseases,open_targets_scores
+rs11693221,MEIS1,Sleep medication purchases | Short sleep duration (<5 hours),restless legs syndrome | insomnia | prostate carcinoma,0.546 | 0.512 | 0.495
+rs6561715,OLFM4,Insomnia (standard GWA) | Insomnia,major depressive disorder | bipolar disorder | insomnia,0.501 | 0.397 | 0.395
+rs6561715,PCDH8,Insomnia (standard GWA) | Insomnia,abnormality of serum enzyme levels | arthritic joint disease | atopic conjunctivitis,0.278 | 0.272 | 0.265
+rs4986172,ACBD4,Height | Height | Height,neurodegenerative disease | essential hypertension | hypertensive disorder,0.464 | 0.208 | 0.199
+rs4986172,HEXIM1,Height | Height | Height,neurodegenerative disease | intelligence | insomnia,0.37 | 0.364 | 0.336
+rs4986172,PLCD3,Height | Height | Height,Headache | migraine disorder | coronary artery disorder,0.371 | 0.166 | 0.166
+rs370771,LIN28B,Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index,Abnormality of the skeletal system | major depressive disorder | cholelithiasis,0.463 | 0.414 | 0.342
+rs370771,HACE1,Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index,spastic paraplegia-severe developmental delay-epilepsy syndrome | Seizure | Spastic paraplegia,0.781 | 0.566 | 0.486
+rs370771,BVES,Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index,,
+rs6938026,DNPH1,Height | Schizophrenia | Schizophrenia,intelligence | asthma | prostate cancer,0.249 | 0.064 | 0.043
+rs6938026,CUL9,Height | Schizophrenia | Schizophrenia,neurodegenerative disease | schizophrenia | placental abruption,0.5 | 0.263 | 0.219
+rs6938026,SRF,Height | Schizophrenia | Schizophrenia,neurodegenerative disease | hepatocellular carcinoma | cancer,0.549 | 0.106 | 0.105
+rs6984111,MSRA,,hypertensive disorder | type 2 diabetes mellitus | alcohol drinking,0.478 | 0.453 | 0.449
+rs6984111,PRSS55,,polycythemia | hypertensive disorder | essential hypertension,0.316 | 0.314 | 0.282
+rs6984111,RP1L1,,occult macular dystrophy | retinitis pigmentosa 88 | retinitis pigmentosa,0.775 | 0.681 | 0.596
+rs4073582,CNIH2,Gout | Body mass index (MTAG) | Body mass index,neurodegenerative disease | insomnia | mathematical ability,0.384 | 0.116 | 0.106
+rs4073582,YIF1A,Gout | Body mass index (MTAG) | Body mass index,type 2 diabetes mellitus | skeletal system disorder | bladder transitional cell carcinoma,0.13 | 0.112 | 0.033
+rs4073582,RAB1B,Gout | Body mass index (MTAG) | Body mass index,neurodegenerative disease | infection | colorectal carcinoma,0.318 | 0.08 | 0.076
+rs9576155,SUPT20H,Decaffeinated coffee consumption and/or insomnia,neurodegenerative disease | bacterial arthritis | insomnia,0.522 | 0.341 | 0.273
+rs9576155,EXOSC8,Decaffeinated coffee consumption and/or insomnia,"pontocerebellar hypoplasia, type 1C | pontocerebellar hypoplasia type 1 | neurodegenerative disease",0.69 | 0.64 | 0.516
+rs9576155,ALG5,Decaffeinated coffee consumption and/or insomnia,polycystic kidney disease 7 | autosomal dominant polycystic kidney disease | neurodegenerative disease,0.602 | 0.422 | 0.34
+rs4884332,DIAPH3,Insomnia,autosomal dominant nonsyndromic hearing loss | smoking initiation | insomnia,0.575 | 0.363 | 0.32
+rs1456193,LSAMP,,insomnia | ovarian neoplasm | frozen shoulder,0.385 | 0.343 | 0.318
+rs7228159,TCF4,Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry,"Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",0.848 | 0.694 | 0.622
+rs7228159,CCDC68,Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry,presbycusis | Irritability | schizophrenia,0.437 | 0.404 | 0.373
