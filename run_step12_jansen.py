@@ -39,14 +39,11 @@ for _, row in sig.iterrows():
     if not too_close:
         keep.append(row)
         kept_positions.append((row['CHR'], row['BP']))
-    if len(keep) >= 30:
-        break
 
 snp_df = pd.DataFrame(keep)[['SNP', 'CHR', 'BP', 'P']]
-snp_df.to_csv('snp_results.csv', index=False)
-print(f"LD clumping 후 lead SNP: {len(snp_df)}개 → snp_results.csv 저장 완료")
+snp_df.to_csv('results/snp_results.csv', index=False)
+print(f"LD clumping 후 lead SNP: {len(snp_df)}개 → results/snp_results.csv 저장 완료")
 
-print("\n상위 30개 lead SNP:")
 print(snp_df.to_string(index=False))
 
 # ──────────────────────────────────────────────────────────────
