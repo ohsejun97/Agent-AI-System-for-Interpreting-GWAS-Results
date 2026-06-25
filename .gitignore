@@ -1,0 +1,25 @@
+# 가상환경
+gwas/
+venv/
+.venv/
+
+# 대용량 GWAS 원본 데이터
+dataset/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# Windows Zone Identifier
+*.Zone.Identifier
+*:Zone.Identifier
+
+# 파이프라인 캐시
+pipeline_cache.json
+
+# Claude 내부 파일
+CLAUDE.md
+
+# 환경변수
+.env
