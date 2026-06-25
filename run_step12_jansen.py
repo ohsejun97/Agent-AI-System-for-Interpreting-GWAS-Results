@@ -105,10 +105,10 @@ for i, (_, row) in enumerate(snp_df.iterrows(), 1):
     })
 
 result_df = pd.DataFrame(results)
-result_df.to_csv('gene_mapping_results.csv', index=False)
+result_df.to_csv('results/gene_mapping_results_full.csv', index=False)
 
 print("\n" + "=" * 55)
 print("최종 결과 테이블")
 print("=" * 55)
 print(result_df[['SNP_ID', 'CHR', 'BP', 'P', 'genes']].to_string(index=False))
-print(f"\n✓ gene_mapping_results.csv 저장 완료 ({len(result_df)}개 SNP)")
+print(f"\n✓ results/gene_mapping_results_full.csv 저장 완료 ({len(result_df)}개 SNP)")
