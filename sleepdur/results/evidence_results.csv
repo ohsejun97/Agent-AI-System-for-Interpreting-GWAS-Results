@@ -1,0 +1,138 @@
+SNP_ID,gene,gwas_catalog_traits,open_targets_diseases,open_targets_scores
+rs62158206,PAX8,Long sleep duration (>=10 hours) | Insomnia | Sleep duration,"hypothyroidism, congenital, nongoitrous, 2 | congenital hypothyroidism | hypothyroidism",0.723 | 0.601 | 0.57
+rs62158206,AC016745.1,Long sleep duration (>=10 hours) | Insomnia | Sleep duration,,
+rs62158206,CBWD2,Long sleep duration (>=10 hours) | Insomnia | Sleep duration,,
+rs116219610,FANCL,Sleep duration,Fanconi anemia | Fanconi anemia complementation group L | acute myeloid leukemia,0.817 | 0.805 | 0.464
+rs116219610,VRK2,Sleep duration,Fanconi anemia | Fanconi anemia complementation group L | schizophrenia,0.563 | 0.545 | 0.466
+rs11682175,VRK2,Schizophrenia | Alcohol use disorder (consumption score) | Schizophrenia (MTAG),Fanconi anemia | Fanconi anemia complementation group L | schizophrenia,0.563 | 0.545 | 0.466
+rs11682175,FANCL,Schizophrenia | Alcohol use disorder (consumption score) | Schizophrenia (MTAG),Fanconi anemia | Fanconi anemia complementation group L | acute myeloid leukemia,0.817 | 0.805 | 0.464
+rs8047587,RPGRIP1L,HbA1c or polycystic ovary syndrome (pleiotropy) | Phospholipids to Total Lipids in Large HDL percentage | Triglycerides to Total Lipids in Medium LDL percentage,Joubert syndrome | Meckel syndrome | Joubert syndrome with hepatic defect,0.808 | 0.796 | 0.792
+rs8047587,FTO,HbA1c or polycystic ovary syndrome (pleiotropy) | Phospholipids to Total Lipids in Large HDL percentage | Triglycerides to Total Lipids in Medium LDL percentage,"lethal polymalformative syndrome, Boissel type | obesity disorder | type 2 diabetes mellitus",0.706 | 0.692 | 0.62
+rs8047587,AKTIP,HbA1c or polycystic ovary syndrome (pleiotropy) | Phospholipids to Total Lipids in Large HDL percentage | Triglycerides to Total Lipids in Medium LDL percentage,esophageal disorder | gastroesophageal reflux disease | brain cancer,0.264 | 0.259 | 0.22
+rs915416,C1orf94,Sleep duration | Sleep duration | Sleep duration,dermatophytosis | liver disorder | neurodegenerative disease,0.341 | 0.33 | 0.301
+rs915416,HMGB4,Sleep duration | Sleep duration | Sleep duration,anorectal malformation | bone Paget disease | injury,0.354 | 0.205 | 0.101
+rs915416,CSMD2,Sleep duration | Sleep duration | Sleep duration,neurodegenerative disease | placenta praevia | acute cystitis,0.335 | 0.315 | 0.294
+rs365663,SLC6A3,Sleep duration | Sleep duration | Sleep duration,"Infantile dystonia-parkinsonism | classic dopamine transporter deficiency syndrome | parkinsonism-dystonia, infantile",0.791 | 0.762 | 0.747
+rs365663,LPCAT1,Sleep duration | Sleep duration | Sleep duration,prostate carcinoma | tympanic membrane perforation | hemangioma of subcutaneous tissue,0.283 | 0.27 | 0.27
+rs365663,CLPTM1L,Sleep duration | Sleep duration | Sleep duration,benign prostatic hyperplasia | basal cell carcinoma | lung cancer,0.477 | 0.46 | 0.431
+rs13109404,BANK1,Pappalysin-1 levels | Osteoarthritis | Sleep duration,systemic lupus erythematosus | Abnormality of the skeletal system | obesity disorder,0.573 | 0.522 | 0.496
+rs13109404,SLC39A8,Pappalysin-1 levels | Osteoarthritis | Sleep duration,SLC39A8-CDG | congenital disorder of glycosylation type II | osteoarthritis,0.8 | 0.634 | 0.558
+rs6889592,PAM,Sleep duration,type 2 diabetes mellitus | diabetes mellitus | Abnormality of the skeletal system,0.577 | 0.537 | 0.51
+rs6889592,GIN1,Sleep duration,diabetes mellitus | neuroendocrine neoplasm | angina pectoris,0.333 | 0.293 | 0.293
+rs6889592,PPIP5K2,Sleep duration,"hearing loss, autosomal recessive | type 2 diabetes mellitus | diabetes mellitus",0.492 | 0.426 | 0.367
+rs13329140,SEMA6D,Sleep duration,neurodegenerative disease | restless legs syndrome | attention deficit-hyperactivity disorder,0.501 | 0.44 | 0.439
+rs13329140,SLC24A5,Sleep duration,oculocutaneous albinism type 6 | oculocutaneous albinism | benign neoplasm of eye,0.754 | 0.677 | 0.499
+rs13329140,MYEF2,Sleep duration,oculocutaneous albinism type 6 | neurodegenerative disease | hereditary disease,0.519 | 0.442 | 0.413
+rs12607679,TCF4,Height | Sleep duration | Sleep duration,"Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",0.848 | 0.694 | 0.622
+rs12607679,CCDC68,Height | Sleep duration | Sleep duration,presbycusis | Irritability | schizophrenia,0.437 | 0.404 | 0.373
+rs12607679,RAB27B,Height | Sleep duration | Sleep duration,major depressive disorder | Fuchs' endothelial dystrophy | corneal dystrophy,0.452 | 0.416 | 0.412
+rs7915425,BUB3,Gemcitabine-induced early high-grade neutropenia in pancreatic cancer | Sleep duration | Sleep duration,smoking initiation | mosaic variegated aneuploidy syndrome | obesity disorder,0.381 | 0.37 | 0.293
+rs7915425,HMX2,Gemcitabine-induced early high-grade neutropenia in pancreatic cancer | Sleep duration | Sleep duration,premature birth | placental retention | alcohol drinking,0.221 | 0.221 | 0.22
+rs7915425,HMX3,Gemcitabine-induced early high-grade neutropenia in pancreatic cancer | Sleep duration | Sleep duration,neurodegenerative disease | liver disorder | rheumatic disorder,0.479 | 0.3 | 0.206
+rs12463754,SCN1A,Sleep duration,"Dravet syndrome | generalized epilepsy with febrile seizures plus, type 2 | Generalized epilepsy with febrile seizures-plus",0.877 | 0.845 | 0.839
+rs12463754,TTC21B,Sleep duration,nephronophthisis | Jeune syndrome | Infantile nephronophthisis,0.828 | 0.754 | 0.517
+rs12463754,SCN9A,Sleep duration,"primary erythermalgia | paroxysmal extreme pain disorder | channelopathy-associated congenital insensitivity to pain, autosomal recessive",0.818 | 0.788 | 0.698
+rs1668331,FOXP2,Sleep duration | Insomnia,childhood apraxia of speech | hereditary disease | attention deficit-hyperactivity disorder,0.782 | 0.531 | 0.527
+rs1668331,PPP1R3A,Sleep duration | Insomnia,type 2 diabetes mellitus | Abnormality of the skeletal system | placenta praevia,0.528 | 0.428 | 0.356
+rs34388845,SCAND3,Dental caries | Adult body size | Body fat percentage,neoplasm | hepatocellular carcinoma | non-small cell lung carcinoma,0.076 | 0.075 | 0.074
+rs34388845,GPX5,Dental caries | Adult body size | Body fat percentage,obesity disorder | obesity due to melanocortin 4 receptor deficiency | Obesity,0.019 | 0.019 | 0.019
+rs34388845,GPX6,Dental caries | Adult body size | Body fat percentage,Huntington disease | juvenile Huntington disease | type 2 diabetes mellitus,0.024 | 0.023 | 0.021
+rs9843801,PCCB,Sleep duration,propionic acidemia | hereditary disease | hypertensive disorder,0.861 | 0.516 | 0.44
+rs9843801,MSL2,Sleep duration,Karayol-Borroto-Haghshenas neurodevelopmental syndrome | neurodegenerative disease | atrial fibrillation,0.675 | 0.537 | 0.432
+rs9843801,PPP2R3A,Sleep duration,neurodegenerative disease | diabetes mellitus | type 2 diabetes mellitus,0.458 | 0.398 | 0.377
+rs77684884,RBFOX1,Sleep duration,Rolandic epilepsy | self-limited epilepsy with centrotemporal spikes | hereditary disease,0.476 | 0.474 | 0.451
+rs12215241,HIST1H2BJ,Non-REM sleep duration | Sleep duration,,
+rs12215241,HIST1H2AG,Non-REM sleep duration | Sleep duration,,
+rs12215241,HIST1H4I,Non-REM sleep duration | Sleep duration,,
+rs2192528,LCORL,Sleep duration | Sleep duration | Sleep duration,hypertensive disorder | type 2 diabetes mellitus | neurodegenerative disease,0.437 | 0.436 | 0.365
+rs2192528,NCAPG,Sleep duration | Sleep duration | Sleep duration,health study participation | intelligence | hypertensive disorder,0.31 | 0.293 | 0.254
+rs7115856,HSD17B12,Sleep duration | Sleep duration | Essential hypertension (time to event),Alzheimer disease | Parkinson disease | multiple sclerosis,0.464 | 0.462 | 0.462
+rs7115856,ALKBH3,Sleep duration | Sleep duration | Essential hypertension (time to event),Abnormality of the skeletal system | liver disorder | metabolic syndrome,0.299 | 0.253 | 0.177
+rs7115856,C11orf96,Sleep duration | Sleep duration | Essential hypertension (time to event),neurodegenerative disease | gram-negative bacterial infections | head injury,0.415 | 0.288 | 0.128
+rs3823624,MAD1L1,Depression | Sleep duration,mosaic variegated aneuploidy syndrome 7 with inflammation and tumor predisposition | neurodegenerative disease | schizophrenia,0.519 | 0.452 | 0.432
+rs3823624,FTSJ2,Depression | Sleep duration,,
+rs3823624,NUDT1,Depression | Sleep duration,prostate carcinoma | Abnormality of the skeletal system | atrial fibrillation,0.172 | 0.151 | 0.142
+rs10973207,ZCCHC7,Sleep duration | Sleep duration,major depressive disorder | Abnormality of the skeletal system | type 2 diabetes mellitus,0.364 | 0.328 | 0.309
+rs10973207,PAX5,Sleep duration | Sleep duration,"leukemia, acute lymphoblastic, susceptibility to, 3 | acute lymphoblastic leukemia | neurodegenerative disease",0.598 | 0.585 | 0.514
+rs10973207,GRHPR,Sleep duration | Sleep duration,primary hyperoxaluria type 2 | primary hyperoxaluria | Hyperoxaluria,0.777 | 0.666 | 0.373
+rs62061734,MAPT,Breast cancer | Sleep duration,"frontotemporal dementia | Pick disease | supranuclear palsy, progressive, 1",0.789 | 0.757 | 0.725
+rs62061734,STH,Breast cancer | Sleep duration,cardiac arrhythmia | idiopathic pulmonary fibrosis | Parkinson disease,0.251 | 0.232 | 0.232
+rs62061734,SPPL2C,Breast cancer | Sleep duration,"diabetes mellitus | osteoarthritis, hip | Alzheimer disease",0.332 | 0.303 | 0.274
+rs4767550,NOS1,Insomnia | Sleep duration | Sleep duration,cervical carcinoma | post-traumatic stress disorder | neurotic disorder,0.415 | 0.349 | 0.331
+rs4767550,KSR2,Insomnia | Sleep duration | Sleep duration,cancer | hypertrophic cardiomyopathy | Noonan syndrome,0.591 | 0.567 | 0.526
+rs4767550,FBXO21,Insomnia | Sleep duration | Sleep duration,Abnormality of the skeletal system | neurodegenerative disease | glioblastoma,0.402 | 0.37 | 0.293
+rs11076146,GNAO1,Sleep duration,"developmental and epileptic encephalopathy, 17 | neurodevelopmental disorder with involuntary movements | Epileptic encephalopathy",0.801 | 0.794 | 0.657
+rs11076146,AMFR,Sleep duration,"spastic paraplegia 89, autosomal recessive | breast carcinoma | breast cancer",0.607 | 0.283 | 0.264
+rs11076146,NUDT21,Sleep duration,dengue disease | neoplasm | breast cancer,0.37 | 0.106 | 0.102
+rs1633063,HLA-F,Sleep duration | CD79B/TNFRSF13B protein level ratio | Hypothyroidism or rheumatoid arthritis (pleiotropy),COVID-19 | preeclampsia | nasopharyngeal carcinoma,0.465 | 0.087 | 0.079
+rs1633063,HLA-G,Sleep duration | CD79B/TNFRSF13B protein level ratio | Hypothyroidism or rheumatoid arthritis (pleiotropy),COVID-19 | neoplasm | cancer,0.49 | 0.12 | 0.115
+rs1633063,ZFP57,Sleep duration | CD79B/TNFRSF13B protein level ratio | Hypothyroidism or rheumatoid arthritis (pleiotropy),"transient neonatal diabetes mellitus | transient neonatal diabetes, dominant/recessive | neurodegenerative disease",0.807 | 0.462 | 0.238
+rs41501452,PRKG2,Sleep duration,"acromesomelic dysplasia | spondylometaphyseal dysplasia, pagnamenta type | Abnormality of the skeletal system",0.668 | 0.548 | 0.477
+rs41501452,BMP3,Sleep duration,myopia | cataract | Hypermetropia,0.511 | 0.488 | 0.473
+rs41501452,RASGEF1B,Sleep duration,neurodegenerative disease | myopia | refractive error,0.46 | 0.412 | 0.407
+rs540431,DAB1,Sleep duration,spinocerebellar ataxia type 37 | mathematical ability | restless legs syndrome,0.487 | 0.439 | 0.385
+rs540431,C8B,Sleep duration,type II complement component 8 deficiency | Immunodeficiency due to a late component of complements deficiency | complement deficiency,0.705 | 0.632 | 0.462
+rs540431,C8A,Sleep duration,Immunodeficiency due to a late component of complements deficiency | complement deficiency | immunodeficiency due to a late component of complement deficiency,0.69 | 0.462 | 0.37
+rs11621908,ADCK1,Sleep duration | Sleep duration | Short sleep duration (<5 hours),neurodegenerative disease | squamous cell carcinoma | ovarian dysfunction,0.278 | 0.256 | 0.256
+rs11621908,C14orf178,Sleep duration | Sleep duration | Short sleep duration (<5 hours),,
+rs11621908,AC008372.1,Sleep duration | Sleep duration | Short sleep duration (<5 hours),,
+rs1553132,GRM5,Sleep duration | Sleep duration,major depressive disorder | skin neoplasm | retinal detachment,0.478 | 0.397 | 0.396
+rs1553132,CTSC,Sleep duration | Sleep duration,Papillon-Lefèvre syndrome | Haim-Munk syndrome | Papillon-Lefevre disease,0.837 | 0.802 | 0.797
+rs1553132,RAB38,Sleep duration | Sleep duration,benign neoplasm of eye | smoking initiation | asthma,0.44 | 0.255 | 0.252
+rs9451146,PNRC1,Sleep duration | Sleep duration,arthritic joint disease | benign thyroid gland neoplasm | colorectal carcinoma,0.098 | 0.067 | 0.053
+rs9451146,SRSF12,Sleep duration | Sleep duration,placenta praevia | arthritic joint disease | hepatocellular carcinoma,0.234 | 0.045 | 0.042
+rs9451146,PM20D2,Sleep duration | Sleep duration,Abnormality of the gastrointestinal tract | placenta praevia | alcohol drinking,0.283 | 0.234 | 0.03
+rs11650677,SHISA6,Sleep duration,smoking initiation | risk-taking behaviour | alcohol drinking,0.412 | 0.328 | 0.322
+rs11650677,DNAH9,Sleep duration,"ciliary dyskinesia, primary, 40 | primary ciliary dyskinesia | congenital heart disease",0.797 | 0.462 | 0.418
+rs11650677,PIRT,Sleep duration,alcohol drinking | intracerebral hemorrhage | Parkinson disease,0.253 | 0.21 | 0.2
+rs12336359,GLIS3,Total testosterone levels | Sleep duration,neonatal diabetes mellitus with congenital hypothyroidism | hypothyroidism | type 2 diabetes mellitus,0.788 | 0.538 | 0.519
+rs12336359,SLC1A1,Total testosterone levels | Sleep duration,dicarboxylic aminoaciduria | schizophrenia | Sensorineural hearing impairment,0.628 | 0.382 | 0.37
+rs12336359,SPATA6L,Total testosterone levels | Sleep duration,Hypercholesterolemia | stroke disorder | alcohol drinking,0.276 | 0.238 | 0.238
+rs11883686,NR4A2,Sleep duration,intellectual developmental disorder with language impairment and early-onset DOPA-responsive dystonia-parkinsonism | neurodevelopmental disorder | Parkinson disease,0.746 | 0.456 | 0.447
+rs11883686,AC011308.1,Sleep duration,,
+rs11883686,GPD2,Sleep duration,type 2 diabetes mellitus | diabetes mellitus | polycystic ovary syndrome,0.709 | 0.597 | 0.418
+rs144625846,GBF1,Sleep duration,"Autosomal dominant intermediate Charcot-Marie-Tooth disease type A | Charcot-Marie-Tooth Disease, axonal, type 2GG | neurodegenerative disease",0.714 | 0.714 | 0.519
+rs144625846,NFKB2,Sleep duration,"immunodeficiency, common variable, 10 | common variable immunodeficiency | immunodeficiency disease",0.776 | 0.677 | 0.466
+rs144625846,PITX3,Sleep duration,Posterior polar cataract | Familial ocular anterior segment mesenchymal dysgenesis | early-onset non-syndromic cataract,0.729 | 0.689 | 0.629
+rs6979198,DUS4L,Sleep duration,COG5-congenital disorder of glycosylation | neurodegenerative disease | hereditary disease,0.448 | 0.288 | 0.149
+rs6979198,BCAP29,Sleep duration,aplastic anemia | coronary artery disorder | smoking initiation,0.28 | 0.129 | 0.08
+rs6979198,GPR22,Sleep duration,atrial fibrillation | Abnormality of the gastrointestinal tract | insomnia,0.194 | 0.086 | 0.06
+rs7686205,YIPF7,Sleep duration,coronary artery disorder | coronary atherosclerosis | stroke disorder,0.156 | 0.156 | 0.075
+rs7686205,GUF1,Sleep duration,"infantile spasms | hearing loss, autosomal recessive | deafness",0.526 | 0.092 | 0.092
+rs7686205,GNPDA2,Sleep duration,infantile spasms | type 2 diabetes mellitus | obesity disorder,0.432 | 0.372 | 0.361
+rs1872240,SLC35G2,Liver enzyme levels (alanine transaminase),prostate carcinoma | obesity disorder | sialolithiasis,0.28 | 0.274 | 0.258
+rs1872240,NCK1,Liver enzyme levels (alanine transaminase),Abnormality of the skeletal system | essential hypertension | Delayed puberty,0.274 | 0.256 | 0.245
+rs1872240,IL20RB,Liver enzyme levels (alanine transaminase),alcohol drinking | urolithiasis | diverticular disease,0.258 | 0.258 | 0.252
+rs16834426,PTPLB,Sleep duration,,
+rs16834426,MYLK,Sleep duration,"aortic aneurysm, familial thoracic 7 | familial thoracic aortic aneurysm and aortic dissection | megacystis-microcolon-intestinal hypoperistalsis syndrome 1",0.767 | 0.702 | 0.64
+rs16834426,ADCY5,Sleep duration,"dyskinesia with orofacial involvement, autosomal dominant | Familial dyskinesia and facial myokymia | dyskinesia with orofacial involvement, autosomal recessive",0.778 | 0.745 | 0.695
+rs1392817,PDE4B,Sleep duration | Adolescent idiopathic scoliosis,asthma | chronic obstructive pulmonary disease | atopic eczema,0.608 | 0.601 | 0.598
+rs1392817,LEPR,Sleep duration | Adolescent idiopathic scoliosis,obesity due to leptin receptor gene deficiency | lipodystrophy | type 2 diabetes mellitus,0.737 | 0.535 | 0.512
+rs1392817,SGIP1,Sleep duration | Adolescent idiopathic scoliosis,type 2 diabetes mellitus | smoking initiation | major depressive disorder,0.402 | 0.393 | 0.359
+rs17285646,RP11-763F8.1,Sleep duration,,
+rs17285646,CCSER1,Sleep duration,placental abruption | type 2 diabetes mellitus | Parkinson disease,0.34 | 0.318 | 0.31
+rs113322698,REEP2,Sleep duration,Autosomal recessive spastic paraplegia type 72 | hereditary spastic paraplegia 72 | atrial fibrillation,0.704 | 0.704 | 0.453
+rs113322698,EGR1,Sleep duration,neurodegenerative disease | atrial fibrillation | type 2 diabetes mellitus,0.371 | 0.248 | 0.162
+rs113322698,KDM3B,Sleep duration,Diets-Jongmans syndrome | hereditary disease | Neurodevelopmental delay,0.773 | 0.511 | 0.407
+rs4642942,PUM1,Sleep duration,"spinocerebellar ataxia 47 | neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism | hereditary disease",0.75 | 0.676 | 0.504
+rs4642942,SDC3,Sleep duration,COVID-19 | dengue disease | insomnia,0.541 | 0.462 | 0.333
+rs4642942,NKAIN1,Sleep duration,urolithiasis | alcohol drinking | bile duct disorder,0.247 | 0.247 | 0.057
+rs79512144,MBOAT2,Sleep duration,hemangioma of subcutaneous tissue | frozen shoulder | peripheral vascular disease,0.281 | 0.267 | 0.233
+rs79512144,ASAP2,Sleep duration,neurodegenerative disease | chronic obstructive pulmonary disease | coronary artery disorder,0.462 | 0.415 | 0.273
+rs79512144,KIDINS220,Sleep duration,"spastic paraplegia, intellectual disability, nystagmus, and obesity | ventriculomegaly and arthrogryposis | neurodegenerative disease",0.787 | 0.705 | 0.443
+rs11654671,PLD2,Sleep duration,systemic lupus erythematosus | neoplasm | Alzheimer disease,0.247 | 0.106 | 0.105
+rs11654671,PSMB6,Sleep duration,plasma cell myeloma | mantle cell lymphoma | neoplasm,0.607 | 0.542 | 0.479
+rs11654671,MINK1,Sleep duration,Thrombocytopenia | Alzheimer disease | neurodegenerative disease,0.335 | 0.324 | 0.317
+rs1263056,BUD13,Sleep duration | Sleep duration | Sleep duration,metabolic syndrome | Hypercholesterolemia | influenza A (H1N1),0.494 | 0.388 | 0.339
+rs1263056,ZNF259,Sleep duration | Sleep duration | Sleep duration,,
+rs1263056,APOA5,Sleep duration | Sleep duration | Sleep duration,hyperlipoproteinemia type V | Hyperlipoproteinemia type 4 | hypertriglyceridemia,0.767 | 0.737 | 0.66
+rs4688116,IGSF11,Sleep duration,attention deficit-hyperactivity disorder | substance abuse | Abnormality of refraction,0.317 | 0.316 | 0.265
+rs4688116,LSAMP,Sleep duration,insomnia | ovarian neoplasm | frozen shoulder,0.385 | 0.343 | 0.318
+rs112230981,ERC2,Sleep duration | Sleep duration,"Abnormality of the skeletal system | Inguinal hernia | osteoarthritis, hip",0.423 | 0.391 | 0.386
+rs112230981,WNT5A,Sleep duration | Sleep duration,Robinow syndrome | autosomal dominant Robinow syndrome | nephrolithiasis,0.711 | 0.704 | 0.374
+rs28651105,GPR139,Sleep duration,Abnormality of the skeletal system | restless legs syndrome | obesity disorder,0.38 | 0.316 | 0.283
+rs28651105,GPRC5B,Sleep duration,"megalencephalic leukoencephalopathy with subcortical cysts 3 | Abnormality of the skeletal system | osteoarthritis, knee",0.429 | 0.411 | 0.35
+rs28651105,IQCK,Sleep duration,Abnormality of the skeletal system | Sjogren syndrome | placenta praevia,0.362 | 0.256 | 0.243
+rs199534,WNT3,Posterolateral temporal area (unadjusted for global measures) | Anteromedial temporal area (unadjusted for global measures) | Inferior parietal area (unadjusted for global measures),neurodegenerative disease | tetra-amelia | Tetraamelia - multiple malformations,0.527 | 0.509 | 0.499
+rs199534,NSF,Posterolateral temporal area (unadjusted for global measures) | Anteromedial temporal area (unadjusted for global measures) | Inferior parietal area (unadjusted for global measures),developmental and epileptic encephalopathy 96 | neurodegenerative disease | Abnormality of the skeletal system,0.565 | 0.529 | 0.363
+rs199534,WNT9B,Posterolateral temporal area (unadjusted for global measures) | Anteromedial temporal area (unadjusted for global measures) | Inferior parietal area (unadjusted for global measures),glaucoma | Varicose veins | hypertensive disorder,0.401 | 0.401 | 0.386

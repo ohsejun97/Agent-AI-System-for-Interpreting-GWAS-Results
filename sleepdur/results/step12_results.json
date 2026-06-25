@@ -1,0 +1,42 @@
+[
+  {
+    "snp_id": "rs7765567",
+    "chr": "6",
+    "pos": 38403874,
+    "p_value": 2.1e-13,
+    "genes": [
+      "ZFAND3",
+      "DNAH8",
+      "GLO1",
+      "BTBD9"
+    ],
+    "eqtl_tissues": []
+  },
+  {
+    "snp_id": "rs113851554",
+    "chr": "2",
+    "pos": 113316416,
+    "p_value": 3.4e-12,
+    "genes": [
+      "IL36A",
+      "IL1F10",
+      "IL36B",
+      "FOXD4L1",
+      "ZNG1B"
+    ],
+    "eqtl_tissues": []
+  },
+  {
+    "snp_id": "rs9479275",
+    "chr": "7",
+    "pos": 108690518,
+    "p_value": 5.5e-11,
+    "genes": [
+      "PNPLA8",
+      "NRCAM",
+      "DNAJB9",
+      "THAP5"
+    ],
+    "eqtl_tissues": []
+  }
+]
