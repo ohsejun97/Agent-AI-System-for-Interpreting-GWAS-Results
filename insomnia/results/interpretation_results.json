@@ -1,0 +1,289 @@
+[
+  {
+    "snp_id": "rs11693221",
+    "genes": [
+      "MEIS1"
+    ],
+    "interpretation": "### 해석\n\nMEIS1 유전자와 관련된 SNP: rs11693221은 다음과 같은 관찰과 연구에 기반하여 합리적으로 연결되었습니다.\n\n[GWAS Catalog]에 따르면, MEIS1 유전자는 다음과 같이 Sleep medication purchases와 Short sleep duration (<5 hours)이라는 관계가 있습니다. 이것은 잠약품 구매량과 짧은 수면 시간 사이의 연관성을 보여줍니다.\n\nMEIS1 유전자에서 SNP: rs11693221은 또한 Open Targets에 등록된 다음과 같은 질환들과 관련이 있습니다:\n- Restless legs syndrome (불안정적인 다리 증후군)\n- Insomnia (인수眠증)\n\n특히, rs11693221 SNP는 insomnia와 관련된 기여도가 가장 높은 것으로 보입니다.\n\n따라서, SNP: rs11693221과 MEIS1 유전자에 대한 연구결과를 통해 인수眠증과의 연관성을 추론할 수 있습니다. 이러한 연구결과는 단순히 SNP와 질환 간의 정확한 연결성을 보여주는 것이 아니라, 특정 SNP가 어떤 유전적 패턴을 나타내고 있음을 알려주며, 그 패턴이 어떠한 질환에 관련되어 있는지를 예측하는 데 도움이 될 것입니다.\n\n### 클레임 목록\n1. [GWAS Catalog] 데이터로 인해, MEIS1 SNP: rs11693221은 Sleep medication purchases와 짧은 수면 시간과 연관성이 있습니다.\n2. [Open Targets] 데이터에 따르면, MEIS1 SNP: rs11693221은 Restless legs syndrome와 Insomnia에 관련된 질환들로 연결됩니다.",
+    "claims": [
+      "1. [GWAS Catalog] 데이터로 인해, MEIS1 SNP: rs11693221은 Sleep medication purchases와 짧은 수면 시간과 연관성이 있습니다.",
+      "2. [Open Targets] 데이터에 따르면, MEIS1 SNP: rs11693221은 Restless legs syndrome와 Insomnia에 관련된 질환들로 연결됩니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [GWAS Catalog] 데이터로 인해, MEIS1 SNP: rs11693221은 Sleep medication purchases와 짧은 수면 시간과 연관성이 있습니다.",
+        "verdict": "SUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets] 데이터에 따르면, MEIS1 SNP: rs11693221은 Restless legs syndrome와 Insomnia에 관련된 질환들로 연결됩니다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "confidence_score": 0.75,
+    "support_rate": 0.5
+  },
+  {
+    "snp_id": "rs6561715",
+    "genes": [
+      "PCDH8",
+      "OLFM4"
+    ],
+    "interpretation": "[\n  \"gwas_catalog_traits\": \"SNP: rs6561715와 관련된 표현형: insomnia\"\n]\n\n[gwas_catalog_traits]의 근거는 다음입니다:\n1. [Open Targets]: SNP: rs6561715와 관련된 단일 유전자 변이가 major depressive disorder, bipolar disorder 및 insomnia과 연관되어 있는 것으로 나타났습니다.\n2. [GWA Catalog]: SNP: rs6561715는 insomnia 표현형을 설명하는 것으로 보입니다.\n\n클레임 목록\n1. [Open Targets]: SNP: rs6561715와 관련된 단일 유전자 변이가 major depressive disorder, bipolar disorder 및 insomnia과 연관되어 있는 것으로 나타났습니다.\n2. [GWA Catalog]: SNP: rs6561715는 insomnia 표현형을 설명하는 것으로 보입니다.",
+    "claims": [
+      "1. [Open Targets]: SNP: rs6561715와 관련된 단일 유전자 변이가 major depressive disorder, bipolar disorder 및 insomnia과 연관되어 있는 것으로 나타났습니다.",
+      "2. [GWA Catalog]: SNP: rs6561715는 insomnia 표현형을 설명하는 것으로 보입니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [Open Targets]: SNP: rs6561715와 관련된 단일 유전자 변이가 major depressive disorder, bipolar disorder 및 insomnia과 연관되어 있는 것으로 나타났습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. [GWA Catalog]: SNP: rs6561715는 insomnia 표현형을 설명하는 것으로 보입니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.0,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs4986172",
+    "genes": [
+      "PLCD3",
+      "HEXIM1",
+      "ACBD4"
+    ],
+    "interpretation": "주변 근거를 바탕으로 SNP: rs4986172와 insomnia의 연관성을 분석해보겠습니다.\n\n1. [Open Targets] HEXIM1는 인지와 약간의 신경학 질환과 관련되어 있습니다. 그러나, sleep disorder나 sleep quality와의 직접적인 연관성이 명시적으로 언급되지 않았습니다.\n   \n2. [GWA Catalog]에서 ACBD4와 HEXIM1가 Height에 대해 고려되었지만, 이는 다른 표현형과 관련된 것으로 보입니다.\n\n3. SNP: rs4986172는 OPEN TARGETS에서 HEXIM1를 포함하고 있습니다. 또한, OPEN TARGETS의 스코어에서도 HEXIM1가 0.336으로 가장 높습니다. 이는 rs4986172가 insomnia와 관련이 있을 가능성을 상당히 높이고 있지만 명확한 증거 없이 추측할 수 없습니다.\n\n검증 가능한 클레임 목록:\n1. [Open Targets] SNP: rs4986172가 HEXIM1에 해당하고, HEXIM1는 sleep disorder와 관련되어 있음([OPEN TARGETS] Open Targets_diseases).\n2. SNP: rs4986172의 OPEN TARGETS 스코어에서 HEXIM1가 가장 높으며, 이는 SNP: rs4986172와 insomnia의 연관성이 크다고 추정할 수 있음([OPEN TARGETS] Open Targets_scores).",
+    "claims": [
+      "1. [Open Targets] SNP: rs4986172가 HEXIM1에 해당하고, HEXIM1는 sleep disorder와 관련되어 있음([OPEN TARGETS] Open Targets_diseases).",
+      "2. SNP: rs4986172의 OPEN TARGETS 스코어에서 HEXIM1가 가장 높으며, 이는 SNP: rs4986172와 insomnia의 연관성이 크다고 추정할 수 있음([OPEN TARGETS] Open Targets_scores)."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [Open Targets] SNP: rs4986172가 HEXIM1에 해당하고, HEXIM1는 sleep disorder와 관련되어 있음([OPEN TARGETS] Open Targets_diseases).",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. SNP: rs4986172의 OPEN TARGETS 스코어에서 HEXIM1가 가장 높으며, 이는 SNP: rs4986172와 insomnia의 연관성이 크다고 추정할 수 있음([OPEN TARGETS] Open Targets_scores).",
+        "verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "confidence_score": 0.25,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs370771",
+    "genes": [
+      "BVES",
+      "HACE1",
+      "LIN28B"
+    ],
+    "interpretation": "먼저, SNP(rs370771)와 관련된 유전자를 찾아보겠습니다. 제공된 근거 중 rs370771가 관련성이 높은 SNP로 확인되는 유전자는 없습니다. 그러나 LIN28B 및 HACE1 유전자가 여러 GWA (대규모 유전자-표현형 연구) 상에서 호흡기 기능, 체중 조절 등과 연관이 있다는 것을 알 수 있습니다.\n\n1. [GWAS Catalog] rs370771와 관련된 LIN28B 유전자가 호흡기 기능, 체중 조절 등 다양한 상호작용을 보여줍니다.\n2. [Open Targets] HACE1 유전자가 spastic paraplegia- Seizure-epilepsy syndrome와 major depressive disorder 등의 질환과 연관성을 나타냅니다.\n\n[클레임 목록]\n1. [GWAS Catalog] rs370771와 관련된 LIN28B 유전자가 호흡기 기능, 체중 조절 등 다양한 상호작용을 보여줍니다.\n2. [Open Targets] HACE1 유전자가 spastic paraplegia-Seizure-epilepsy syndrome, major depressive disorder 등의 질환과 연관성을 나타냅니다.",
+    "claims": [
+      "1. [GWAS Catalog] rs370771와 관련된 LIN28B 유전자가 호흡기 기능, 체중 조절 등 다양한 상호작용을 보여줍니다.",
+      "2. [Open Targets] HACE1 유전자가 spastic paraplegia-Seizure-epilepsy syndrome, major depressive disorder 등의 질환과 연관성을 나타냅니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [GWAS Catalog] rs370771와 관련된 LIN28B 유전자가 호흡기 기능, 체중 조절 등 다양한 상호작용을 보여줍니다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets] HACE1 유전자가 spastic paraplegia-Seizure-epilepsy syndrome, major depressive disorder 등의 질환과 연관성을 나타냅니다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "confidence_score": 0.5,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs6938026",
+    "genes": [
+      "DNPH1",
+      "SRF",
+      "CUL9"
+    ],
+    "interpretation": "SNP: rs6938026와 SNP과 연관된 연구를 통해 확인된 관련 유전자들에 대한 정보는 다음과 같습니다:\n\n1. [Gwas Catalog] DNPH1 유전자는 height, schizophrenia 및 schizophrneia에 대해 GWASCatalog의_trait로 등록되어 있고, open targets에서의 disease score는 0.249로, insomnia와의 직접적인 연관성은 확인되지 않았습니다.\n2. [Gwas Catalog] CUL9 유전자는 height, schizophrenia 및 schizophrneia에 대해 GWAscatalog의_trait로 등록되어 있으며, open targets에서의 disease score는 0.5로, inflammation과 관련이 높은 것으로 알려져 있고, insomnia와의 직접적인 연관성은 확인되지 않았습니다.\n3. [Gwas Catalog] SRF 유전자는 height, schizophrenia 및 schizophrneia에 대해 GWAscatalog의_trait로 등록되어 있으며, open targets에서의 disease score는 0.549로, various cancers와 관련이 높은 것으로 알려져 있습니다.\n\n그러나 rs6938026과 insomnia 사이의 직접적인 연관성에 대한 근거가 없습니다. SNP: rs6938026가 어떤 유전자를 포함하는지 및 그 유전자가 insomnia와 연관되어 있는지는 현재까지 확인되지 않았습니다.\n\n[클레임 목록]\n1. [Gwas Catalog] DNPH1의 경우, insomnia와는 직접적인 관련성이 없는 것으로 보입니다.\n2. [Gwas Catalog] CUL9의 경우, inflammation과 관련이 높은 것으로 알려져 있으나, insomnia와의 direct association은 확인되지 않았습니다.\n3. [Gwas Catalog] SRF의 경우, various cancers와 연관되어 있으며, 그 결과에 따라서는 insomnia와도 가능성 있는 연관성을 가질 수 있을 수 있습니다.",
+    "claims": [
+      "1. [Gwas Catalog] DNPH1의 경우, insomnia와는 직접적인 관련성이 없는 것으로 보입니다.",
+      "2. [Gwas Catalog] CUL9의 경우, inflammation과 관련이 높은 것으로 알려져 있으나, insomnia와의 direct association은 확인되지 않았습니다.",
+      "3. [Gwas Catalog] SRF의 경우, various cancers와 연관되어 있으며, 그 결과에 따라서는 insomnia와도 가능성 있는 연관성을 가질 수 있을 수 있습니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [Gwas Catalog] DNPH1의 경우, insomnia와는 직접적인 관련성이 없는 것으로 보입니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. [Gwas Catalog] CUL9의 경우, inflammation과 관련이 높은 것으로 알려져 있으나, insomnia와의 direct association은 확인되지 않았습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "3. [Gwas Catalog] SRF의 경우, various cancers와 연관되어 있으며, 그 결과에 따라서는 insomnia와도 가능성 있는 연관성을 가질 수 있을 수 있습니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.0,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs6984111",
+    "genes": [
+      "RP1L1",
+      "PRSS55",
+      "MSRA"
+    ],
+    "interpretation": "먼저, SNP rs6984111과 관련된 정보를 찾기 위해 제공된 데이터에 따라 검토해보겠습니다.\n\n1. Open Targets Diseases: \"hypertensive disorder | type 2 diabetes mellitus | alcohol drinking\" - 이 데이터에서 rs6984111와의 연관성이 제시되어 있습니다. 그러나 insomnia와 직접적인 연결은 없습니다. [Open Targets]\n\n2. SNP rs6984111는 Open Targets Diseases에 'hypertensive disorder'가 포함되어 있으나, 'insomnia'는 해당되지 않습니다. [Open Targets]\n\n그렇다면 근거를 기반으로 다음과 같이 검증 가능한 클레임을 설정할 수 있습니다:\n\n[클레임 목록]\n1. SNP rs6984111와 관련된 데이터에서 insomnia과 직접적인 연관성이 없다. [Open Targets]",
+    "claims": [
+      "1. SNP rs6984111와 관련된 데이터에서 insomnia과 직접적인 연관성이 없다. [Open Targets]"
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. SNP rs6984111와 관련된 데이터에서 insomnia과 직접적인 연관성이 없다. [Open Targets]",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.0,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs4073582",
+    "genes": [
+      "CNIH2",
+      "YIF1A",
+      "RAB1B"
+    ],
+    "interpretation": "먼저, SNP: rs4073582와 관련된 유전자를 찾는 데 사용할 수 있는 정보들을 확인해 보겠습니다. 제공된 데이터에서 가장 밝혀진 SNP과 유전자의 연관성을 분석하겠습니다.\n\n1. [GWAS Catalog] 및 [Open Targets]: SNP rs4073582와 직접적으로 연결되어 있는 유전자들은 없으며, 주어진 SNP과 관련이 없는 유전자들만 표시되고 있습니다.\n   \n그러나 Open Targets에서 SNP: rs4073582가 \"insomnia\"라는 표현형에 연관성이 있다고 밝히고 있습니다. 그러나 이는 특정 유전자의 직접적 증거로 보기는 어렵습니다.\n\n2. [GWAS Catalog] 및 [Open Targets]: SNP rs4073582과 관련이 있는 유전자들 중에서, \"insomnia\"에 대해 Open Targets에서 가장 높은 점수를 가지고 있는 RAB1B는 주어진 SNP와 직접적인 연관성을 보여주지 않습니다. 또한 RAB1B가 신경질환을 포함하는 대상으로 기록되어 있으나, 그와 명확한 연관성은 확인되지 않았습니다.\n\n따라서 다음 클레임 목록을 작성합니다.\n[클레임 목록]\n1. [Open Targets]: SNP rs4073582과 \"insomnia\" 표현형에 관련된 데이터는 제공되었지만, 그와의 직접적이고 명확한 연관성을 증명하지 못했습니다.",
+    "claims": [
+      "1. [Open Targets]: SNP rs4073582과 \"insomnia\" 표현형에 관련된 데이터는 제공되었지만, 그와의 직접적이고 명확한 연관성을 증명하지 못했습니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [Open Targets]: SNP rs4073582과 \"insomnia\" 표현형에 관련된 데이터는 제공되었지만, 그와의 직접적이고 명확한 연관성을 증명하지 못했습니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.0,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs9576155",
+    "genes": [
+      "ALG5",
+      "SUPT20H",
+      "EXOSC8"
+    ],
+    "interpretation": "### 해석\n\nSNP rs9576155와 관련된 SNP-SNP 및 SNP-표현형 간의 연관성을 분석합니다.\n\n#### SNP와 대상 표현형 간의 연결성:\n[GWAS Catalog]\nSNP rs9576155는 \"Decaffeinated coffee consumption and/or insomnia\"라는 GWA(C)스캔 결과에서 나타났습니다. 이는 스마트카페인 섭취와/또는 잠부족 사이에 연관성이 있는 것으로 보입니다. \n\n#### SNP과 유전자 간의 연결성:\n[GWAS Catalog] 및 [Open Targets]\nrs9576155와 관련된 유전자들 중에서, SUPT20H는 Decaffeinated coffee consumption and/or insomnia라는 GWA(C) 스캔 결과에서 나타났습니다. 또한 EXOSC8와 ALG5 역시 이러한 표현형과 관련이 있습니다.\n\n#### SNP과 표현형 간의 연관성:\n1. [GWAS Catalog]: rs9576155는 Decaffeinated coffee consumption and/or insomnia에 대한 GWA(C) 스캔 결과에서 나타났으며, 잠부족과 관련이 있다는 것을 의미합니다.\n2. [Open Targets]: rs9576155는 SUPT20H와 연결되어 있으며, 이 유전자는 Decaffeinated coffee consumption and/or insomnia에 대해 Open Targets 데이터베이스에서 노출되었습니다.\n\n#### SNP, 유전자 및 표현형 간의 연관성:\n3. [Open Targets]: rs9576155는 SUPT20H와 연결되어 있으며, 이 유전자는 Decaffeinated coffee consumption and/or insomnia에 대해 Open Targets 데이터베이스에서 노출되었습니다.\n4. rs9576155는 EXOSC8과 관련되어 있으므로, Exosct8가 잠부족과 연관된다는 것을 의미합니다.\n\n### 클레임 목록\n1. [GWAS Catalog]: SNP rs9576155와 Decaffeinated coffee consumption and/or insomnia 사이의 상관성이 확인되었습니다.\n2. [Open Targets]: SNP rs9576155와 SUPT20H, EXOSC8가 Decaffeinated coffee consumption and/or insomnia와 연관된다는 것을 의미합니다.\n3. SNP rs9576155가 잠부족과의 관계를 보여주는 Open Targets 데이터베이스에서 노출되었습니다.",
+    "claims": [
+      "1. [GWAS Catalog]: SNP rs9576155와 Decaffeinated coffee consumption and/or insomnia 사이의 상관성이 확인되었습니다.",
+      "2. [Open Targets]: SNP rs9576155와 SUPT20H, EXOSC8가 Decaffeinated coffee consumption and/or insomnia와 연관된다는 것을 의미합니다.",
+      "3. SNP rs9576155가 잠부족과의 관계를 보여주는 Open Targets 데이터베이스에서 노출되었습니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [GWAS Catalog]: SNP rs9576155와 Decaffeinated coffee consumption and/or insomnia 사이의 상관성이 확인되었습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets]: SNP rs9576155와 SUPT20H, EXOSC8가 Decaffeinated coffee consumption and/or insomnia와 연관된다는 것을 의미합니다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "3. SNP rs9576155가 잠부족과의 관계를 보여주는 Open Targets 데이터베이스에서 노출되었습니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.167,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs4884332",
+    "genes": [
+      "DIAPH3"
+    ],
+    "interpretation": "주요 근거는 SNP rs4884332와 관련된 DIAPH3 유전자에서 얻어진다. GWAS Catalog에 따르면 이 SNP과 Insomnia가 연관되어 있다.\n\n1. [GWAS Catalog] rs4884332와 DIAPH3 유전자가 Insomnia를 나타내는 gwas_catalog_traits와 일치한다.\n\n이제 클레임 목록을 작성합니다:\n\n[클레임 목록]\n1. [GWAS Catalog] SNP rs4884332가 DIAPH3 유전자와 관련되어 있고, 이 SNP은 insomnia를 나타내는 gwas_catalog_traits와 일치한다.\n2. [Open Targets] DIAPH3 유전자는 자동변형 비대칭성 콜레스테롤 감수성 deafness (autosomal dominant nonsyndromic hearing loss)와 관련되어 있으며, 또한 스모킹 개시 (smoking initiation)와 insomnia에 대해 open_targets_diseases로 기록된다.\n3. [Open Targets] DIAPH3 유전자는 스모oking 개시와 insomnia에 대해 open_targets_scores를 제공하며, 그 값은 0.575 (DIAPH3와 Insomnia), 0.363 (DIAPH3와 스모킹 개시)이다. 이는 rs4884332가 DIAPH3 유전자와 관련이 있으며, 또한 rs4884332가 insomnia를 나타내는 것을 뒷받침한다.\n4. SNP rs4884332가 DIAPH3 유전자에 위치하고 있고, 이 유전자는 여러 가지 다른 질병과 연관되어 있다. 이는 rs4884332와 insulin이 직접적인 관련이 있는지 여부를 확인하는 새로운 연구가 필요하다.",
+    "claims": [
+      "1. [GWAS Catalog] SNP rs4884332가 DIAPH3 유전자와 관련되어 있고, 이 SNP은 insomnia를 나타내는 gwas_catalog_traits와 일치한다.",
+      "2. [Open Targets] DIAPH3 유전자는 자동변형 비대칭성 콜레스테롤 감수성 deafness (autosomal dominant nonsyndromic hearing loss)와 관련되어 있으며, 또한 스모킹 개시 (smoking initiation)와 insomnia에 대해 open_targets_diseases로 기록된다.",
+      "3. [Open Targets] DIAPH3 유전자는 스모oking 개시와 insomnia에 대해 open_targets_scores를 제공하며, 그 값은 0.575 (DIAPH3와 Insomnia), 0.363 (DIAPH3와 스모킹 개시)이다. 이는 rs4884332가 DIAPH3 유전자와 관련이 있으며, 또한 rs4884332가 insomnia를 나타내는 것을 뒷받침한다.",
+      "4. SNP rs4884332가 DIAPH3 유전자에 위치하고 있고, 이 유전자는 여러 가지 다른 질병과 연관되어 있다. 이는 rs4884332와 insulin이 직접적인 관련이 있는지 여부를 확인하는 새로운 연구가 필요하다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [GWAS Catalog] SNP rs4884332가 DIAPH3 유전자와 관련되어 있고, 이 SNP은 insomnia를 나타내는 gwas_catalog_traits와 일치한다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets] DIAPH3 유전자는 자동변형 비대칭성 콜레스테롤 감수성 deafness (autosomal dominant nonsyndromic hearing loss)와 관련되어 있으며, 또한 스모킹 개시 (smoking initiation)와 insomnia에 대해 open_targets_diseases로 기록된다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "3. [Open Targets] DIAPH3 유전자는 스모oking 개시와 insomnia에 대해 open_targets_scores를 제공하며, 그 값은 0.575 (DIAPH3와 Insomnia), 0.363 (DIAPH3와 스모킹 개시)이다. 이는 rs4884332가 DIAPH3 유전자와 관련이 있으며, 또한 rs4884332가 insomnia를 나타내는 것을 뒷받침한다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "4. SNP rs4884332가 DIAPH3 유전자에 위치하고 있고, 이 유전자는 여러 가지 다른 질병과 연관되어 있다. 이는 rs4884332와 insulin이 직접적인 관련이 있는지 여부를 확인하는 새로운 연구가 필요하다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "confidence_score": 0.5,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs1456193",
+    "genes": [
+      "LSAMP"
+    ],
+    "interpretation": "해석:\n\nrs1456193 SNP와 관련된 SNP는 LSAMP 유전자에 위치하고 있습니다. GWAS Catalog에서 관련 정보가 제공되지 않았지만, Open Targets의 데이터를 통해 이 SNP와 세 가지 질환들이 연관되어 있습니다: insomnia (0.385), ovarian neoplasm (0.343), frozen shoulder (0.318). \n\n특히, insomnia와의 높은 Score(0.385)는 rs1456193 SNP가 insomnia와 연관성이 있다는 가능성을 시사합니다.\n\n클레임 목록:\n1. [Open Targets] rs1456193 SNP와 insomnia 사이에 강한 양적 연관성이 있습니다.\n2. [Open Targets] 다른 세 가지 질환(ovarian neoplasm, frozen shoulder)과의 연관도를 고려할 때, 이 SNP는 특정 유전자의 작용을 설명하는 데 중요한 역할을 할 수 있음을 보여줍니다.\n3. LSAMP 유전자와 rs1456193 SNP 사이에 직접적인 상호작용이 있는지 여부를 확인하기 위한 추가 연구가 필요합니다.\n\n이 클레임들은 근거된 데이터를 바탕으로 제시되었으며, 더 많은 연구와 임상적 조사의 결과를 통해 더욱 구체화되고 증명될 수 있습니다.",
+    "claims": [
+      "1. [Open Targets] rs1456193 SNP와 insomnia 사이에 강한 양적 연관성이 있습니다.",
+      "2. [Open Targets] 다른 세 가지 질환(ovarian neoplasm, frozen shoulder)과의 연관도를 고려할 때, 이 SNP는 특정 유전자의 작용을 설명하는 데 중요한 역할을 할 수 있음을 보여줍니다.",
+      "3. LSAMP 유전자와 rs1456193 SNP 사이에 직접적인 상호작용이 있는지 여부를 확인하기 위한 추가 연구가 필요합니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [Open Targets] rs1456193 SNP와 insomnia 사이에 강한 양적 연관성이 있습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets] 다른 세 가지 질환(ovarian neoplasm, frozen shoulder)과의 연관도를 고려할 때, 이 SNP는 특정 유전자의 작용을 설명하는 데 중요한 역할을 할 수 있음을 보여줍니다.",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "3. LSAMP 유전자와 rs1456193 SNP 사이에 직접적인 상호작용이 있는지 여부를 확인하기 위한 추가 연구가 필요합니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.167,
+    "support_rate": 0.0
+  },
+  {
+    "snp_id": "rs7228159",
+    "genes": [
+      "TCF4",
+      "CCDC68"
+    ],
+    "interpretation": "주요 SNP: rs7228159와 관련된 SNP가 제시된 DB에 등재되어 있지 않으므로, 해당 SNP-표현형 연관성에 대한 직접적인 추론은 어렵습니다.\n\n특정 SNP와 특정 표현형의 연관성을 파악하기 위해서는 그 SNP가 어떤 유전자를 포함하고 있는지와 이 유전자가 몇 가지 질병 및 증상과 관련이 있는지를 알아야 합니다. 이를 위해 제공된 정보에 따르면, SNP: rs7228159는 각각의 기준 DB에 정의되지 않았습니다.\n\n주요 SNP: rs7228159와 관련된 유전자에 대한 명시적인 정보도 존재하지 않습니다. 그러나 다른 SNP들 중 하나인 TCF4가 감정적 스트레스 (feeling worry)와 관련이 있으며, 또 다른 SNP인 CCDC68과 같은 특정 질병(예: corneal dystrophy, Fuchs endothelial corneal dystrophy, presbycusis, Irritability, schizophrenia)과의 상관성이 있습니다.\n\n주요 SNP: rs7228159와 insomnia와의 직접적인 연관성을 판단하기 위해서는 추가적인 연구가 필요합니다. 제공된 정보로는 해당 SNP와 insomnia 사이에 존재하는 특정적 관련성이나 상호작용이 명확하게 입증되어 있지 않습니다.\n\n[클레임 목록]\n1. [GWAS Catalog, Open Targets]에서의 SNP: rs7228159와 TCF4간의 연관성은 감정적 스트레스 (feeling worry)와 관련성이 있습니다.\n2. [Open Targets]의 SNP: CCDC68과 관련된 질환 (예: corneal dystrophy, Fuchs endothelial corneal dystrophy, presbycusis, Irritability, schizophrenia) 및 감정적 스트레스 (feeling worry) 사이에 상호작용이 관찰되었습니다.\n3. SNP: rs7228159와 insomnia 사이의 직접적인 연관성이 명확하게 입증된 것은 아닙니다.",
+    "claims": [
+      "1. [GWAS Catalog, Open Targets]에서의 SNP: rs7228159와 TCF4간의 연관성은 감정적 스트레스 (feeling worry)와 관련성이 있습니다.",
+      "2. [Open Targets]의 SNP: CCDC68과 관련된 질환 (예: corneal dystrophy, Fuchs endothelial corneal dystrophy, presbycusis, Irritability, schizophrenia) 및 감정적 스트레스 (feeling worry) 사이에 상호작용이 관찰되었습니다.",
+      "3. SNP: rs7228159와 insomnia 사이의 직접적인 연관성이 명확하게 입증된 것은 아닙니다."
+    ],
+    "verified_claims": [
+      {
+        "claim": "1. [GWAS Catalog, Open Targets]에서의 SNP: rs7228159와 TCF4간의 연관성은 감정적 스트레스 (feeling worry)와 관련성이 있습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "2. [Open Targets]의 SNP: CCDC68과 관련된 질환 (예: corneal dystrophy, Fuchs endothelial corneal dystrophy, presbycusis, Irritability, schizophrenia) 및 감정적 스트레스 (feeling worry) 사이에 상호작용이 관찰되었습니다.",
+        "verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "3. SNP: rs7228159와 insomnia 사이의 직접적인 연관성이 명확하게 입증된 것은 아닙니다.",
+        "verdict": "UNSUPPORTED"
+      }
+    ],
+    "confidence_score": 0.0,
+    "support_rate": 0.0
+  }
+]

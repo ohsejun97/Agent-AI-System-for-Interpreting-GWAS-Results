@@ -3,23 +3,20 @@ Jansen et al. Sleep Duration GWAS — Step 4~5
 입력: sleepdur/results/evidence_results.csv
 출력: sleepdur/results/interpretation_results.json
 
-실행 전 환경변수 설정 필요:
-  export GEMINI_API_KEY="your-key-here"
+실행 전 Ollama 서버가 실행 중이어야 함:
+  ollama serve  (이미 실행 중이면 생략)
 """
 from pathlib import Path
 import pandas as pd
 import json
 import time
-import os
-import google.generativeai as genai
+import ollama
 
 BASE = Path(__file__).parent
 RESULTS = BASE / 'results'
 
 PHENOTYPE = "sleep duration"
-
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-model = genai.GenerativeModel("gemini-1.5-flash")
+MODEL = "qwen2.5:3b"
 
 # ──────────────────────────────────────────────────────────────
 # Step 4: LLM 해석 생성
@@ -47,6 +44,18 @@ SNP: {snp_id}
 """
 
 
+def call_llm(prompt: str, label: str = '') -> str:
+    try:
+        response = ollama.chat(
+            model=MODEL,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return response['message']['content']
+    except Exception as e:
+        print(f"  Ollama 오류 ({label}): {e}")
+        return ''
+
+
 def generate_interpretation(snp_id: str, evidence_rows: list, phenotype: str) -> dict:
     evidence_json = json.dumps(evidence_rows, ensure_ascii=False, indent=2)
     prompt = INTERPRETATION_PROMPT.format(
@@ -54,21 +63,21 @@ def generate_interpretation(snp_id: str, evidence_rows: list, phenotype: str) ->
         phenotype=phenotype,
         evidence_json=evidence_json
     )
-    try:
-        response = model.generate_content(prompt)
-        time.sleep(1.0)
-        response_text = response.text
-    except Exception as e:
-        print(f"  Gemini 오류 (해석): {e}")
+    response_text = call_llm(prompt, '해석')
+    if not response_text:
         return {'snp_id': snp_id, 'interpretation': '', 'claims': []}
 
+    import re
     claims = []
-    if '[클레임 목록]' in response_text:
-        claim_section = response_text.split('[클레임 목록]')[1]
+    marker = re.search(r'(?:#{1,3}\s*|[\[\*]*)클레임\s*목록[\]\*]*\s*:?\n', response_text)
+    if marker:
+        claim_section = response_text[marker.end():]
         for line in claim_section.strip().split('\n'):
             line = line.strip()
-            if line and line[0].isdigit():
+            if re.match(r'^\d+[\.\)]\s+', line):
                 claims.append(line)
+            elif not line and claims:
+                pass
 
     return {'snp_id': snp_id, 'interpretation': response_text, 'claims': claims}
 
@@ -102,13 +111,7 @@ def verify_claims(interpretation_result: dict, evidence_rows: list) -> dict:
             claim=claim,
             evidence_json=evidence_json
         )
-        try:
-            response = model.generate_content(prompt)
-            time.sleep(0.5)
-            verdict_text = response.text.strip()
-        except Exception as e:
-            print(f"  Gemini 오류 (검증): {e}")
-            verdict_text = ''
+        verdict_text = call_llm(prompt, '검증')
 
         if 'SUPPORTED' in verdict_text and 'PARTIALLY' not in verdict_text and 'UN' not in verdict_text:
             verdict = 'SUPPORTED'
@@ -219,9 +222,12 @@ avg_conf = sum(r['confidence_score'] for r in results) / len(results)
 
 print(f"완료: {len(results)}개 SNP")
 print(f"전체 클레임: {total_claims}개")
-print(f"  SUPPORTED:         {s_n} ({s_n/total_claims*100:.1f}%)")
-print(f"  PARTIALLY_SUPPORTED: {p_n} ({p_n/total_claims*100:.1f}%)")
-print(f"  UNSUPPORTED:       {u_n} ({u_n/total_claims*100:.1f}%)")
-print(f"DB 근거 지지율 (S+P): {(s_n+p_n)/total_claims*100:.1f}%")
+if total_claims > 0:
+    print(f"  SUPPORTED:           {s_n} ({s_n/total_claims*100:.1f}%)")
+    print(f"  PARTIALLY_SUPPORTED: {p_n} ({p_n/total_claims*100:.1f}%)")
+    print(f"  UNSUPPORTED:         {u_n} ({u_n/total_claims*100:.1f}%)")
+    print(f"DB 근거 지지율 (S+P): {(s_n+p_n)/total_claims*100:.1f}%")
+else:
+    print("  클레임 없음 — 프롬프트 또는 API 오류 확인 필요")
 print(f"평균 신뢰도 점수:     {avg_conf:.3f}")
 print(f"\n✓ {out_path} 저장 완료")
