@@ -1,0 +1,89 @@
+[Step 4~5 v4] 11개 SNP 처리 시작 (표현형: insomnia)
+======================================================================
+
+[ 1/11] rs11693221 | genes: MEIS1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs11693221 structured interpretation | in=675, out=415, reasoning=40, total=1,090
+    [Groq pacing] 8.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:0 P:0 U:3
+    - UNSUPPORTED: Sleep medication purchases | Short sleep duration (<5 hours) [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: MEIS1 [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: MEIS1 | insomnia | 0.512 [문장이 불완전하거나 지나치게 짧습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs11693221 correction | in=818, out=222, reasoning=76, total=1,040
+    [Groq pacing] 8.3초 대기
+
+[ 2/11] rs6561715 | genes: OLFM4, PCDH8
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6561715 structured interpretation | in=737, out=357, reasoning=40, total=1,094
+    [Groq pacing] 8.8초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:0 P:0 U:3
+    - UNSUPPORTED: Insomnia (standard GWA) | Insomnia [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: OLFM4 [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: OLFM4 | insomnia | 0.395 [문장이 불완전하거나 지나치게 짧습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6561715 correction | in=821, out=483, reasoning=266, total=1,304
+    [Groq pacing] 10.4초 대기
+
+[ 3/11] rs4986172 | genes: ACBD4, HEXIM1, PLCD3
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs4986172 structured interpretation | in=774, out=440, reasoning=41, total=1,214
+    [Groq pacing] 9.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:0 P:0 U:3
+    - UNSUPPORTED: Height | Height | Height [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: ACBD4 [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: HEXIM1 | insomnia | 0.336 [문장이 불완전하거나 지나치게 짧습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4986172 correction | in=939, out=266, reasoning=98, total=1,205
+    [Groq pacing] 9.6초 대기
+
+[ 4/11] rs370771 | genes: LIN28B, HACE1, BVES
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs370771 structured interpretation | in=808, out=509, reasoning=40, total=1,317
+    [Groq pacing] 10.5초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:0 P:0 U:3
+    - UNSUPPORTED: gwas_catalog_traits: Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: gene: LIN28B [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: open_targets_diseases: Abnormality of the skeletal system | major depressive disorder | cholelithiasis | open_targets_scores: 0.463 | 0.414 | 0.342 [문장이 불완전하거나 지나치게 짧습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs370771 correction | in=1,043, out=351, reasoning=114, total=1,394
+    [Groq pacing] 11.2초 대기
+
+[ 5/11] rs6938026 | genes: DNPH1, CUL9, SRF
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6938026 structured interpretation | in=791, out=463, reasoning=40, total=1,254
+    [Groq pacing] 10.0초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:0 P:0 U:3
+    - UNSUPPORTED: gwas_catalog_traits: Height | Schizophrenia | Schizophrenia [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: gene: DNPH1 [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: open_targets_diseases: intelligence | asthma | prostate cancer | open_targets_scores: 0.249 | 0.064 | 0.043 [문장이 불완전하거나 지나치게 짧습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6938026 correction | in=980, out=170, reasoning=28, total=1,150
+    [Groq pacing] 9.2초 대기
+
+[ 6/11] rs6984111 | genes: MSRA, PRSS55, RP1L1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6984111 structured interpretation | in=768, out=506, reasoning=120, total=1,274
+    [Groq pacing] 10.2초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:1 P:0 U:2
+    - UNSUPPORTED: MSRA [문장이 불완전하거나 지나치게 짧습니다.]
+    - UNSUPPORTED: PRSS55 | hypertensive disorder | 0.314 [문장이 불완전하거나 지나치게 짧습니다.]
+    - SUPPORTED: 현재 제공된 근거에서 확인되지 않는다 [제공된 GWAS trait에 분석 대상 phenotype이 없습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6984111 correction | in=920, out=229, reasoning=88, total=1,149
+    [Groq pacing] 9.2초 대기
+
+[ 7/11] rs4073582 | genes: CNIH2, YIF1A, RAB1B
+  [Step 4] 구조화 초기 해석 생성

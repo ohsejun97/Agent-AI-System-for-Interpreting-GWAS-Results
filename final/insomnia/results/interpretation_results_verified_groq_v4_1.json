@@ -1,0 +1,1134 @@
+[
+  {
+    "snp_id": "rs11693221",
+    "genes": [
+      "MEIS1"
+    ],
+    "evidence": [
+      {
+        "gene": "MEIS1",
+        "gwas_catalog_traits": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "open_targets_diseases": "restless legs syndrome | insomnia | prostate carcinoma",
+        "open_targets_scores": "0.546 | 0.512 | 0.495"
+      }
+    ],
+    "initial_interpretation": "rs11693221은 GWAS에서 MEIS1 유전자와 연관된 여러 수면 관련 특성을 보고받았습니다. 특히, 이 SNP는 MEIS1 유전자와 500 kb 이내에 위치해 있어 후보 유전자로 매핑됩니다. Open Targets 데이터에 따르면 MEIS1은 불면증과 관련된 질환과 연관이 있으며, 해당 연관성 점수는 0.512입니다. 현재 제공된 근거에서는 이 SNP가 직접 불면증에 대한 유의미한 증거를 제공하지 않으며, 인과관계가 확립되지 않았습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs11693221은(는) GWAS Catalog에서 Sleep medication purchases | Short sleep duration (<5 hours)와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MEIS1은(는) rs11693221 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 MEIS1-insomnia 유전자-질환 연관성 점수는 0.512입니다.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": "insomnia",
+        "score": "0.512",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs11693221은(는) GWAS Catalog에서 Sleep medication purchases | Short sleep duration (<5 hours)와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MEIS1은(는) rs11693221 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 MEIS1-insomnia 유전자-질환 연관성 점수는 0.512입니다.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": "insomnia",
+        "score": "0.512",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs11693221은 GWAS Catalog에서 Sleep medication purchases와 Short sleep duration (<5 hours)와 연관된 것으로 보고되었습니다. 이 SNP는 MEIS1 유전자와 500 kb 이내에 위치해 있어 후보 유전자로 매핑됩니다. Open Targets 데이터에 따르면 MEIS1은 불면증과 관련된 질환과 연관이 있으며, 해당 연관성 점수는 0.512입니다. 현재 제공된 근거에서는 이 SNP가 직접 불면증에 대한 유의미한 증거를 제공하지 않으며, 인과관계가 확립되지 않았습니다.  \n\n[최종 클레임]  \n1. rs11693221은 GWAS Catalog에서 Sleep medication purchases | Short sleep duration (<5 hours)와 연관된 것으로 보고되었습니다.  \n2. MEIS1은 rs11693221 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n3. Open Targets에서 MEIS1-insomnia 유전자-질환 연관성 점수는 0.512입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs6561715",
+    "genes": [
+      "OLFM4",
+      "PCDH8"
+    ],
+    "evidence": [
+      {
+        "gene": "OLFM4",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "major depressive disorder | bipolar disorder | insomnia",
+        "open_targets_scores": "0.501 | 0.397 | 0.395"
+      },
+      {
+        "gene": "PCDH8",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "abnormality of serum enzyme levels | arthritic joint disease | atopic conjunctivitis",
+        "open_targets_scores": "0.278 | 0.272 | 0.265"
+      }
+    ],
+    "initial_interpretation": "rs6561715는 GWAS에서 불면증과 연관된 변이로 보고되었습니다. 이 SNP는 OLFM4와 PCDH8 유전자 주변에 위치해 있으며, 두 유전자 모두 불면증과 관련된 후보 유전자로 매핑되었습니다. Open Targets 데이터에 따르면 OLFM4는 주요 우울장애, 양극성 장애, 불면증과 연관이 있으며, PCDH8은 혈청 효소 수치 이상, 관절염, 아토피 결막염과 연관이 있습니다. 현재 제공된 근거에서는 rs6561715가 직접적으로 질병을 유발한다는 명확한 증거는 없으며, 인과관계가 확립되지 않았습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs6561715은(는) GWAS Catalog에서 Insomnia (standard GWA) | Insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Insomnia (standard GWA) | Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "OLFM4은(는) rs6561715 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 OLFM4-insomnia 유전자-질환 연관성 점수는 0.395입니다.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": "insomnia",
+        "score": "0.395",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs6561715은(는) GWAS Catalog에서 Insomnia (standard GWA) | Insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Insomnia (standard GWA) | Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "OLFM4은(는) rs6561715 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 OLFM4-insomnia 유전자-질환 연관성 점수는 0.395입니다.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": "insomnia",
+        "score": "0.395",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs6561715는 GWAS Catalog에서 불면증과 연관된 변이로 보고되었습니다. 이 SNP는 OLFM4 유전자 주변 ±500 kb에 위치해 있으며, OLFM4는 Open Targets에서 불면증과의 연관성 점수 0.395를 보유하고 있습니다. 현재 제공된 근거에서는 rs6561715가 직접적으로 질병을 유발한다는 명확한 증거는 없으며, 인과관계가 확립되지 않았습니다.  \n\n[최종 클레임]  \n1. rs6561715는 GWAS Catalog에서 불면증과 연관된 것으로 보고되었습니다.  \n2. OLFM4는 rs6561715 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n3. Open Targets에서 OLFM4와 불면증의 연관성 점수는 0.395입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4986172",
+    "genes": [
+      "ACBD4",
+      "HEXIM1",
+      "PLCD3"
+    ],
+    "evidence": [
+      {
+        "gene": "ACBD4",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | essential hypertension | hypertensive disorder",
+        "open_targets_scores": "0.464 | 0.208 | 0.199"
+      },
+      {
+        "gene": "HEXIM1",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | intelligence | insomnia",
+        "open_targets_scores": "0.37 | 0.364 | 0.336"
+      },
+      {
+        "gene": "PLCD3",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "Headache | migraine disorder | coronary artery disorder",
+        "open_targets_scores": "0.371 | 0.166 | 0.166"
+      }
+    ],
+    "initial_interpretation": "rs4986172는 GWAS에서 신장과 관련된 변이로 보고되었으며, 이 SNP가 수면장애와 직접적으로 연관된 증거는 현재 제공된 데이터에서 확인되지 않는다. 후보 유전자로는 ACBD4와 HEXIM1, PLCD3가 있으며, 이들 유전자는 각각 신경퇴행성 질환, 고혈압, 두통, 편두통, 관상동맥질환 등 다양한 질환과 연관되어 있다. 특히 HEXIM1은 Open Targets에서 수면장애와 연결된 점수를 보이고 있으나, 이는 유전자-질환 연관성에 불과하며 SNP와 질환 간 직접적 인과관계는 입증되지 않았다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4986172은(는) GWAS Catalog에서 Height | Height | Height와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Height | Height | Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "ACBD4은(는) rs4986172 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "ACBD4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 HEXIM1-insomnia 유전자-질환 연관성 점수는 0.336입니다.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": "insomnia",
+        "score": "0.336",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4986172은(는) GWAS Catalog에서 Height | Height | Height와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Height | Height | Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "ACBD4은(는) rs4986172 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "ACBD4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 HEXIM1-insomnia 유전자-질환 연관성 점수는 0.336입니다.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": "insomnia",
+        "score": "0.336",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs4986172는 GWAS Catalog에서 Height와 연관된 변이로 보고되었습니다.  \n이 SNP가 수면장애와 직접적으로 연관된 증거는 현재 제공된 근거에서 확인되지 않습니다.  \nACBD4는 rs4986172 주변 ±500 kb에 매핑된 후보 유전자이며, HEXIM1은 Open Targets에서 수면장애와 연결된 점수(0.336)를 보이지만 이는 유전자-질환 연관성에 불과합니다.  \n따라서 rs4986172가 수면장애의 원인 유전자로 단정되지는 않습니다.  \n\n[최종 클레임]  \n1. rs4986172는 GWAS Catalog에서 Height와 연관된 변이로 보고되었습니다.  \n2. ACBD4는 rs4986172 주변 ±500 kb에 매핑된 후보 유전자입니다.  \n3. Open Targets에서 HEXIM1-insomnia 유전자-질환 연관성 점수는 0.336입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs370771",
+    "genes": [
+      "LIN28B",
+      "HACE1",
+      "BVES"
+    ],
+    "evidence": [
+      {
+        "gene": "LIN28B",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "Abnormality of the skeletal system | major depressive disorder | cholelithiasis",
+        "open_targets_scores": "0.463 | 0.414 | 0.342"
+      },
+      {
+        "gene": "HACE1",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "spastic paraplegia-severe developmental delay-epilepsy syndrome | Seizure | Spastic paraplegia",
+        "open_targets_scores": "0.781 | 0.566 | 0.486"
+      },
+      {
+        "gene": "BVES",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "",
+        "open_targets_scores": ""
+      }
+    ],
+    "initial_interpretation": "rs370771은 현재 GWAS에서 수면장애와 직접적으로 보고된 적이 없으며, 주어진 데이터에서는 주된 연구 대상이 수면장애가 아니라 폐 기능, 허리둘레, 어린이 체질량지수와 관련된 특성들입니다. 이 SNP 주변 ±500 kb에 매핑된 후보 유전자는 LIN28B와 HACE1이며, 두 유전자 모두 Open Targets에서 다양한 질환과 연관되어 있습니다. 그러나 이러한 연관성은 SNP와 질환 사이의 직접적인 인과관계를 입증하지 않으며, 현재 제공된 근거에서 수면장애와의 직접적인 연결은 확인되지 않습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs370771은(는) GWAS Catalog에서 Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LIN28B은(는) rs370771 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_CAUSALITY_ESTABLISHED"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 LIN28B-Abnormality of the skeletal system | major depressive disorder | cholelithiasis 유전자-질환 연관성 점수는 0.463 | 0.414 | 0.342입니다.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": "Abnormality of the skeletal system | major depressive disorder | cholelithiasis",
+        "score": "0.463 | 0.414 | 0.342",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs370771은(는) GWAS Catalog에서 Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LIN28B은(는) rs370771 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_CAUSALITY_ESTABLISHED",
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 LIN28B-Abnormality of the skeletal system | major depressive disorder | cholelithiasis 유전자-질환 연관성 점수는 0.463 | 0.414 | 0.342입니다.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": "Abnormality of the skeletal system | major depressive disorder | cholelithiasis",
+        "score": "0.463 | 0.414 | 0.342",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "해당 gene-disease 조합의 score가 없습니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs370771은 현재 GWAS Catalog에서 폐 기능(FVC), BMI 조정 허리둘레, 어린이 체질량지수와 연관된 것으로 보고되었습니다. 이 SNP 주변 ±500 kb에 매핑된 후보 유전자는 LIN28B이며, 해당 유전자는 Open Targets에서 다양한 질환과 연관되어 있지만, SNP와 수면장애 사이의 직접적인 인과관계는 현재 제공된 근거에서 확인되지 않습니다. 따라서 rs370771이 수면장애와 직접적으로 관련된 증거는 없으며, 현재까지는 폐 기능 및 체형 관련 특성에 대한 연관성만이 확인됩니다.  \n\n[최종 클레임]  \n1. rs370771은 GWAS Catalog에서 Lung function (FVC), Hip circumference adjusted for BMI, Childhood body mass index와 연관된 것으로 보고되었습니다.  \n2. LIN28B은 rs370771 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 0,
+      "unsupported": 1,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 0.667,
+      "unsupported_rate": 0.333,
+      "confidence_score": 0.667
+    }
+  },
+  {
+    "snp_id": "rs6938026",
+    "genes": [
+      "DNPH1",
+      "CUL9",
+      "SRF"
+    ],
+    "evidence": [
+      {
+        "gene": "DNPH1",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "intelligence | asthma | prostate cancer",
+        "open_targets_scores": "0.249 | 0.064 | 0.043"
+      },
+      {
+        "gene": "CUL9",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | schizophrenia | placental abruption",
+        "open_targets_scores": "0.5 | 0.263 | 0.219"
+      },
+      {
+        "gene": "SRF",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | hepatocellular carcinoma | cancer",
+        "open_targets_scores": "0.549 | 0.106 | 0.105"
+      }
+    ],
+    "initial_interpretation": "rs6938026은 현재 GWAS에서 인슐린과 관련된 표현형에 대한 직접적인 보고가 없으며, 인슐린과 관련된 질환에 대한 유전적 연관성도 확인되지 않는다. 이 SNP는 DNPH1, CUL9, SRF 유전자 주변에 위치해 있으며, 이들 유전자는 각각 인슐린과 관련된 질환과는 직접적인 연관성이 보고되지 않았다. 따라서 현재 제공된 근거에서는 rs6938026이 인슐린에 영향을 미친다는 결론을 내릴 수 없으며, 추가 연구가 필요하다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs6938026은(는) GWAS Catalog에서 Height | Schizophrenia | Schizophrenia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Height | Schizophrenia | Schizophrenia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DNPH1은(는) rs6938026 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 DNPH1-intelligence | asthma | prostate cancer 유전자-질환 연관성 점수는 0.249 | 0.064 | 0.043입니다.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": "intelligence | asthma | prostate cancer",
+        "score": "0.249 | 0.064 | 0.043",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs6938026은(는) GWAS Catalog에서 Height | Schizophrenia | Schizophrenia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Height | Schizophrenia | Schizophrenia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DNPH1은(는) rs6938026 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 DNPH1-intelligence | asthma | prostate cancer 유전자-질환 연관성 점수는 0.249 | 0.064 | 0.043입니다.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": "intelligence | asthma | prostate cancer",
+        "score": "0.249 | 0.064 | 0.043",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "해당 gene-disease 조합의 score가 없습니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs6938026은 GWAS Catalog에서 Height와 Schizophrenia와 연관된 것으로 보고되었습니다. 이 SNP는 DNPH1 유전자의 ±500 kb 범위에 위치해 있어 DNPH1이 후보 유전자로 제시됩니다. 현재 제공된 근거에서는 rs6938026이 인슐린에 영향을 미친다는 직접적인 증거가 없으며, 인슐린 관련 질환과의 연관성도 확인되지 않습니다. 따라서 rs6938026이 인슐린에 영향을 미친다는 결론을 내릴 수 없으며, 추가 연구가 필요합니다.  \n\n[최종 클레임]  \n1. rs6938026은 GWAS Catalog에서 Height, Schizophrenia와 연관된 것으로 보고되었습니다.  \n2. DNPH1은 rs6938026 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 0,
+      "unsupported": 1,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 0.667,
+      "unsupported_rate": 0.333,
+      "confidence_score": 0.667
+    }
+  },
+  {
+    "snp_id": "rs6984111",
+    "genes": [
+      "MSRA",
+      "PRSS55",
+      "RP1L1"
+    ],
+    "evidence": [
+      {
+        "gene": "MSRA",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "hypertensive disorder | type 2 diabetes mellitus | alcohol drinking",
+        "open_targets_scores": "0.478 | 0.453 | 0.449"
+      },
+      {
+        "gene": "PRSS55",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "polycythemia | hypertensive disorder | essential hypertension",
+        "open_targets_scores": "0.316 | 0.314 | 0.282"
+      },
+      {
+        "gene": "RP1L1",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "occult macular dystrophy | retinitis pigmentosa 88 | retinitis pigmentosa",
+        "open_targets_scores": "0.775 | 0.681 | 0.596"
+      }
+    ],
+    "initial_interpretation": "rs6984111은 현재 GWAS에서 수면장애와 직접적으로 연관된 증거가 없으며, 후보 유전자로는 MSRA가 보고되었습니다. PRSS55 유전자는 Open Targets에서 고혈압과 연관된 점수가 0.314로 나타났으나, 이는 SNP와 질병 간 직접적 인과관계를 의미하지 않습니다. 따라서 이 SNP가 수면장애에 기여한다는 결론을 내리기에는 현재 제공된 근거가 부족합니다.",
+    "structured_claims": [
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MSRA은(는) rs6984111 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "MSRA",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 PRSS55-hypertensive disorder 유전자-질환 연관성 점수는 0.314입니다.",
+        "trait": null,
+        "gene": "PRSS55",
+        "disease": "hypertensive disorder",
+        "score": "0.314",
+        "limitation_type": null
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "제공된 GWAS Catalog 근거에는 rs6984111과(와) 분석 대상 표현형의 직접 연관이 보고되지 않았습니다.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MSRA은(는) rs6984111 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "MSRA",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 PRSS55-hypertensive disorder 유전자-질환 연관성 점수는 0.314입니다.",
+        "trait": null,
+        "gene": "PRSS55",
+        "disease": "hypertensive disorder",
+        "score": "0.314",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "제공된 GWAS Catalog 근거에는 rs6984111과(와) 분석 대상 표현형의 직접 연관이 보고되지 않았습니다.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "제공된 GWAS trait에 분석 대상 phenotype이 없습니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs6984111은 현재 GWAS Catalog에서 수면장애와 직접적으로 연관된 증거가 없으며, 제공된 근거에 따르면 이 SNP가 수면장애에 기여한다는 결론을 내리기에는 부족합니다. 그러나 rs6984111 주변 ±500 kb에 위치한 MSRA가 후보 유전자로 매핑되어 있다는 증거가 존재합니다. 또한 Open Targets에서 PRSS55와 고혈압과의 연관성 점수가 0.314로 보고되었으나, 이는 SNP와 질병 간 직접적 인과관계를 의미하지 않습니다.  \n[최종 클레임]  \n1. MSRA은(는) rs6984111 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n2. Open Targets에서 PRSS55-hypertensive disorder 유전자-질환 연관성 점수는 0.314입니다.  \n3. 제공된 GWAS Catalog 근거에는 rs6984111과(와) 분석 대상 표현형의 직접 연관이 보고되지 않았습니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4073582",
+    "genes": [
+      "CNIH2",
+      "YIF1A",
+      "RAB1B"
+    ],
+    "evidence": [
+      {
+        "gene": "CNIH2",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | insomnia | mathematical ability",
+        "open_targets_scores": "0.384 | 0.116 | 0.106"
+      },
+      {
+        "gene": "YIF1A",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "type 2 diabetes mellitus | skeletal system disorder | bladder transitional cell carcinoma",
+        "open_targets_scores": "0.13 | 0.112 | 0.033"
+      },
+      {
+        "gene": "RAB1B",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | infection | colorectal carcinoma",
+        "open_targets_scores": "0.318 | 0.08 | 0.076"
+      }
+    ],
+    "initial_interpretation": "rs4073582는 GWAS에서 비만과 통풍과 연관된 변이로 보고되었으며, 이 SNP가 위치한 영역에는 CNIH2, YIF1A, RAB1B 세 유전자가 포함되어 있다. CNIH2는 Open Targets에서 수면장애(insomnia)와 연관된 유전자로 식별되었으며, 이 연관성은 0.116의 점수로 나타난다. 현재 제공된 근거에서는 rs4073582가 직접적으로 수면장애와 연관된 유의미한 증거를 제공하지 않는다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4073582은(는) GWAS Catalog에서 Gout | Body mass index (MTAG) | Body mass index와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Gout | Body mass index (MTAG) | Body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "CNIH2은(는) rs4073582 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 CNIH2-insomnia 유전자-질환 연관성 점수는 0.116입니다.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": "insomnia",
+        "score": "0.116",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4073582은(는) GWAS Catalog에서 Gout | Body mass index (MTAG) | Body mass index와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Gout | Body mass index (MTAG) | Body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "CNIH2은(는) rs4073582 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 CNIH2-insomnia 유전자-질환 연관성 점수는 0.116입니다.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": "insomnia",
+        "score": "0.116",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs4073582는 GWAS Catalog에서 비만과 통풍과 연관된 변이로 보고되었습니다. 이 SNP가 위치한 영역에는 CNIH2가 후보 유전자로 포함되어 있습니다. Open Targets에서는 CNIH2와 수면장애 사이에 유전자-질환 연관성 점수 0.116이 보고되었으나, 현재 제공된 근거에서는 rs4073582가 직접적으로 수면장애와 연관된 유의미한 증거를 제공하지 않는다.  \n\n[최종 클레임]  \n1. rs4073582는 GWAS Catalog에서 Gout, Body mass index (MTAG), Body mass index와 연관된 것으로 보고되었습니다.  \n2. CNIH2는 rs4073582 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n3. Open Targets에서 CNIH2와 insomnia 사이의 유전자-질환 연관성 점수는 0.116입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs9576155",
+    "genes": [
+      "SUPT20H",
+      "EXOSC8",
+      "ALG5"
+    ],
+    "evidence": [
+      {
+        "gene": "SUPT20H",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "neurodegenerative disease | bacterial arthritis | insomnia",
+        "open_targets_scores": "0.522 | 0.341 | 0.273"
+      },
+      {
+        "gene": "EXOSC8",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "pontocerebellar hypoplasia, type 1C | pontocerebellar hypoplasia type 1 | neurodegenerative disease",
+        "open_targets_scores": "0.69 | 0.64 | 0.516"
+      },
+      {
+        "gene": "ALG5",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "polycystic kidney disease 7 | autosomal dominant polycystic kidney disease | neurodegenerative disease",
+        "open_targets_scores": "0.602 | 0.422 | 0.34"
+      }
+    ],
+    "initial_interpretation": "rs9576155와 관련된 GWAS 결과는 ‘Decaffeinated coffee consumption and/or insomnia’라는 표현형을 보고하고 있습니다. 이 SNP 주변 ±500 kb에 위치한 후보 유전자는 SUPT20H, EXOSC8, ALG5 세 가지가 있습니다. Open Targets 데이터에 따르면 이 유전자들은 각각 신경퇴행성 질환, 세균성 관절염, 다낭성 신장 질환 등과 연관되어 있으나, 현재 제공된 근거에서 rs9576155가 직접적으로 이 질환들과 연결된다는 증거는 확인되지 않습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs9576155은(는) GWAS Catalog에서 Decaffeinated coffee consumption and/or insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Decaffeinated coffee consumption and/or insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "SUPT20H은(는) rs9576155 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 SUPT20H-insomnia 유전자-질환 연관성 점수는 0.273입니다.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": "insomnia",
+        "score": "0.273",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs9576155은(는) GWAS Catalog에서 Decaffeinated coffee consumption and/or insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Decaffeinated coffee consumption and/or insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "SUPT20H은(는) rs9576155 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 SUPT20H-insomnia 유전자-질환 연관성 점수는 0.273입니다.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": "insomnia",
+        "score": "0.273",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs9576155는 GWAS Catalog에서 “Decaffeinated coffee consumption and/or insomnia”와 연관된 것으로 보고되었습니다. 이 SNP 주변 ±500 kb에 매핑된 후보 유전자 중 SUPT20H이 포함됩니다. Open Targets 데이터에 따르면 SUPT20H과 insomnia 사이의 유전자‑질환 연관성 점수는 0.273으로 나타났습니다. 현재 제공된 근거에서 rs9576155가 직접적으로 insomnia와 연결된다는 증거는 확인되지 않습니다.  \n\n[최종 클레임]  \n1. rs9576155은 GWAS Catalog에서 Decaffeinated coffee consumption and/or insomnia와 연관된 것으로 보고되었습니다.  \n2. SUPT20H은 rs9576155 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n3. Open Targets에서 SUPT20H‑insomnia 유전자‑질환 연관성 점수는 0.273입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4884332",
+    "genes": [
+      "DIAPH3"
+    ],
+    "evidence": [
+      {
+        "gene": "DIAPH3",
+        "gwas_catalog_traits": "Insomnia",
+        "open_targets_diseases": "autosomal dominant nonsyndromic hearing loss | smoking initiation | insomnia",
+        "open_targets_scores": "0.575 | 0.363 | 0.32"
+      }
+    ],
+    "initial_interpretation": "rs4884332는 GWAS에서 불면증과 연관된 변이로 보고되었습니다. 이 SNP는 DIAPH3 유전자 주변에 위치해 있으며, DIAPH3는 불면증과 관련된 후보 유전자로 매핑됩니다. Open Targets 데이터에 따르면 DIAPH3는 불면증과 0.32의 점수를 가진 연관성을 보이고 있습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4884332은(는) GWAS Catalog에서 Insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DIAPH3은(는) rs4884332 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 DIAPH3-insomnia 유전자-질환 연관성 점수는 0.32입니다.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": "insomnia",
+        "score": "0.32",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs4884332은(는) GWAS Catalog에서 Insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DIAPH3은(는) rs4884332 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 DIAPH3-insomnia 유전자-질환 연관성 점수는 0.32입니다.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": "insomnia",
+        "score": "0.32",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene-disease와 score가 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs4884332는 GWAS Catalog에서 불면증과 연관된 변이로 보고되었습니다. 이 SNP는 DIAPH3 유전자 주변에 위치해 있으며, DIAPH3는 rs4884332 주변 ±500 kb에서 매핑된 후보 유전자입니다. Open Targets 데이터에 따르면 DIAPH3와 불면증 사이에 0.32의 연관성 점수가 존재합니다. 현재 제공된 근거에서 확인되지 않는 추가적인 기전이나 위험 증가는 없습니다.  \n\n[최종 클레임]  \n1. rs4884332은(는) GWAS Catalog에서 Insomnia와(과) 연관된 것으로 보고되었습니다.  \n2. DIAPH3은(는) rs4884332 주변 ±500 kb에서 매핑된 후보 유전자입니다.  \n3. Open Targets에서 DIAPH3-insomnia 유전자-질환 연관성 점수는 0.32입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs1456193",
+    "genes": [
+      "LSAMP"
+    ],
+    "evidence": [
+      {
+        "gene": "LSAMP",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "insomnia | ovarian neoplasm | frozen shoulder",
+        "open_targets_scores": "0.385 | 0.343 | 0.318"
+      }
+    ],
+    "initial_interpretation": "rs1456193은 GWAS에서 insomnia와 연관된 변이로 보고되었습니다. 이 SNP는 LSAMP 유전자 주변에 위치해 있으며, LSAMP은 후보 유전자로 매핑됩니다. Open Targets 데이터에 따르면 LSAMP은 insomnia, ovarian neoplasm, frozen shoulder와 연관이 있는 것으로 나타났습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs1456193은(는) GWAS Catalog에서 insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LSAMP은(는) rs1456193 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 LSAMP-insomnia | ovarian neoplasm | frozen shoulder 유전자-질환 연관성 점수는 0.385 | 0.343 | 0.318입니다.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia | ovarian neoplasm | frozen shoulder",
+        "score": "0.385 | 0.343 | 0.318",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs1456193은(는) GWAS Catalog에서 insomnia와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "trait가 제공된 GWAS Catalog 근거에 없습니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LSAMP은(는) rs1456193 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 LSAMP-insomnia | ovarian neoplasm | frozen shoulder 유전자-질환 연관성 점수는 0.385 | 0.343 | 0.318입니다.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia | ovarian neoplasm | frozen shoulder",
+        "score": "0.385 | 0.343 | 0.318",
+        "limitation_type": null,
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "해당 gene-disease 조합의 score가 없습니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs1456193은 GWAS Catalog에서 insomnia와 연관된 변이로 보고된 바 없습니다. 그러나 이 SNP는 LSAMP 유전자 주변에 위치해 있어 LSAMP이 후보 유전자 후보군에 포함됩니다. Open Targets 데이터에 따르면 LSAMP은 insomnia, ovarian neoplasm, frozen shoulder와 연관이 있는 것으로 나타났으나, 이 연관성은 유전자-질환 관계이며 SNP와 직접적인 연관은 확인되지 않습니다. 현재 제공된 근거에서 rs1456193이 insomnia와 통계적으로 유의하게 연관된다는 증거는 확인되지 않는다.  \n\n[최종 클레임]  \n1. LSAMP은 rs1456193 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 1,
+      "partially_supported": 0,
+      "unsupported": 2,
+      "strict_support_rate": 0.333,
+      "evidence_support_rate": 0.333,
+      "unsupported_rate": 0.667,
+      "confidence_score": 0.333
+    }
+  },
+  {
+    "snp_id": "rs7228159",
+    "genes": [
+      "TCF4",
+      "CCDC68"
+    ],
+    "evidence": [
+      {
+        "gene": "TCF4",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",
+        "open_targets_scores": "0.848 | 0.694 | 0.622"
+      },
+      {
+        "gene": "CCDC68",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "presbycusis | Irritability | schizophrenia",
+        "open_targets_scores": "0.437 | 0.404 | 0.373"
+      }
+    ],
+    "initial_interpretation": "rs7228159는 GWAS에서 인지 성능, 수학 수업 수준, 걱정감과 연관된 변이로 보고되었습니다. 이 SNP는 TCF4와 CCDC68 유전자 주변에 위치해 있으며, 두 유전자 모두 후보 유전자 후보로 매핑됩니다. Open Targets 데이터에 따르면 TCF4는 피트-호프킨 증후군, Fuchs 안구막막 변형과 연관되어 있고, CCDC68은 노인성 난청, 과민성, 정신분열증과 연관되어 있습니다.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs7228159은(는) GWAS Catalog에서 Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "TCF4은(는) rs7228159 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 TCF4-Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy 유전자-질환 연관성 점수는 0.848 | 0.694 | 0.622입니다.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",
+        "score": "0.848 | 0.694 | 0.622",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "rs7228159은(는) GWAS Catalog에서 Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry와(과) 연관된 것으로 보고되었습니다.",
+        "trait": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "TCF4은(는) rs7228159 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "Open Targets에서 TCF4-Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy 유전자-질환 연관성 점수는 0.848 | 0.694 | 0.622입니다.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",
+        "score": "0.848 | 0.694 | 0.622",
+        "limitation_type": null,
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "해당 gene-disease 조합의 score가 없습니다.",
+        "verifier": "python_rule_v4"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs7228159는 GWAS Catalog에서 인지 성능, 수학 수업 수준, 걱정감과 연관된 변이로 보고되었습니다. 이 변이는 TCF4와 CCDC68 유전자 주변에 위치해 있으며, 두 유전자는 ±500 kb 범위 내에서 후보 유전자로 매핑됩니다. Open Targets 데이터에 따르면 TCF4는 피트-호프킨 증후군 및 Fuchs 안구막막 변형과 연관되어 있으나, 이 연관성은 SNP‑질환 직접 연관으로 해석되지 않습니다. 현재 제공된 근거에서 rs7228159가 불면증과 직접적으로 연관된다는 증거는 확인되지 않는다.  \n\n[최종 클레임]  \n1. rs7228159는 GWAS Catalog에서 Cognitive performance, Highest math class taken, Feeling worry와 연관된 것으로 보고되었습니다.  \n2. rs7228159는 TCF4와 CCDC68 유전자 주변에 위치해 있습니다.  \n3. TCF4는 rs7228159 주변 ±500 kb에서 매핑된 후보 유전자입니다.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 0,
+      "unsupported": 1,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 0.667,
+      "unsupported_rate": 0.333,
+      "confidence_score": 0.667
+    }
+  }
+]

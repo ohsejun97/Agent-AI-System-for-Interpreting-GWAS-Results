@@ -1,0 +1,244 @@
+[Step 3] 근거 수집: 49개 SNP  (표현형: sleep duration)
+============================================================
+[ 1/49] rs62158206  →  PAX8, AC016745.1, CBWD2
+    GC : Long sleep duration (>=10 hours) | Insomnia | Sleep duration
+    OT [PAX8]: hypothyroidism, congenital, nongoitrous, 2 | congenital hypo
+    OT [AC016745.1]: 없음
+    OT [CBWD2]: 없음
+[ 2/49] rs116219610  →  FANCL, VRK2
+    GC : Sleep duration
+    OT [FANCL]: Fanconi anemia | Fanconi anemia complementation group L | ac
+    OT [VRK2]: Fanconi anemia | Fanconi anemia complementation group L | sc
+[ 3/49] rs11682175  →  VRK2, FANCL
+    GC : Schizophrenia | Alcohol use disorder (consumption score) | Schizophren
+    OT [VRK2]: Fanconi anemia | Fanconi anemia complementation group L | sc
+    OT [FANCL]: Fanconi anemia | Fanconi anemia complementation group L | ac
+[ 4/49] rs8047587  →  RPGRIP1L, FTO, AKTIP
+    GC : HbA1c or polycystic ovary syndrome (pleiotropy) | Phospholipids to Tot
+    OT [RPGRIP1L]: Joubert syndrome | Meckel syndrome | Joubert syndrome with h
+    OT [FTO]: lethal polymalformative syndrome, Boissel type | obesity dis
+    OT [AKTIP]: esophageal disorder | gastroesophageal reflux disease | brai
+[ 5/49] rs915416  →  C1orf94, HMGB4, CSMD2
+    GC : Sleep duration | Sleep duration | Sleep duration
+    OT [C1orf94]: dermatophytosis | liver disorder | neurodegenerative disease
+    OT [HMGB4]: anorectal malformation | bone Paget disease | injury
+    OT [CSMD2]: neurodegenerative disease | placenta praevia | acute cystiti
+[ 6/49] rs365663  →  SLC6A3, LPCAT1, CLPTM1L
+    GC : Sleep duration | Sleep duration | Sleep duration
+    OT [SLC6A3]: Infantile dystonia-parkinsonism | classic dopamine transport
+    OT [LPCAT1]: prostate carcinoma | tympanic membrane perforation | hemangi
+    OT [CLPTM1L]: benign prostatic hyperplasia | basal cell carcinoma | lung c
+[ 7/49] rs13109404  →  BANK1, SLC39A8
+    GC : Pappalysin-1 levels | Osteoarthritis | Sleep duration
+    OT [BANK1]: systemic lupus erythematosus | Abnormality of the skeletal s
+    OT [SLC39A8]: SLC39A8-CDG | congenital disorder of glycosylation type II |
+[ 8/49] rs6889592  →  PAM, GIN1, PPIP5K2
+    GC : Sleep duration
+    OT [PAM]: type 2 diabetes mellitus | diabetes mellitus | Abnormality o
+    OT [GIN1]: diabetes mellitus | neuroendocrine neoplasm | angina pectori
+    OT [PPIP5K2]: hearing loss, autosomal recessive | type 2 diabetes mellitus
+[ 9/49] rs13329140  →  SEMA6D, SLC24A5, MYEF2
+    GC : Sleep duration
+    OT [SEMA6D]: neurodegenerative disease | restless legs syndrome | attenti
+    OT [SLC24A5]: oculocutaneous albinism type 6 | oculocutaneous albinism | b
+    OT [MYEF2]: oculocutaneous albinism type 6 | neurodegenerative disease |
+[10/49] rs12607679  →  TCF4, CCDC68, RAB27B
+    GC : Height | Sleep duration | Sleep duration
+    OT [TCF4]: Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial
+    OT [CCDC68]: presbycusis | Irritability | schizophrenia
+    OT [RAB27B]: major depressive disorder | Fuchs' endothelial dystrophy | c
+[11/49] rs7915425  →  BUB3, HMX2, HMX3
+    GC : Gemcitabine-induced early high-grade neutropenia in pancreatic cancer 
+    OT [BUB3]: smoking initiation | mosaic variegated aneuploidy syndrome |
+    OT [HMX2]: premature birth | placental retention | alcohol drinking
+    OT [HMX3]: neurodegenerative disease | liver disorder | rheumatic disor
+[12/49] rs12463754  →  SCN1A, TTC21B, SCN9A
+    GC : Sleep duration
+    OT [SCN1A]: Dravet syndrome | generalized epilepsy with febrile seizures
+    OT [TTC21B]: nephronophthisis | Jeune syndrome | Infantile nephronophthis
+    OT [SCN9A]: primary erythermalgia | paroxysmal extreme pain disorder | c
+[13/49] rs1668331  →  FOXP2, PPP1R3A
+    GC : Sleep duration | Insomnia
+    OT [FOXP2]: childhood apraxia of speech | hereditary disease | attention
+    OT [PPP1R3A]: type 2 diabetes mellitus | Abnormality of the skeletal syste
+[14/49] rs34388845  →  SCAND3, GPX5, GPX6
+    GC : Dental caries | Adult body size | Body fat percentage
+    OT [SCAND3]: neoplasm | hepatocellular carcinoma | non-small cell lung ca
+    OT [GPX5]: obesity disorder | obesity due to melanocortin 4 receptor de
+    OT [GPX6]: Huntington disease | juvenile Huntington disease | type 2 di
+[15/49] rs9843801  →  PCCB, MSL2, PPP2R3A
+    GC : Sleep duration
+    OT [PCCB]: propionic acidemia | hereditary disease | hypertensive disor
+    OT [MSL2]: Karayol-Borroto-Haghshenas neurodevelopmental syndrome | neu
+    OT [PPP2R3A]: neurodegenerative disease | diabetes mellitus | type 2 diabe
+[16/49] rs77684884  →  RBFOX1
+    GC : Sleep duration
+    OT [RBFOX1]: Rolandic epilepsy | self-limited epilepsy with centrotempora
+[17/49] rs12215241  →  HIST1H2BJ, HIST1H2AG, HIST1H4I
+    GC : Non-REM sleep duration | Sleep duration
+    OT [HIST1H2BJ]: 없음
+    OT [HIST1H2AG]: 없음
+    OT [HIST1H4I]: 없음
+[18/49] rs2192528  →  LCORL, NCAPG
+    GC : Sleep duration | Sleep duration | Sleep duration
+    OT [LCORL]: hypertensive disorder | type 2 diabetes mellitus | neurodege
+    OT [NCAPG]: health study participation | intelligence | hypertensive dis
+[19/49] rs7115856  →  HSD17B12, ALKBH3, C11orf96
+    GC : Sleep duration | Sleep duration | Essential hypertension (time to even
+    OT [HSD17B12]: Alzheimer disease | Parkinson disease | multiple sclerosis
+    OT [ALKBH3]: Abnormality of the skeletal system | liver disorder | metabo
+    OT [C11orf96]: neurodegenerative disease | gram-negative bacterial infectio
+[20/49] rs3823624  →  MAD1L1, FTSJ2, NUDT1
+    GC : Depression | Sleep duration
+    OT [MAD1L1]: mosaic variegated aneuploidy syndrome 7 with inflammation an
+    OT [FTSJ2]: 없음
+    OT [NUDT1]: prostate carcinoma | Abnormality of the skeletal system | at
+[21/49] rs10973207  →  ZCCHC7, PAX5, GRHPR
+    GC : Sleep duration | Sleep duration
+    OT [ZCCHC7]: major depressive disorder | Abnormality of the skeletal syst
+    OT [PAX5]: leukemia, acute lymphoblastic, susceptibility to, 3 | acute 
+    OT [GRHPR]: primary hyperoxaluria type 2 | primary hyperoxaluria | Hyper
+[22/49] rs62061734  →  MAPT, STH, SPPL2C
+    GC : Breast cancer | Sleep duration
+    OT [MAPT]: frontotemporal dementia | Pick disease | supranuclear palsy,
+    OT [STH]: cardiac arrhythmia | idiopathic pulmonary fibrosis | Parkins
+    OT [SPPL2C]: diabetes mellitus | osteoarthritis, hip | Alzheimer disease
+[23/49] rs4767550  →  NOS1, KSR2, FBXO21
+    GC : Insomnia | Sleep duration | Sleep duration
+    OT [NOS1]: cervical carcinoma | post-traumatic stress disorder | neurot
+    OT [KSR2]: cancer | hypertrophic cardiomyopathy | Noonan syndrome
+    OT [FBXO21]: Abnormality of the skeletal system | neurodegenerative disea
+[24/49] rs11076146  →  GNAO1, AMFR, NUDT21
+    GC : Sleep duration
+    OT [GNAO1]: developmental and epileptic encephalopathy, 17 | neurodevelo
+    OT [AMFR]: spastic paraplegia 89, autosomal recessive | breast carcinom
+    OT [NUDT21]: dengue disease | neoplasm | breast cancer
+[25/49] rs1633063  →  HLA-F, HLA-G, ZFP57
+    GC : Sleep duration | CD79B/TNFRSF13B protein level ratio | Hypothyroidism 
+    OT [HLA-F]: COVID-19 | preeclampsia | nasopharyngeal carcinoma
+    OT [HLA-G]: COVID-19 | neoplasm | cancer
+    OT [ZFP57]: transient neonatal diabetes mellitus | transient neonatal di
+[26/49] rs41501452  →  PRKG2, BMP3, RASGEF1B
+    GC : Sleep duration
+    OT [PRKG2]: acromesomelic dysplasia | spondylometaphyseal dysplasia, pag
+    OT [BMP3]: myopia | cataract | Hypermetropia
+    OT [RASGEF1B]: neurodegenerative disease | myopia | refractive error
+[27/49] rs540431  →  DAB1, C8B, C8A
+    GC : Sleep duration
+    OT [DAB1]: spinocerebellar ataxia type 37 | mathematical ability | rest
+    OT [C8B]: type II complement component 8 deficiency | Immunodeficiency
+    OT [C8A]: Immunodeficiency due to a late component of complements defi
+[28/49] rs11621908  →  ADCK1, C14orf178, AC008372.1
+    GC : Sleep duration | Sleep duration | Short sleep duration (<5 hours)
+    OT [ADCK1]: neurodegenerative disease | squamous cell carcinoma | ovaria
+    OT [C14orf178]: 없음
+    OT [AC008372.1]: 없음
+[29/49] rs1553132  →  GRM5, CTSC, RAB38
+    GC : Sleep duration | Sleep duration
+    OT [GRM5]: major depressive disorder | skin neoplasm | retinal detachme
+    OT [CTSC]: Papillon-Lefèvre syndrome | Haim-Munk syndrome | Papillon-Le
+    OT [RAB38]: benign neoplasm of eye | smoking initiation | asthma
+[30/49] rs9451146  →  PNRC1, SRSF12, PM20D2
+    GC : Sleep duration | Sleep duration
+    OT [PNRC1]: arthritic joint disease | benign thyroid gland neoplasm | co
+    OT [SRSF12]: placenta praevia | arthritic joint disease | hepatocellular 
+    OT [PM20D2]: Abnormality of the gastrointestinal tract | placenta praevia
+[31/49] rs11650677  →  SHISA6, DNAH9, PIRT
+    GC : Sleep duration
+    OT [SHISA6]: smoking initiation | risk-taking behaviour | alcohol drinkin
+    OT [DNAH9]: ciliary dyskinesia, primary, 40 | primary ciliary dyskinesia
+    OT [PIRT]: alcohol drinking | intracerebral hemorrhage | Parkinson dise
+[32/49] rs12336359  →  GLIS3, SLC1A1, SPATA6L
+    GC : Total testosterone levels | Sleep duration
+    OT [GLIS3]: neonatal diabetes mellitus with congenital hypothyroidism | 
+    OT [SLC1A1]: dicarboxylic aminoaciduria | schizophrenia | Sensorineural h
+    OT [SPATA6L]: Hypercholesterolemia | stroke disorder | alcohol drinking
+[33/49] rs11883686  →  NR4A2, AC011308.1, GPD2
+    GC : Sleep duration
+    OT [NR4A2]: intellectual developmental disorder with language impairment
+    OT [AC011308.1]: 없음
+    OT [GPD2]: type 2 diabetes mellitus | diabetes mellitus | polycystic ov
+[34/49] rs144625846  →  GBF1, NFKB2, PITX3
+    GC : Sleep duration
+    OT [GBF1]: Autosomal dominant intermediate Charcot-Marie-Tooth disease 
+    OT [NFKB2]: immunodeficiency, common variable, 10 | common variable immu
+    OT [PITX3]: Posterior polar cataract | Familial ocular anterior segment 
+[35/49] rs6979198  →  DUS4L, BCAP29, GPR22
+    GC : Sleep duration | Crystallized knowledge (multivariate analysis)
+    OT [DUS4L]: COG5-congenital disorder of glycosylation | neurodegenerativ
+    OT [BCAP29]: aplastic anemia | coronary artery disorder | smoking initiat
+    OT [GPR22]: atrial fibrillation | Abnormality of the gastrointestinal tr
+[36/49] rs7686205  →  YIPF7, GUF1, GNPDA2
+    GC : Sleep duration
+    OT [YIPF7]: coronary artery disorder | coronary atherosclerosis | stroke
+    OT [GUF1]: infantile spasms | hearing loss, autosomal recessive | deafn
+    OT [GNPDA2]: infantile spasms | type 2 diabetes mellitus | obesity disord
+[37/49] rs1872240  →  SLC35G2, NCK1, IL20RB
+    GC : Liver enzyme levels (alanine transaminase)
+    OT [SLC35G2]: prostate carcinoma | obesity disorder | sialolithiasis
+    OT [NCK1]: Abnormality of the skeletal system | essential hypertension 
+    OT [IL20RB]: alcohol drinking | urolithiasis | diverticular disease
+[38/49] rs16834426  →  PTPLB, MYLK, ADCY5
+    GC : Sleep duration
+    OT [PTPLB]: 없음
+    OT [MYLK]: aortic aneurysm, familial thoracic 7 | familial thoracic aor
+    OT [ADCY5]: dyskinesia with orofacial involvement, autosomal dominant | 
+[39/49] rs1392817  →  PDE4B, LEPR, SGIP1
+    GC : Sleep duration | Adolescent idiopathic scoliosis
+    OT [PDE4B]: asthma | chronic obstructive pulmonary disease | atopic ecze
+    OT [LEPR]: obesity due to leptin receptor gene deficiency | lipodystrop
+    OT [SGIP1]: type 2 diabetes mellitus | smoking initiation | major depres
+[40/49] rs17285646  →  RP11-763F8.1, CCSER1
+    GC : Sleep duration
+    OT [RP11-763F8.1]: 없음
+    OT [CCSER1]: placental abruption | type 2 diabetes mellitus | Parkinson d
+[41/49] rs113322698  →  REEP2, EGR1, KDM3B
+    GC : Sleep duration
+    OT [REEP2]: Autosomal recessive spastic paraplegia type 72 | hereditary 
+    OT [EGR1]: neurodegenerative disease | atrial fibrillation | type 2 dia
+    OT [KDM3B]: Diets-Jongmans syndrome | hereditary disease | Neurodevelopm
+[42/49] rs4642942  →  PUM1, SDC3, NKAIN1
+    GC : Sleep duration
+    OT [PUM1]: spinocerebellar ataxia 47 | neurodevelopmental disorder with
+    OT [SDC3]: COVID-19 | dengue disease | insomnia
+    OT [NKAIN1]: urolithiasis | alcohol drinking | bile duct disorder
+[43/49] rs79512144  →  MBOAT2, ASAP2, KIDINS220
+    GC : Sleep duration
+    OT [MBOAT2]: hemangioma of subcutaneous tissue | frozen shoulder | periph
+    OT [ASAP2]: neurodegenerative disease | chronic obstructive pulmonary di
+    OT [KIDINS220]: spastic paraplegia, intellectual disability, nystagmus, and 
+[44/49] rs11654671  →  PLD2, PSMB6, MINK1
+    GC : Sleep duration
+    OT [PLD2]: systemic lupus erythematosus | neoplasm | Alzheimer disease
+    OT [PSMB6]: plasma cell myeloma | mantle cell lymphoma | neoplasm
+    OT [MINK1]: Thrombocytopenia | Alzheimer disease | neurodegenerative dis
+[45/49] rs1263056  →  BUD13, ZNF259, APOA5
+    GC : Sleep duration | Sleep duration | Sleep duration
+    OT [BUD13]: metabolic syndrome | Hypercholesterolemia | influenza A (H1N
+    OT [ZNF259]: 없음
+    OT [APOA5]: hyperlipoproteinemia type V | Hyperlipoproteinemia type 4 | 
+[46/49] rs4688116  →  IGSF11, LSAMP
+    GC : Sleep duration
+    OT [IGSF11]: attention deficit-hyperactivity disorder | substance abuse |
+    OT [LSAMP]: insomnia | ovarian neoplasm | frozen shoulder
+[47/49] rs112230981  →  ERC2, WNT5A
+    GC : Sleep duration | Sleep duration
+    OT [ERC2]: Abnormality of the skeletal system | Inguinal hernia | osteo
+    OT [WNT5A]: Robinow syndrome | autosomal dominant Robinow syndrome | nep
+[48/49] rs28651105  →  GPR139, GPRC5B, IQCK
+    GC : Sleep duration
+    OT [GPR139]: Abnormality of the skeletal system | restless legs syndrome 
+    OT [GPRC5B]: megalencephalic leukoencephalopathy with subcortical cysts 3
+    OT [IQCK]: Abnormality of the skeletal system | Sjogren syndrome | plac
+[49/49] rs199534  →  WNT3, NSF, WNT9B
+    GC : Posterolateral temporal area (unadjusted for global measures) | Antero
+    OT [WNT3]: neurodegenerative disease | tetra-amelia | Tetraamelia - mul
+    OT [NSF]: developmental and epileptic encephalopathy 96 | neurodegener
+    OT [WNT9B]: glaucoma | Varicose veins | hypertensive disorder
+
+============================================================
+완료: 49개 SNP × 유전자 최대 3개 = 137행
+GWAS Catalog 근거: 137/137행
+Open Targets 근거: 125/137행
+
+✓ results/evidence_results.csv 저장 완료

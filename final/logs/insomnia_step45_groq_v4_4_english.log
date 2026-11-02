@@ -1,0 +1,93 @@
+[Step 4~5 v4.3 English] 11개 SNP 처리 시작 (표현형: insomnia)
+======================================================================
+
+[ 1/11] rs11693221 | genes: MEIS1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs11693221 structured interpretation | in=657, out=464, reasoning=192, total=1,121
+    [Groq pacing] 9.0초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: GWAS Catalog reports an association between rs11693221 and Sleep medication purchases | Short sleep duration (<5 hours). [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: MEIS1 is a candidate gene mapped within ±500 kb of rs11693221. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are MEIS1–insomnia=0.512. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs11693221 correction | in=799, out=268, reasoning=94, total=1,067
+    [Groq pacing] 8.5초 대기
+
+[ 2/11] rs6561715 | genes: OLFM4, PCDH8
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6561715 structured interpretation | in=719, out=441, reasoning=133, total=1,160
+    [Groq pacing] 9.3초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: GWAS Catalog reports an association between rs6561715 and Insomnia (standard GWA) | Insomnia. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: OLFM4 is a candidate gene mapped within ±500 kb of rs6561715. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are OLFM4–insomnia=0.395. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6561715 correction | in=895, out=210, reasoning=34, total=1,105
+    [Groq pacing] 8.8초 대기
+
+[ 3/11] rs4986172 | genes: ACBD4, HEXIM1, PLCD3
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs4986172 structured interpretation | in=756, out=549, reasoning=284, total=1,305
+    [Groq pacing] 10.4초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: Open Targets reports gene–disease associations between HEXIM1 and insomnia. [모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are HEXIM1–insomnia=0.336. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+    - SUPPORTED: HEXIM1 is a candidate gene mapped within ±500 kb of rs4986172. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4986172 correction | in=892, out=241, reasoning=87, total=1,133
+    [Groq pacing] 9.1초 대기
+
+[ 4/11] rs370771 | genes: LIN28B, HACE1, BVES
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs370771 structured interpretation | in=790, out=413, reasoning=134, total=1,203
+    [Groq pacing] 9.6초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: The provided GWAS Catalog evidence does not report a direct association between rs370771 and the target phenotype. [제공된 GWAS trait에 분석 대상 phenotype이 없습니다.]
+    - SUPPORTED: LIN28B is a candidate gene mapped within ±500 kb of rs370771. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are LIN28B–major depressive disorder=0.414. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs370771 correction | in=939, out=226, reasoning=54, total=1,165
+    [Groq pacing] 9.3초 대기
+
+[ 5/11] rs6938026 | genes: DNPH1, CUL9, SRF
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6938026 structured interpretation | in=773, out=405, reasoning=99, total=1,178
+    [Groq pacing] 9.4초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: GWAS Catalog reports an association between rs6938026 and Height. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are DNPH1–intelligence=0.249. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+    - SUPPORTED: The provided GWAS Catalog evidence does not report a direct association between rs6938026 and the target phenotype. [제공된 GWAS trait에 분석 대상 phenotype이 없습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6938026 correction | in=955, out=241, reasoning=71, total=1,196
+    [Groq pacing] 9.6초 대기
+
+[ 6/11] rs6984111 | genes: MSRA, PRSS55, RP1L1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq 429] rs6984111 structured interpretation | 71.0초 대기 (1/3)
+    [Groq] rs6984111 structured interpretation | in=750, out=333, reasoning=75, total=1,083
+    [Groq pacing] 8.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: Open Targets reports gene–disease associations between MSRA and hypertensive disorder. [모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.]
+    - SUPPORTED: The Open Targets gene–disease association scores are PRSS55–essential hypertension=0.282. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+    - SUPPORTED: The provided GWAS Catalog evidence does not report a direct association between rs6984111 and the target phenotype. [제공된 GWAS trait에 분석 대상 phenotype이 없습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq 429] rs6984111 correction | 483.0초 대기 (1/3)
+    [Groq 429] rs6984111 correction | 102.0초 대기 (2/3)
+    [Groq] rs6984111 correction | in=892, out=252, reasoning=90, total=1,144
+    [Groq pacing] 9.2초 대기
+
+[ 7/11] rs4073582 | genes: CNIH2, YIF1A, RAB1B
+  [Step 4] 구조화 초기 해석 생성
+    [Groq 429] rs4073582 structured interpretation | 722.0초 대기 (1/3)

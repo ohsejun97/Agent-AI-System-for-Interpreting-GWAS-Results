@@ -1,6 +1,17 @@
 # GWAS 해석 Agent AI System
 
-> **상태 안내**: 이 저장소는 2026-06-26 중간보고 시점의 스냅샷이다. Step 4~5 자기검증은 LLM(qwen2.5:3b)이 판정하는 방식이고, insomnia 결과는 SUPPORTED 3.8%, 지지율(S+P) 42.3%다 ([docs/pipeline_status.md](docs/pipeline_status.md)). 최종 버전(2026-07 CURT 최종보고서)은 아직 반영하지 않았다.
+> **상태 안내 (2026-11-02 갱신)**: 아래 본문은 2026-06-26 중간보고 시점 기준이다. 최종 단계(2026-07, CURT 최종보고서)의 코드와 결과는 [`final/`](final/README.md)에 있다.
+> 최종 단계에서는 Step 4~5를 **Groq 생성 + Python 규칙 검증**으로 바꿨다. 불면증 클레임의 SUPPORTED 비율은 이렇게 바뀌었다.
+>
+> | 단계 | 생성 | 검증 | SUPPORTED |
+> |---|---|---|---|
+> | 중간보고 (6/26) | Ollama qwen2.5:3b | 같은 LLM 자기검증 | 1/26 (3.8%) |
+> | groq v3 | Groq gpt-oss-20b | LLM(llama-3.1-8b) 검증 | 12/33 (36.4%) |
+> | groq v4.1 | Groq gpt-oss-20b | Python 규칙 검증 | 28/33 (84.8%) |
+> | 최종 v4.3 | Groq gpt-oss-20b | Python 규칙 검증 | 32/33 (97.0%) |
+>
+> **97~98%는 정확도가 아니다.** 제공된 DB 필드와 생성 클레임이 일치하는 비율(내부 근거 일치율)이다. 생물학적 정확도나 일반화 성능은 재지 않았다.
+> 수면 시간의 98.0%(147개 중 144개)는 최종보고서에만 있고, 결과 파일은 저장소에 없다.
 
 Raw GWAS summary statistics를 입력받아 DB 근거 기반 SNP 해석과 자기검증 결과를 출력하는 end-to-end 파이프라인.
 

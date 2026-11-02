@@ -1,0 +1,628 @@
+[
+  {
+    "snp_id": "rs11693221",
+    "genes": [
+      "MEIS1"
+    ],
+    "evidence": [
+      {
+        "gene": "MEIS1",
+        "gwas_catalog_traits": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "open_targets_diseases": "restless legs syndrome | insomnia | prostate carcinoma",
+        "open_targets_scores": "0.546 | 0.512 | 0.495"
+      }
+    ],
+    "initial_interpretation": "The SNP rs11693221 lies within a region that has been associated in the GWAS Catalog with sleep‑related traits such as sleep medication purchases and short sleep duration. The nearest candidate gene within ±500 kb is MEIS1, which has been linked in Open Targets to restless legs syndrome, insomnia, and prostate carcinoma, with moderate association scores (0.546, 0.512, 0.495). These data suggest that rs11693221 may influence insomnia risk through a pathway involving MEIS1, but the evidence is indirect and does not establish causality. No other genes or phenotypes are reported for this locus in the provided databases. Further functional studies would be required to confirm a causal role.\n\n[클레임 목록]\n1. rs11693221 is associated with sleep‑related traits in the GWAS Catalog.  \n2. MEIS1 is the candidate gene mapped to rs11693221 within ±500 kb.  \n3. Open Targets links MEIS1 to insomnia with a moderate association score.",
+    "initial_claims": [
+      "rs11693221 is associated with sleep‑related traits in the GWAS Catalog.",
+      "MEIS1 is the candidate gene mapped to rs11693221 within ±500 kb.",
+      "Open Targets links MEIS1 to insomnia with a moderate association score."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs11693221 is associated with sleep‑related traits in the GWAS Catalog.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "MEIS1 is the candidate gene mapped to rs11693221 within ±500 kb.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "Open Targets links MEIS1 to insomnia with a moderate association score.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs11693221는 GWAS Catalog에서 “sleep medication purchases”와 “short sleep duration (<5 hours)”와 같은 수면 관련 특성에 연관되어 있는 것으로 보고되었습니다. 이 변이의 ±500 kb 범위 내에서 가장 가까운 후보 유전자는 MEIS1이며, Open Targets 데이터베이스에서는 MEIS1이 “restless legs syndrome”, “insomnia”, “prostate carcinoma”와 같은 질환과 연관되어 있음을 보여줍니다. 따라서 rs11693221이 수면 관련 특성과 연관되어 있다는 증거가 존재하며, 해당 변이와 가장 가까운 유전자 MEIS1이 수면 장애와 관련된 질환과 연결되어 있다는 점을 확인할 수 있습니다. 그러나 현재 제공된 데이터만으로는 rs11693221이 MEIS1을 통해 수면 장애에 직접적인 인과적 영향을 미친다는 결론을 내리기 어렵습니다. 추가적인 기능적 연구가 필요합니다.\n\n[최종 클레임]  \n1. rs11693221은 GWAS Catalog에서 수면 관련 특성(“sleep medication purchases”, “short sleep duration (<5 hours)”)과 연관되어 있다.  \n2. MEIS1은 rs11693221의 ±500 kb 범위 내에서 가장 가까운 후보 유전자이다.  \n3. Open Targets 데이터베이스에서 MEIS1은 “insomnia”와 같은 수면 장애와 연관되어 있다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 1,
+      "unsupported": 0,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.833
+    }
+  },
+  {
+    "snp_id": "rs6561715",
+    "genes": [
+      "OLFM4",
+      "PCDH8"
+    ],
+    "evidence": [
+      {
+        "gene": "OLFM4",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "major depressive disorder | bipolar disorder | insomnia",
+        "open_targets_scores": "0.501 | 0.397 | 0.395"
+      },
+      {
+        "gene": "PCDH8",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "abnormality of serum enzyme levels | arthritic joint disease | atopic conjunctivitis",
+        "open_targets_scores": "0.278 | 0.272 | 0.265"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6561715 shows a statistically significant association with insomnia in the GWAS Catalog, indicating that this variant is linked to the phenotype. It lies within 500 kb of two candidate genes, OLFM4 and PCDH8, both of which have been mapped to the region. Open Targets reports that OLFM4 is associated with insomnia, major depressive disorder, and bipolar disorder, while PCDH8 is linked to several unrelated diseases but not insomnia. The Open Targets scores (0.501 for OLFM4 and 0.278 for PCDH8) reflect the strength of gene‑disease associations, not the effect size of the SNP itself. Thus, rs6561715 is a credible insomnia-associated variant, and OLFM4 is a plausible candidate gene, whereas PCDH8’s relevance to insomnia remains uncertain.\n\n[클레임 목록]\n1. rs6561715 is associated with insomnia according to the GWAS Catalog.  \n2. OLFM4 is a candidate gene near rs6561715 that is linked to insomnia in Open Targets.  \n3. PCDH8 is a candidate gene near rs6561715 but is not linked to insomnia in Open Targets.",
+    "initial_claims": [
+      "rs6561715 is associated with insomnia according to the GWAS Catalog.",
+      "OLFM4 is a candidate gene near rs6561715 that is linked to insomnia in Open Targets.",
+      "PCDH8 is a candidate gene near rs6561715 but is not linked to insomnia in Open Targets."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs6561715 is associated with insomnia according to the GWAS Catalog.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "OLFM4 is a candidate gene near rs6561715 that is linked to insomnia in Open Targets.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "PCDH8 is a candidate gene near rs6561715 but is not linked to insomnia in Open Targets.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs6561715는 GWAS Catalog에서 수면장애(Insomnia)와 통계적으로 유의한 연관성을 보이고 있습니다. 이 변이는 500 kb 이내에 위치한 OLFM4와 PCDH8 유전자 근처에 존재합니다. Open Targets 데이터베이스에 따르면 OLFM4는 수면장애와 연관된 유전자로 보고되었으며, PCDH8는 수면장애와 관련된 질환 목록에 포함되어 있지 않습니다. 따라서 rs6561715는 수면장애와 관련된 변이로 간주될 수 있으며, OLFM4가 이 변이와 연관된 후보 유전자 중 하나로 제시됩니다. PCDH8는 수면장애와 직접적인 연관성이 확인되지 않았으므로, 이 변이와의 연관성은 현재로서는 확정되지 않습니다.  \n\n[최종 클레임]  \n1. rs6561715는 GWAS Catalog에서 수면장애와 연관되어 있다.  \n2. OLFM4는 rs6561715 근처에 위치한 후보 유전자이며, Open Targets에서 수면장애와 연관된 유전자로 보고된다.  \n3. PCDH8는 rs6561715 근처에 위치한 후보 유전자이지만, Open Targets에서 수면장애와 연관된 질환 목록에 포함되어 있지 않다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 1,
+      "unsupported": 0,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.833
+    }
+  },
+  {
+    "snp_id": "rs4986172",
+    "genes": [
+      "ACBD4",
+      "HEXIM1",
+      "PLCD3"
+    ],
+    "evidence": [
+      {
+        "gene": "ACBD4",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | essential hypertension | hypertensive disorder",
+        "open_targets_scores": "0.464 | 0.208 | 0.199"
+      },
+      {
+        "gene": "HEXIM1",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | intelligence | insomnia",
+        "open_targets_scores": "0.37 | 0.364 | 0.336"
+      },
+      {
+        "gene": "PLCD3",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "Headache | migraine disorder | coronary artery disorder",
+        "open_targets_scores": "0.371 | 0.166 | 0.166"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4986172 lies within a genomic region that maps to three candidate genes: ACBD4, HEXIM1, and PLCD3. GWAS Catalog data show associations of these genes with height, but none directly link rs4986172 to insomnia. Open Targets indicates that HEXIM1 has a target‑disease association with insomnia (score 0.336), while ACBD4 and PLCD3 are associated with other diseases. Thus, rs4986172 may be in linkage disequilibrium with a variant affecting HEXIM1, which has a documented association with insomnia, but this does not prove causality. Further functional studies are required to determine whether rs4986172 or nearby variants influence insomnia risk.\n\n[클레임 목록]\n1. rs4986172 is located near the gene HEXIM1.  \n2. HEXIM1 has an Open Targets disease association with insomnia.  \n3. GWAS Catalog data do not report a direct association between rs4986172 and insomnia.",
+    "initial_claims": [
+      "rs4986172 is located near the gene HEXIM1.",
+      "HEXIM1 has an Open Targets disease association with insomnia.",
+      "GWAS Catalog data do not report a direct association between rs4986172 and insomnia."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs4986172 is located near the gene HEXIM1.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "HEXIM1 has an Open Targets disease association with insomnia.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "GWAS Catalog data do not report a direct association between rs4986172 and insomnia.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs4986172는 HEXIM1 유전자 근처에 위치해 있습니다. Open Targets 데이터베이스에 따르면 HEXIM1은 불면증과 연관된 질환으로 분류되어 있으며, 해당 질환과의 연관성 점수는 0.336입니다. GWAS Catalog에서는 rs4986172와 불면증 사이의 직접적인 연관성을 보고하지 않았으나, 이는 현재까지 보고된 결과가 없다는 의미이며, 잠재적 연관성이 완전히 배제된 것은 아닙니다. 따라서 rs4986172가 HEXIM1에 연결된 변이와 연계되어 있을 가능성은 존재하지만, 인과관계가 확정되기 위해서는 추가적인 기능적 연구가 필요합니다.\n\n[최종 클레임]  \n1. rs4986172는 HEXIM1 유전자 근처에 위치한다.  \n2. HEXIM1은 Open Targets에서 불면증과 연관된 질환으로 분류된다.  \n3. GWAS Catalog에서는 rs4986172와 불면증 사이의 직접적인 연관성을 보고하지 않았으나, 이는 현재까지의 데이터에 한정된 결과이며, 잠재적 연관성이 완전히 배제된 것은 아니다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 1,
+      "unsupported": 0,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.833
+    }
+  },
+  {
+    "snp_id": "rs370771",
+    "genes": [
+      "LIN28B",
+      "HACE1",
+      "BVES"
+    ],
+    "evidence": [
+      {
+        "gene": "LIN28B",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "Abnormality of the skeletal system | major depressive disorder | cholelithiasis",
+        "open_targets_scores": "0.463 | 0.414 | 0.342"
+      },
+      {
+        "gene": "HACE1",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "spastic paraplegia-severe developmental delay-epilepsy syndrome | Seizure | Spastic paraplegia",
+        "open_targets_scores": "0.781 | 0.566 | 0.486"
+      },
+      {
+        "gene": "BVES",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "",
+        "open_targets_scores": ""
+      }
+    ],
+    "initial_interpretation": "The SNP rs370771 lies within a 500‑kb window of three candidate genes: LIN28B, HACE1, and BVES. GWAS Catalog records link these genes to lung function (FVC), hip circumference adjusted for BMI, and childhood body‑mass index, but no insomnia association is reported. Open Targets associates LIN28B with abnormal skeletal system traits, major depressive disorder, and cholelithiasis, and HACE1 with spastic paraplegia, seizures, and related neurological conditions; BVES has no disease associations listed. Thus, current evidence does not support a direct link between rs370771 and insomnia, nor does it implicate any of the mapped genes as causal for insomnia. Further functional or association studies would be required to clarify any potential role in sleep regulation.\n\n[클레임 목록]\n1. rs370771 is located within ±500 kb of the gene LIN28B.  \n2. rs370771 is located within ±500 kb of the gene HACE1.  \n3. rs370771 is located within ±500 kb of the gene BVES.",
+    "initial_claims": [
+      "rs370771 is located within ±500 kb of the gene LIN28B.",
+      "rs370771 is located within ±500 kb of the gene HACE1.",
+      "rs370771 is located within ±500 kb of the gene BVES."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs370771 is located within ±500 kb of the gene LIN28B.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "rs370771 is located within ±500 kb of the gene HACE1.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "rs370771 is located within ±500 kb of the gene BVES.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \n현재 수집된 근거만으로 rs370771이 수면장애(인수미나)와 직접적인 연관이 있다는 결론을 내리기 어렵다. rs370771은 LIN28B, HACE1, BVES 유전자와 각각 500 kb 이내에 위치해 있으나, GWAS Catalog 및 Open Targets 데이터베이스에서는 이 SNP와 수면장애 사이의 직접적인 연관성을 보고하지 않는다. 또한, 이 세 유전자에 대한 기존의 질병 연관성(예: 골격계 이상, 주요 우울장애, 신경계 질환 등)은 수면장애와는 별개로 보고되고 있다. 따라서 rs370771이 수면장애에 기여한다는 직접적인 증거는 현재 없으며, 추가적인 기능적 연구나 연관성 분석이 필요하다.\n\n[최종 클레임]  \n1. rs370771은 LIN28B 유전자의 ±500 kb 이내에 위치한다.  \n2. rs370771은 HACE1 유전자의 ±500 kb 이내에 위치한다.  \n3. rs370771은 BVES 유전자의 ±500 kb 이내에 위치한다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 0,
+      "partially_supported": 3,
+      "unsupported": 0,
+      "strict_support_rate": 0.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "snp_id": "rs6938026",
+    "genes": [
+      "DNPH1",
+      "CUL9",
+      "SRF"
+    ],
+    "evidence": [
+      {
+        "gene": "DNPH1",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "intelligence | asthma | prostate cancer",
+        "open_targets_scores": "0.249 | 0.064 | 0.043"
+      },
+      {
+        "gene": "CUL9",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | schizophrenia | placental abruption",
+        "open_targets_scores": "0.5 | 0.263 | 0.219"
+      },
+      {
+        "gene": "SRF",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | hepatocellular carcinoma | cancer",
+        "open_targets_scores": "0.549 | 0.106 | 0.105"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6938026 has no reported association with insomnia in the provided databases. GWAS Catalog data link this variant to height and schizophrenia, but not to insomnia. The variant lies within 500 kb of three candidate genes—DNPH1, CUL9, and SRF—each of which has been implicated in other traits or diseases (e.g., intelligence, asthma, prostate cancer, neurodegenerative disease, schizophrenia, placental abruption, hepatocellular carcinoma, and cancer). Open Targets scores reflect gene‑disease associations, not direct SNP‑disease links, and none of these associations involve insomnia. Consequently, current evidence does not support a causal role for rs6938026 in insomnia.\n\n[클레임 목록]\n1. rs6938026 is associated with height.  \n2. rs6938026 is associated with schizophrenia.  \n3. rs6938026 lies within 500 kb of the genes DNPH1, CUL9, and SRF.",
+    "initial_claims": [
+      "rs6938026 is associated with height.",
+      "rs6938026 is associated with schizophrenia.",
+      "rs6938026 lies within 500 kb of the genes DNPH1, CUL9, and SRF."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs6938026 is associated with height.",
+        "verdict": "UNSUPPORTED",
+        "raw_verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "rs6938026 is associated with schizophrenia.",
+        "verdict": "UNSUPPORTED",
+        "raw_verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "rs6938026 lies within 500 kb of the genes DNPH1, CUL9, and SRF.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \n현재 수집된 근거만으로 rs6938026이 불면증과 직접적인 연관이 있다는 결론을 내리기 어렵다. GWAS Catalog와 Open Targets 데이터베이스에 따르면 이 변이는 키와 정신분열증과 관련된 유전적 변이와 연관되어 있으나, 불면증과는 연결되어 있지 않다. 또한 rs6938026은 DNPH1, CUL9, SRF 유전자와 500 kb 이내에 위치해 있으나, 이 유전자들 역시 불면증과의 직접적인 연관성을 보이지 않는다. 따라서 현재의 데이터는 rs6938026이 불면증의 원인 유전자로서의 역할을 지지하지 않는다.\n\n[최종 클레임]  \n1. rs6938026 lies within 500 kb of the genes DNPH1, CUL9, and SRF.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 0,
+      "partially_supported": 1,
+      "unsupported": 2,
+      "strict_support_rate": 0.0,
+      "evidence_support_rate": 0.333,
+      "unsupported_rate": 0.667,
+      "confidence_score": 0.167
+    }
+  },
+  {
+    "snp_id": "rs6984111",
+    "genes": [
+      "MSRA",
+      "PRSS55",
+      "RP1L1"
+    ],
+    "evidence": [
+      {
+        "gene": "MSRA",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "hypertensive disorder | type 2 diabetes mellitus | alcohol drinking",
+        "open_targets_scores": "0.478 | 0.453 | 0.449"
+      },
+      {
+        "gene": "PRSS55",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "polycythemia | hypertensive disorder | essential hypertension",
+        "open_targets_scores": "0.316 | 0.314 | 0.282"
+      },
+      {
+        "gene": "RP1L1",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "occult macular dystrophy | retinitis pigmentosa 88 | retinitis pigmentosa",
+        "open_targets_scores": "0.775 | 0.681 | 0.596"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6984111 has no reported association with insomnia in the GWAS Catalog.  \nWithin ±500 kb of rs6984111, the candidate genes MSRA, PRSS55, and RP1L1 are linked in Open Targets to hypertensive disorder, type 2 diabetes mellitus, alcohol drinking, polycythemia, essential hypertension, occult macular dystrophy, and retinitis pigmentosa, but none to insomnia.  \nBecause neither GWAS nor Open Targets provide evidence connecting rs6984111 or its nearby genes to insomnia, the current database evidence does not support a role for this variant in the disorder.  \n\n[클레임 목록]  \n1. rs6984111 is not reported in the GWAS Catalog for insomnia.  \n2. The genes MSRA, PRSS55, and RP1L1 mapped to rs6984111 have no documented association with insomnia in Open Targets.  \n3. Therefore, current database evidence does not support a causal role of rs6984111 in insomnia.",
+    "initial_claims": [
+      "rs6984111 is not reported in the GWAS Catalog for insomnia.",
+      "The genes MSRA, PRSS55, and RP1L1 mapped to rs6984111 have no documented association with insomnia in Open Targets.",
+      "Therefore, current database evidence does not support a causal role of rs6984111 in insomnia."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs6984111 is not reported in the GWAS Catalog for insomnia.",
+        "verdict": "UNSUPPORTED",
+        "raw_verdict": "UNSUPPORTED"
+      },
+      {
+        "claim": "The genes MSRA, PRSS55, and RP1L1 mapped to rs6984111 have no documented association with insomnia in Open Targets.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "Therefore, current database evidence does not support a causal role of rs6984111 in insomnia.",
+        "verdict": "UNSUPPORTED",
+        "raw_verdict": "UNSUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \n현재 수집된 데이터베이스 근거에 따르면, rs6984111과 인근에 위치한 MSRA, PRSS55, RP1L1 유전자들은 Open Targets에서 수면장애(인수미나)와 관련된 유전적 연관성을 보고하지 않고 있습니다. 따라서 이 SNP와 해당 유전자들이 수면장애와 직접적인 연관이 있다는 증거는 현재로서는 확인되지 않습니다.  \n\n[최종 클레임]  \n1. MSRA, PRSS55, RP1L1 유전자들은 Open Targets에서 수면장애와 관련된 연관성을 보고하지 않는다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 0,
+      "partially_supported": 1,
+      "unsupported": 2,
+      "strict_support_rate": 0.0,
+      "evidence_support_rate": 0.333,
+      "unsupported_rate": 0.667,
+      "confidence_score": 0.167
+    }
+  },
+  {
+    "snp_id": "rs4073582",
+    "genes": [
+      "CNIH2",
+      "YIF1A",
+      "RAB1B"
+    ],
+    "evidence": [
+      {
+        "gene": "CNIH2",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | insomnia | mathematical ability",
+        "open_targets_scores": "0.384 | 0.116 | 0.106"
+      },
+      {
+        "gene": "YIF1A",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "type 2 diabetes mellitus | skeletal system disorder | bladder transitional cell carcinoma",
+        "open_targets_scores": "0.13 | 0.112 | 0.033"
+      },
+      {
+        "gene": "RAB1B",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | infection | colorectal carcinoma",
+        "open_targets_scores": "0.318 | 0.08 | 0.076"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4073582 lies within a genomic region that maps to the candidate genes CNIH2, YIF1A, and RAB1B. GWAS Catalog data show that variants in this region have been associated with gout and body mass index, but no direct association with insomnia has been reported. Open Targets indicates that CNIH2 has a modest association with insomnia (score 0.116), while YIF1A and RAB1B show no evidence linking them to insomnia. Thus, the current evidence suggests a possible, but unconfirmed, link between rs4073582 and insomnia through CNIH2, with no causal inference warranted. Further functional studies would be required to clarify any biological relevance.\n\n[클레임 목록]\n1. rs4073582 is located near the candidate gene CNIH2.  \n2. GWAS Catalog reports associations of this region with gout and body mass index, not insomnia.  \n3. Open Targets assigns a modest score of 0.116 to the association between CNIH2 and insomnia.",
+    "initial_claims": [
+      "rs4073582 is located near the candidate gene CNIH2.",
+      "GWAS Catalog reports associations of this region with gout and body mass index, not insomnia.",
+      "Open Targets assigns a modest score of 0.116 to the association between CNIH2 and insomnia."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs4073582 is located near the candidate gene CNIH2.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "GWAS Catalog reports associations of this region with gout and body mass index, not insomnia.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "Open Targets assigns a modest score of 0.116 to the association between CNIH2 and insomnia.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs4073582는 CNIH2 유전자를 포함하는 유전체 영역에 위치해 있습니다.  \n이 영역은 GWAS Catalog에서 요산 결석(가out) 및 체질량 지수(BMI)와 연관된 변이들을 보고하고 있으나, 현재까지는 불면증과 직접적인 연관성을 보고한 바는 없습니다.  \nOpen Targets 데이터베이스에서는 CNIH2가 불면증과 관련된 유전자로 분류되었으며, 해당 질환에 대한 점수는 0.116으로 나타났습니다.  \n그러나 이 점수는 유전자‑질환 연관성을 나타내는 것이지, rs4073582와 불면증 사이의 직접적인 연관성을 의미하지는 않습니다.  \n따라서 현재 수집된 근거만으로 rs4073582가 불면증에 직접적인 영향을 미친다고 결론짓기는 어렵습니다. 추가적인 기능적 연구가 필요합니다.\n\n[최종 클레임]  \n1. rs4073582는 CNIH2 유전자를 포함하는 유전체 영역에 위치해 있다.  \n2. GWAS Catalog는 이 영역이 요산 결석과 체질량 지수와 연관되어 있음을 보고하며, 불면증과의 연관성은 보고되지 않았다.  \n3. Open Targets는 CNIH2를 불면증과 관련된 유전자로 분류하고 있으며, 해당 질환에 대한 점수는 0.116이다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 0,
+      "partially_supported": 3,
+      "unsupported": 0,
+      "strict_support_rate": 0.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.5
+    }
+  },
+  {
+    "snp_id": "rs9576155",
+    "genes": [
+      "SUPT20H",
+      "EXOSC8",
+      "ALG5"
+    ],
+    "evidence": [
+      {
+        "gene": "SUPT20H",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "neurodegenerative disease | bacterial arthritis | insomnia",
+        "open_targets_scores": "0.522 | 0.341 | 0.273"
+      },
+      {
+        "gene": "EXOSC8",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "pontocerebellar hypoplasia, type 1C | pontocerebellar hypoplasia type 1 | neurodegenerative disease",
+        "open_targets_scores": "0.69 | 0.64 | 0.516"
+      },
+      {
+        "gene": "ALG5",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "polycystic kidney disease 7 | autosomal dominant polycystic kidney disease | neurodegenerative disease",
+        "open_targets_scores": "0.602 | 0.422 | 0.34"
+      }
+    ],
+    "initial_interpretation": "The SNP rs9576155 is located within a genomic region that has been reported in the GWAS Catalog to be associated with “Decaffeinated coffee consumption and/or insomnia.” Within ±500 kb of the SNP, three candidate genes—SUPT20H, EXOSC8, and ALG5—have been mapped. Open Targets lists insomnia as a disease linked to each of these genes, with association scores ranging from 0.273 to 0.522. These data provide evidence of a statistical association between the SNP and insomnia, but they do not establish causality or identify which gene, if any, mediates the effect. Further functional studies would be required to determine the biological mechanism underlying this association.\n\n[클레임 목록]  \n1. rs9576155 is statistically associated with insomnia according to the GWAS Catalog.  \n2. The gene SUPT20H, located within 500 kb of rs9576155, is linked to insomnia in Open Targets.  \n3. The gene EXOSC8, located within 500 kb of rs9576155, is linked to insomnia in Open Targets.",
+    "initial_claims": [
+      "rs9576155 is statistically associated with insomnia according to the GWAS Catalog.",
+      "The gene SUPT20H, located within 500 kb of rs9576155, is linked to insomnia in Open Targets.",
+      "The gene EXOSC8, located within 500 kb of rs9576155, is linked to insomnia in Open Targets."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs9576155 is statistically associated with insomnia according to the GWAS Catalog.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "The gene SUPT20H, located within 500 kb of rs9576155, is linked to insomnia in Open Targets.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "The gene EXOSC8, located within 500 kb of rs9576155, is linked to insomnia in Open Targets.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs9576155는 GWAS Catalog에서 “Decaffeinated coffee consumption and/or insomnia”와 연관된 변이로 보고되어 있으며, 이는 rs9576155가 수면장애(인수면)와 통계적으로 연관되어 있음을 시사합니다. rs9576155 부근(±500 kb)에는 SUPT20H와 EXOSC8 두 유전자가 위치해 있으며, Open Targets 데이터베이스에서 이 두 유전자가 수면장애와 연관된 질환으로 분류되어 있습니다. 그러나 현재의 증거는 SNP와 수면장애 사이의 인과관계 또는 특정 유전자가 매개체 역할을 한다는 결론을 내리기에 충분하지 않으며, 기능적 연구가 필요합니다.  \n\n현재 수집된 근거만으로 직접적인 연관성을 확정하기 어렵다.  \n\n[최종 클레임]  \n1. rs9576155는 GWAS Catalog에 따라 수면장애와 통계적으로 연관되어 있다.  \n2. SUPT20H는 rs9576155 부근에 위치하며 Open Targets에서 수면장애와 연관된 질환으로 분류되어 있다.  \n3. EXOSC8은 rs9576155 부근에 위치하며 Open Targets에서 수면장애와 연관된 질환으로 분류되어 있다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4884332",
+    "genes": [
+      "DIAPH3"
+    ],
+    "evidence": [
+      {
+        "gene": "DIAPH3",
+        "gwas_catalog_traits": "Insomnia",
+        "open_targets_diseases": "autosomal dominant nonsyndromic hearing loss | smoking initiation | insomnia",
+        "open_targets_scores": "0.575 | 0.363 | 0.32"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4884332 is located near the DIAPH3 gene, which lies within a 500‑kb window around the variant. GWAS Catalog records an association between rs4884332 and the phenotype insomnia, providing direct evidence of a statistical link. Open Targets lists insomnia as one of the diseases linked to DIAPH3, with a moderate association score of 0.32, indicating that DIAPH3 is a candidate gene for this condition but not confirming causality. No other phenotypes or diseases are directly tied to rs4884332 in the provided data. Thus, rs4884332 shows a statistically significant association with insomnia, and DIAPH3 is a plausible but not definitively causal gene for this trait.\n\n[클레임 목록]\n1. rs4884332 is statistically associated with insomnia according to GWAS Catalog data.  \n2. DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.  \n3. DIAPH3 has an Open Targets association score of 0.32 with insomnia.",
+    "initial_claims": [
+      "rs4884332 is statistically associated with insomnia according to GWAS Catalog data.",
+      "DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.",
+      "DIAPH3 has an Open Targets association score of 0.32 with insomnia."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs4884332 is statistically associated with insomnia according to GWAS Catalog data.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "DIAPH3 has an Open Targets association score of 0.32 with insomnia.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs4884332는 GWAS Catalog에서 수면장애(Insomnia)와 통계적으로 유의한 연관성을 보이고 있습니다. rs4884332를 포함한 ±500 kb 영역에 위치한 DIAPH3 유전자는 이 변이와 인접해 있으며, Open Targets 데이터베이스에서도 DIAPH3가 수면장애와 연관된 질환 목록에 포함되어 있습니다(연관 점수 0.32). 이 점수는 DIAPH3가 수면장애와 통계적으로 연결되어 있음을 시사하지만, 인과관계가 확정되었다고 해석할 수는 없습니다. 현재 수집된 근거만으로는 rs4884332가 수면장애에 직접적인 인과적 역할을 한다는 결론을 내리기 어렵습니다.\n\n[최종 클레임]  \n1. rs4884332는 GWAS Catalog 데이터에 따라 수면장애와 통계적으로 연관되어 있다.  \n2. DIAPH3는 rs4884332를 포함한 ±500 kb 범위 내에 위치한 후보 유전자이다.  \n3. Open Targets 데이터베이스에서 DIAPH3는 수면장애와 연관된 질환 목록에 포함되어 있으며, 해당 연관 점수는 0.32이다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 1,
+      "unsupported": 0,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.833
+    }
+  },
+  {
+    "snp_id": "rs1456193",
+    "genes": [
+      "LSAMP"
+    ],
+    "evidence": [
+      {
+        "gene": "LSAMP",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "insomnia | ovarian neoplasm | frozen shoulder",
+        "open_targets_scores": "0.385 | 0.343 | 0.318"
+      }
+    ],
+    "initial_interpretation": "The SNP rs1456193 is located near the LSAMP gene, which lies within a 500‑kb window around the variant. GWAS Catalog data do not list any insomnia‑related traits for this SNP, so there is no direct evidence of association with insomnia from GWAS studies. Open Targets links LSAMP to insomnia, ovarian neoplasm, and frozen shoulder, with the highest score for insomnia (0.385). This association reflects a gene‑disease relationship rather than a direct SNP‑disease link. Consequently, rs1456193 may be implicated in insomnia through its proximity to LSAMP, but the evidence remains indirect and requires further functional validation.\n\n[클레임 목록]\n1. rs1456193 is located near the LSAMP gene.  \n2. GWAS Catalog does not report an insomnia association for rs1456193.  \n3. Open Targets associates LSAMP with insomnia, giving it a score of 0.385.",
+    "initial_claims": [
+      "rs1456193 is located near the LSAMP gene.",
+      "GWAS Catalog does not report an insomnia association for rs1456193.",
+      "Open Targets associates LSAMP with insomnia, giving it a score of 0.385."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs1456193 is located near the LSAMP gene.",
+        "verdict": "SUPPORTED",
+        "raw_verdict": "SUPPORTED"
+      },
+      {
+        "claim": "GWAS Catalog does not report an insomnia association for rs1456193.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "Open Targets associates LSAMP with insomnia, giving it a score of 0.385.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nrs1456193은 LSAMP 유전자 근처에 위치해 있습니다. GWAS Catalog에서는 이 변이와 수면장애(인수면)와의 직접적인 연관성을 보고하지 않았습니다. Open Targets 데이터베이스에서는 LSAMP 유전자가 수면장애와 연관되어 있다는 정보를 제공하며, 해당 연관성의 점수는 0.385입니다. 이 점수는 유전자와 질환 간의 관계를 나타내는 것이지, rs1456193 변이가 수면장애를 직접적으로 유발한다는 증거는 아닙니다. 따라서 현재 수집된 근거만으로 rs1456193이 수면장애와 직접적인 연관성을 확정하기 어렵습니다.\n\n[최종 클레임]  \n1. rs1456193은 LSAMP 유전자 근처에 위치해 있다.  \n2. GWAS Catalog에서는 rs1456193과 수면장애와의 직접적인 연관성을 보고하지 않는다.  \n3. Open Targets에서는 LSAMP 유전자가 수면장애와 연관되어 있다는 정보를 제공한다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 1,
+      "partially_supported": 2,
+      "unsupported": 0,
+      "strict_support_rate": 0.333,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.667
+    }
+  },
+  {
+    "snp_id": "rs7228159",
+    "genes": [
+      "TCF4",
+      "CCDC68"
+    ],
+    "evidence": [
+      {
+        "gene": "TCF4",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",
+        "open_targets_scores": "0.848 | 0.694 | 0.622"
+      },
+      {
+        "gene": "CCDC68",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "presbycusis | Irritability | schizophrenia",
+        "open_targets_scores": "0.437 | 0.404 | 0.373"
+      }
+    ],
+    "initial_interpretation": "The SNP rs7228159 lies within a 500‑kb window that includes the genes **TCF4** and **CCDC68**.  \nGWAS Catalog data for this region report associations with cognitive performance, highest math class taken, and feeling worry, but no direct evidence links rs7228159 to insomnia.  \nOpen Targets identifies disease associations for TCF4 (Pitt‑Hopkins syndrome, Fuchs endothelial corneal dystrophy) and for CCDC68 (presbycusis, irritability, schizophrenia), yet these associations are gene‑level and do not imply a causal role for the SNP in any of these conditions.  \nConsequently, current database evidence does not support a direct association between rs7228159 and insomnia, nor does it identify a causal gene for insomnia within this locus.  \nFurther functional or fine‑mapping studies would be required to clarify any potential role of this SNP in sleep‑related phenotypes.\n\n[클레임 목록]  \n1. rs7228159 is located near the genes TCF4 and CCDC68.  \n2. GWAS Catalog reports associations of these genes with cognitive performance, highest math class taken, and feeling worry.  \n3. Open Targets links TCF4 to Pitt‑Hopkins syndrome and corneal dystrophy, and CCDC68 to presbycusis, irritability, and schizophrenia.",
+    "initial_claims": [
+      "rs7228159 is located near the genes TCF4 and CCDC68.",
+      "GWAS Catalog reports associations of these genes with cognitive performance, highest math class taken, and feeling worry.",
+      "Open Targets links TCF4 to Pitt‑Hopkins syndrome and corneal dystrophy, and CCDC68 to presbycusis, irritability, and schizophrenia."
+    ],
+    "verified_claims": [
+      {
+        "claim": "rs7228159 is located near the genes TCF4 and CCDC68.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "GWAS Catalog reports associations of these genes with cognitive performance, highest math class taken, and feeling worry.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "claim": "Open Targets links TCF4 to Pitt‑Hopkins syndrome and corneal dystrophy, and CCDC68 to presbycusis, irritability, and schizophrenia.",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "raw_verdict": "PARTIALLY_SUPPORTED"
+      }
+    ],
+    "verified_interpretation": "[최종 검증 해석]  \nSNP rs7228159는 500 kb 윈도우 내에서 **TCF4**와 **CCDC68** 유전자 근처에 위치합니다.  \nGWAS Catalog에서는 이 두 유전자와 관련된 표현형으로 “인지 성능 (MTAG)”, “가장 높은 수학 과목 수 (MTAG)”, 그리고 “불안감”이 보고되었으나, rs7228159 자체가 이들 표현형에 직접적으로 연관된다는 증거는 없습니다.  \nOpen Targets 데이터베이스에서는 TCF4가 “Pitt‑Hopkins 증후군”과 “Fuchs 내피성 홍채 부전”과, CCDC68이 “노인성 난청”, “불안성 장애”, “조현병”과 연결되어 있음을 보여 주지만, 이는 유전자‑질병 연관성이며 rs7228159가 해당 질환에 직접적인 역할을 한다는 의미는 아닙니다.  \n따라서 현재 수집된 근거만으로는 rs7228159가 불면증과 직접적인 연관성을 갖는다고 결론지을 수 없으며, 이 유전자 영역에서 불면증에 대한 인과적 유전자를 단정하기에도 충분한 증거가 부족합니다. 추가적인 기능적 연구나 정밀 매핑이 필요합니다.\n\n[최종 클레임]  \n1. rs7228159는 TCF4와 CCDC68 유전자 근처에 위치합니다.  \n2. TCF4와 CCDC68은 각각 “인지 성능 (MTAG)”, “가장 높은 수학 과목 수 (MTAG)”, “불안감”과 연관된 GWAS 결과를 보유하고 있으며, Open Targets에서는 TCF4가 “Pitt‑Hopkins 증후군”과 “Fuchs 내피성 홍채 부전”, CCDC68이 “노인성 난청”, “불안성 장애”, “조현병”과 연결되어 있습니다.  \n3. 현재 데이터베이스 증거만으로 rs7228159가 불면증과 직접적인 연관성을 갖는다고 결론지을 수 없습니다.",
+    "statistics": {
+      "n_claims": 3,
+      "supported": 0,
+      "partially_supported": 3,
+      "unsupported": 0,
+      "strict_support_rate": 0.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 0.5
+    }
+  }
+]

@@ -1,0 +1,1134 @@
+[
+  {
+    "snp_id": "rs11693221",
+    "genes": [
+      "MEIS1"
+    ],
+    "evidence": [
+      {
+        "gene": "MEIS1",
+        "gwas_catalog_traits": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "open_targets_diseases": "restless legs syndrome | insomnia | prostate carcinoma",
+        "open_targets_scores": "0.546 | 0.512 | 0.495"
+      }
+    ],
+    "initial_interpretation": "The SNP rs11693221 is associated with GWAS traits related to sleep medication purchases and short sleep duration. The positional candidate gene MEIS1 lies within 500 kb of the SNP. Open Targets evidence links MEIS1 to insomnia with a score of 0.512.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs11693221 and Sleep medication purchases | Short sleep duration (<5 hours).",
+        "trait": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MEIS1 is a candidate gene mapped within ±500 kb of rs11693221.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are MEIS1–insomnia=0.512.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": "insomnia",
+        "score": "0.512",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs11693221 and Sleep medication purchases | Short sleep duration (<5 hours).",
+        "trait": "Sleep medication purchases | Short sleep duration (<5 hours)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "MEIS1 is a candidate gene mapped within ±500 kb of rs11693221.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are MEIS1–insomnia=0.512.",
+        "trait": null,
+        "gene": "MEIS1",
+        "disease": "insomnia",
+        "score": "0.512",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs11693221 is reported in the GWAS Catalog to be associated with the trait “Sleep medication purchases | Short sleep duration (<5 hours).”  \nWithin ±500 kb of rs11693221, the gene MEIS1 is identified as a candidate gene.  \nOpen Targets provides a gene–disease association score of 0.512 for MEIS1–insomnia.  \n\n[Final claims]  \n1. rs11693221 is associated with Sleep medication purchases | Short sleep duration (<5 hours).  \n2. MEIS1 is a candidate gene mapped within ±500 kb of rs11693221.  \n3. The Open Targets gene–disease association score for MEIS1–insomnia is 0.512.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs6561715",
+    "genes": [
+      "OLFM4",
+      "PCDH8"
+    ],
+    "evidence": [
+      {
+        "gene": "OLFM4",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "major depressive disorder | bipolar disorder | insomnia",
+        "open_targets_scores": "0.501 | 0.397 | 0.395"
+      },
+      {
+        "gene": "PCDH8",
+        "gwas_catalog_traits": "Insomnia (standard GWA) | Insomnia",
+        "open_targets_diseases": "abnormality of serum enzyme levels | arthritic joint disease | atopic conjunctivitis",
+        "open_targets_scores": "0.278 | 0.272 | 0.265"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6561715 is reported in GWAS studies for the trait insomnia. A positional candidate gene OLFM4 lies within 500 kb of the SNP and is associated with insomnia in Open Targets disease data. However, the Open Targets association does not constitute direct evidence that the SNP causes insomnia.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs6561715 and Insomnia (standard GWA) | Insomnia.",
+        "trait": "Insomnia (standard GWA) | Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between OLFM4 and insomnia.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "Open Targets provides gene–disease association evidence, not direct SNP–disease evidence.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs6561715 and Insomnia (standard GWA) | Insomnia.",
+        "trait": "Insomnia (standard GWA) | Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between OLFM4 and insomnia.",
+        "trait": null,
+        "gene": "OLFM4",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "Open Targets provides gene–disease association evidence, not direct SNP–disease evidence.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "Open Targets 근거는 gene-disease association이라는 방법론적 제한입니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs6561715 is reported in the GWAS Catalog as associated with the trait insomnia. A nearby gene, OLFM4, is listed in Open Targets as having a gene–disease association with insomnia. However, the Open Targets evidence does not provide direct SNP–disease association, so it does not support a causal link between rs6561715 and insomnia.\n\n[Final claims]  \n1. rs6561715 is associated with insomnia in the GWAS Catalog.  \n2. OLFM4 has a gene–disease association with insomnia in Open Targets.  \n3. Open Targets evidence does not constitute direct SNP–disease evidence.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4986172",
+    "genes": [
+      "ACBD4",
+      "HEXIM1",
+      "PLCD3"
+    ],
+    "evidence": [
+      {
+        "gene": "ACBD4",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | essential hypertension | hypertensive disorder",
+        "open_targets_scores": "0.464 | 0.208 | 0.199"
+      },
+      {
+        "gene": "HEXIM1",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "neurodegenerative disease | intelligence | insomnia",
+        "open_targets_scores": "0.37 | 0.364 | 0.336"
+      },
+      {
+        "gene": "PLCD3",
+        "gwas_catalog_traits": "Height | Height | Height",
+        "open_targets_diseases": "Headache | migraine disorder | coronary artery disorder",
+        "open_targets_scores": "0.371 | 0.166 | 0.166"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4986172 is reported in the GWAS catalog for the trait Height. The positional candidate gene within ±500 kb of the SNP is HEXIM1. Open Targets associates HEXIM1 with the disease insomnia.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4986172 and Height.",
+        "trait": "Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "HEXIM1 is a candidate gene mapped within ±500 kb of rs4986172.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between HEXIM1 and insomnia.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4986172 and Height.",
+        "trait": "Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "HEXIM1 is a candidate gene mapped within ±500 kb of rs4986172.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between HEXIM1 and insomnia.",
+        "trait": null,
+        "gene": "HEXIM1",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs4986172 is reported in the GWAS Catalog as associated with the trait Height. Within ±500 kb of rs4986172, the gene HEXIM1 is identified as a candidate gene. Open Targets reports an association between HEXIM1 and the disease insomnia. No additional evidence linking rs4986172 directly to insomnia is provided in the supplied data.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs4986172 and Height.  \n2. HEXIM1 is a candidate gene mapped within ±500 kb of rs4986172.  \n3. Open Targets reports gene–disease associations between HEXIM1 and insomnia.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs370771",
+    "genes": [
+      "LIN28B",
+      "HACE1",
+      "BVES"
+    ],
+    "evidence": [
+      {
+        "gene": "LIN28B",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "Abnormality of the skeletal system | major depressive disorder | cholelithiasis",
+        "open_targets_scores": "0.463 | 0.414 | 0.342"
+      },
+      {
+        "gene": "HACE1",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "spastic paraplegia-severe developmental delay-epilepsy syndrome | Seizure | Spastic paraplegia",
+        "open_targets_scores": "0.781 | 0.566 | 0.486"
+      },
+      {
+        "gene": "BVES",
+        "gwas_catalog_traits": "Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index",
+        "open_targets_diseases": "",
+        "open_targets_scores": ""
+      }
+    ],
+    "initial_interpretation": "The SNP rs370771 is associated in GWAS with lung function (FVC). It lies within 500 kb of the gene LIN28B, which is a positional candidate but not proven causal. Open Targets links LIN28B to major depressive disorder with a score of 0.414, though this does not constitute direct evidence that the SNP influences that disease.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs370771 and Lung function (FVC).",
+        "trait": "Lung function (FVC)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LIN28B is a candidate gene mapped within ±500 kb of rs370771.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are LIN28B–major depressive disorder=0.414.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": "major depressive disorder",
+        "score": "0.414",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs370771 and Lung function (FVC).",
+        "trait": "Lung function (FVC)",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LIN28B is a candidate gene mapped within ±500 kb of rs370771.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are LIN28B–major depressive disorder=0.414.",
+        "trait": null,
+        "gene": "LIN28B",
+        "disease": "major depressive disorder",
+        "score": "0.414",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs370771 is reported in the GWAS Catalog to be associated with Lung function (FVC).  \nWithin ±500 kb of rs370771, the gene LIN28B is identified as a candidate gene.  \nOpen Targets provides a gene–disease association score of 0.414 for LIN28B and major depressive disorder, but this score does not represent direct evidence that rs370771 influences that disease.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs370771 and Lung function (FVC).  \n2. LIN28B is a candidate gene mapped within ±500 kb of rs370771.  \n3. The Open Targets gene–disease association scores are LIN28B–major depressive disorder=0.414.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs6938026",
+    "genes": [
+      "DNPH1",
+      "CUL9",
+      "SRF"
+    ],
+    "evidence": [
+      {
+        "gene": "DNPH1",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "intelligence | asthma | prostate cancer",
+        "open_targets_scores": "0.249 | 0.064 | 0.043"
+      },
+      {
+        "gene": "CUL9",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | schizophrenia | placental abruption",
+        "open_targets_scores": "0.5 | 0.263 | 0.219"
+      },
+      {
+        "gene": "SRF",
+        "gwas_catalog_traits": "Height | Schizophrenia | Schizophrenia",
+        "open_targets_diseases": "neurodegenerative disease | hepatocellular carcinoma | cancer",
+        "open_targets_scores": "0.549 | 0.106 | 0.105"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6938026 is reported in GWAS studies for the trait Height. The gene DNPH1 lies within 500 kb of the SNP and is a positional candidate. Open Targets associates DNPH1 with intelligence with a score of 0.249.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs6938026 and Height.",
+        "trait": "Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DNPH1 is a candidate gene mapped within ±500 kb of rs6938026.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are DNPH1–intelligence=0.249.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": "intelligence",
+        "score": "0.249",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs6938026 and Height.",
+        "trait": "Height",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DNPH1 is a candidate gene mapped within ±500 kb of rs6938026.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are DNPH1–intelligence=0.249.",
+        "trait": null,
+        "gene": "DNPH1",
+        "disease": "intelligence",
+        "score": "0.249",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nNo evidence was provided that links SNP rs6938026 to the phenotype insomnia. The SNP is reported in GWAS studies for the trait Height, and the gene DNPH1 is a candidate gene mapped within ±500 kb of rs6938026. Open Targets provides a gene–disease association score for DNPH1 with intelligence, but this does not constitute evidence for an association with insomnia. Therefore, the current evidence does not support a relationship between rs6938026 and insomnia.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs6938026 and Height.  \n2. DNPH1 is a candidate gene mapped within ±500 kb of rs6938026.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs6984111",
+    "genes": [
+      "MSRA",
+      "PRSS55",
+      "RP1L1"
+    ],
+    "evidence": [
+      {
+        "gene": "MSRA",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "hypertensive disorder | type 2 diabetes mellitus | alcohol drinking",
+        "open_targets_scores": "0.478 | 0.453 | 0.449"
+      },
+      {
+        "gene": "PRSS55",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "polycythemia | hypertensive disorder | essential hypertension",
+        "open_targets_scores": "0.316 | 0.314 | 0.282"
+      },
+      {
+        "gene": "RP1L1",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "occult macular dystrophy | retinitis pigmentosa 88 | retinitis pigmentosa",
+        "open_targets_scores": "0.775 | 0.681 | 0.596"
+      }
+    ],
+    "initial_interpretation": "The SNP rs6984111 is not reported to be associated with insomnia in the GWAS catalog. However, the positional candidate gene MSRA, located within 500 kb of the SNP, is linked to hypertensive disorder in Open Targets. Additionally, PRSS55, another positional candidate, is associated with essential hypertension with an Open Targets score of 0.282. No direct evidence links this SNP to insomnia, and causality has not been established for these gene–disease associations.",
+    "structured_claims": [
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between MSRA and hypertensive disorder.",
+        "trait": null,
+        "gene": "MSRA",
+        "disease": "hypertensive disorder",
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are PRSS55–essential hypertension=0.282.",
+        "trait": null,
+        "gene": "PRSS55",
+        "disease": "essential hypertension",
+        "score": "0.282",
+        "limitation_type": null
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "The provided GWAS Catalog evidence does not report a direct association between rs6984111 and the target phenotype.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between MSRA and hypertensive disorder.",
+        "trait": null,
+        "gene": "MSRA",
+        "disease": "hypertensive disorder",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are PRSS55–essential hypertension=0.282.",
+        "trait": null,
+        "gene": "PRSS55",
+        "disease": "essential hypertension",
+        "score": "0.282",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "LIMITATION",
+        "statement": "The provided GWAS Catalog evidence does not report a direct association between rs6984111 and the target phenotype.",
+        "trait": null,
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "제공된 GWAS trait에 분석 대상 phenotype이 없습니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs6984111 is not reported to be associated with insomnia in the GWAS catalog. Open Targets reports an association between the gene MSRA and hypertensive disorder. Open Targets also reports an association between the gene PRSS55 and essential hypertension with a score of 0.282. No direct evidence links this SNP to insomnia, and causality has not been established for these gene–disease associations.\n\n[Final claims]  \n1. Open Targets reports gene–disease associations between MSRA and hypertensive disorder.  \n2. The Open Targets gene–disease association scores are PRSS55–essential hypertension=0.282.  \n3. The provided GWAS Catalog evidence does not report a direct association between rs6984111 and the target phenotype.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4073582",
+    "genes": [
+      "CNIH2",
+      "YIF1A",
+      "RAB1B"
+    ],
+    "evidence": [
+      {
+        "gene": "CNIH2",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | insomnia | mathematical ability",
+        "open_targets_scores": "0.384 | 0.116 | 0.106"
+      },
+      {
+        "gene": "YIF1A",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "type 2 diabetes mellitus | skeletal system disorder | bladder transitional cell carcinoma",
+        "open_targets_scores": "0.13 | 0.112 | 0.033"
+      },
+      {
+        "gene": "RAB1B",
+        "gwas_catalog_traits": "Gout | Body mass index (MTAG) | Body mass index",
+        "open_targets_diseases": "neurodegenerative disease | infection | colorectal carcinoma",
+        "open_targets_scores": "0.318 | 0.08 | 0.076"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4073582 is located near the gene CNIH2, which is a positional candidate within 500 kb of the variant. GWAS catalog data for CNIH2 report associations with body mass index, indicating a potential link to metabolic traits. Open Targets evidence associates CNIH2 with insomnia, but this is a gene–disease association and not a direct SNP–phenotype link.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4073582 and Body mass index.",
+        "trait": "Body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "CNIH2 is a candidate gene mapped within ±500 kb of rs4073582.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between CNIH2 and insomnia.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4073582 and Body mass index.",
+        "trait": "Body mass index",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "CNIH2 is a candidate gene mapped within ±500 kb of rs4073582.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between CNIH2 and insomnia.",
+        "trait": null,
+        "gene": "CNIH2",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe GWAS Catalog contains evidence that the variant rs4073582 is associated with Body mass index. The gene CNIH2 lies within ±500 kb of rs4073582 and is therefore a positional candidate gene for this locus. Open Targets reports a gene–disease association between CNIH2 and insomnia, but this does not constitute a direct SNP–phenotype link.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs4073582 and Body mass index.  \n2. CNIH2 is a candidate gene mapped within ±500 kb of rs4073582.  \n3. Open Targets reports gene–disease associations between CNIH2 and insomnia.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs9576155",
+    "genes": [
+      "SUPT20H",
+      "EXOSC8",
+      "ALG5"
+    ],
+    "evidence": [
+      {
+        "gene": "SUPT20H",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "neurodegenerative disease | bacterial arthritis | insomnia",
+        "open_targets_scores": "0.522 | 0.341 | 0.273"
+      },
+      {
+        "gene": "EXOSC8",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "pontocerebellar hypoplasia, type 1C | pontocerebellar hypoplasia type 1 | neurodegenerative disease",
+        "open_targets_scores": "0.69 | 0.64 | 0.516"
+      },
+      {
+        "gene": "ALG5",
+        "gwas_catalog_traits": "Decaffeinated coffee consumption and/or insomnia",
+        "open_targets_diseases": "polycystic kidney disease 7 | autosomal dominant polycystic kidney disease | neurodegenerative disease",
+        "open_targets_scores": "0.602 | 0.422 | 0.34"
+      }
+    ],
+    "initial_interpretation": "The SNP rs9576155 is reported in the GWAS catalog to be associated with the trait Decaffeinated coffee consumption and/or insomnia. Within ±500 kb of this SNP, the gene SUPT20H is identified as a positional candidate. Open Targets links SUPT20H to the disease insomnia, though this does not establish a causal relationship between the SNP and the disease.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs9576155 and Decaffeinated coffee consumption and/or insomnia.",
+        "trait": "Decaffeinated coffee consumption and/or insomnia",
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "SUPT20H is a candidate gene mapped within ±500 kb of rs9576155.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between SUPT20H and insomnia.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs9576155 and Decaffeinated coffee consumption and/or insomnia.",
+        "trait": "Decaffeinated coffee consumption and/or insomnia",
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "SUPT20H is a candidate gene mapped within ±500 kb of rs9576155.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between SUPT20H and insomnia.",
+        "trait": null,
+        "gene": "SUPT20H",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe GWAS Catalog reports an association between rs9576155 and the trait “Decaffeinated coffee consumption and/or insomnia.” Within ±500 kb of rs9576155, the gene SUPT20H is identified as a positional candidate. Open Targets reports a gene–disease association between SUPT20H and insomnia, but this does not establish a causal relationship between the SNP and the disease.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs9576155 and Decaffeinated coffee consumption and/or insomnia.  \n2. SUPT20H is a candidate gene mapped within ±500 kb of rs9576155.  \n3. Open Targets reports gene–disease associations between SUPT20H and insomnia.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs4884332",
+    "genes": [
+      "DIAPH3"
+    ],
+    "evidence": [
+      {
+        "gene": "DIAPH3",
+        "gwas_catalog_traits": "Insomnia",
+        "open_targets_diseases": "autosomal dominant nonsyndromic hearing loss | smoking initiation | insomnia",
+        "open_targets_scores": "0.575 | 0.363 | 0.32"
+      }
+    ],
+    "initial_interpretation": "The SNP rs4884332 is reported in the GWAS catalog to be associated with the trait insomnia. A positional candidate gene within 500 kb of this SNP is DIAPH3. Open Targets provides a gene–disease association for DIAPH3 with insomnia, accompanied by a score of 0.32.",
+    "structured_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4884332 and Insomnia.",
+        "trait": "Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are DIAPH3–insomnia=0.32.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": "insomnia",
+        "score": "0.32",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "GWAS_TRAIT",
+        "statement": "GWAS Catalog reports an association between rs4884332 and Insomnia.",
+        "trait": "Insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are DIAPH3–insomnia=0.32.",
+        "trait": null,
+        "gene": "DIAPH3",
+        "disease": "insomnia",
+        "score": "0.32",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe GWAS Catalog reports an association between SNP rs4884332 and the trait insomnia. A candidate gene, DIAPH3, lies within ±500 kb of rs4884332. Open Targets provides a gene–disease association score of 0.32 for DIAPH3–insomnia.\n\n[Final claims]  \n1. GWAS Catalog reports an association between rs4884332 and Insomnia.  \n2. DIAPH3 is a candidate gene mapped within ±500 kb of rs4884332.  \n3. The Open Targets gene–disease association scores are DIAPH3–insomnia=0.32.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs1456193",
+    "genes": [
+      "LSAMP"
+    ],
+    "evidence": [
+      {
+        "gene": "LSAMP",
+        "gwas_catalog_traits": "",
+        "open_targets_diseases": "insomnia | ovarian neoplasm | frozen shoulder",
+        "open_targets_scores": "0.385 | 0.343 | 0.318"
+      }
+    ],
+    "initial_interpretation": "The SNP rs1456193 is located near the gene LSAMP, which is a positional candidate within 500 kb of the variant. Open Targets data link LSAMP to the phenotype insomnia, as well as to ovarian neoplasm and frozen shoulder, but these associations are gene–disease associations rather than direct SNP–disease evidence. The Open Targets score for the LSAMP–insomnia association is 0.385, indicating a moderate level of evidence for this gene–disease link.",
+    "structured_claims": [
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LSAMP is a candidate gene mapped within ±500 kb of rs1456193.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": null,
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between LSAMP and insomnia.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are LSAMP–insomnia=0.385.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia",
+        "score": "0.385",
+        "limitation_type": null
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "CANDIDATE_GENE",
+        "statement": "LSAMP is a candidate gene mapped within ±500 kb of rs1456193.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": null,
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "gene이 ±500 kb candidate gene 목록에 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between LSAMP and insomnia.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia",
+        "score": null,
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are LSAMP–insomnia=0.385.",
+        "trait": null,
+        "gene": "LSAMP",
+        "disease": "insomnia",
+        "score": "0.385",
+        "limitation_type": null,
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs1456193 lies within 500 kb of the gene LSAMP, making LSAMP a candidate gene for this locus. Open Targets reports a gene–disease association between LSAMP and the phenotype insomnia. The association score reported by Open Targets for LSAMP–insomnia is 0.385.\n\n[Final claims]  \n1. LSAMP is a candidate gene mapped within ±500 kb of rs1456193.  \n2. Open Targets reports gene–disease associations between LSAMP and insomnia.  \n3. The Open Targets gene–disease association scores are LSAMP–insomnia=0.385.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 3,
+      "partially_supported": 0,
+      "unsupported": 0,
+      "strict_support_rate": 1.0,
+      "evidence_support_rate": 1.0,
+      "unsupported_rate": 0.0,
+      "confidence_score": 1.0
+    }
+  },
+  {
+    "snp_id": "rs7228159",
+    "genes": [
+      "TCF4",
+      "CCDC68"
+    ],
+    "evidence": [
+      {
+        "gene": "TCF4",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial, 3 | Fuchs endothelial corneal dystrophy",
+        "open_targets_scores": "0.848 | 0.694 | 0.622"
+      },
+      {
+        "gene": "CCDC68",
+        "gwas_catalog_traits": "Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry",
+        "open_targets_diseases": "presbycusis | Irritability | schizophrenia",
+        "open_targets_scores": "0.437 | 0.404 | 0.373"
+      }
+    ],
+    "initial_interpretation": "The SNP rs7228159 is located near the genes TCF4 and CCDC68. No GWAS evidence for insomnia is reported for either gene in the supplied data. However, TCF4 is associated with Pitt‑Hopkins syndrome in the Open Targets database, and this association has a score of 0.848.",
+    "structured_claims": [
+      {
+        "claim_type": "INVALID",
+        "statement": "No GWAS evidence for insomnia is reported for rs7228159 in the supplied data.",
+        "trait": "insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between TCF4 and Pitt-Hopkins syndrome.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome",
+        "score": null,
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are TCF4–Pitt-Hopkins syndrome=0.848.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome",
+        "score": "0.848",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE"
+      }
+    ],
+    "verified_claims": [
+      {
+        "claim_type": "INVALID",
+        "statement": "No GWAS evidence for insomnia is reported for rs7228159 in the supplied data.",
+        "trait": "insomnia",
+        "gene": null,
+        "disease": null,
+        "score": null,
+        "limitation_type": "NO_DIRECT_GWAS_FOR_PHENOTYPE",
+        "verdict": "UNSUPPORTED",
+        "verification_reason": "지원되지 않는 claim 유형 또는 근거 불일치입니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE",
+        "statement": "Open Targets reports gene–disease associations between TCF4 and Pitt-Hopkins syndrome.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome",
+        "score": null,
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.",
+        "verifier": "python_rule_v4_english"
+      },
+      {
+        "claim_type": "OT_GENE_DISEASE_SCORE",
+        "statement": "The Open Targets gene–disease association scores are TCF4–Pitt-Hopkins syndrome=0.848.",
+        "trait": null,
+        "gene": "TCF4",
+        "disease": "Pitt-Hopkins syndrome",
+        "score": "0.848",
+        "limitation_type": "OT_IS_NOT_SNP_DISEASE_EVIDENCE",
+        "verdict": "SUPPORTED",
+        "verification_reason": "모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.",
+        "verifier": "python_rule_v4_english"
+      }
+    ],
+    "verified_interpretation": "[Final verified interpretation]  \nThe SNP rs7228159 has no reported GWAS association with the phenotype insomnia in the supplied evidence.  \nOpen Targets indicates a gene–disease association between the gene TCF4 and Pitt‑Hopkins syndrome.  \nThe reported association score for TCF4–Pitt‑Hopkins syndrome is 0.848.  \n\n[Final claims]  \n1. No GWAS evidence for insomnia is reported for rs7228159 in the supplied data.  \n2. Open Targets reports gene–disease associations between TCF4 and Pitt‑Hopkins syndrome.  \n3. The Open Targets gene–disease association scores are TCF4–Pitt‑Hopkins syndrome=0.848.",
+    "generation_parse_ok": true,
+    "statistics": {
+      "n_claims": 3,
+      "supported": 2,
+      "partially_supported": 0,
+      "unsupported": 1,
+      "strict_support_rate": 0.667,
+      "evidence_support_rate": 0.667,
+      "unsupported_rate": 0.333,
+      "confidence_score": 0.667
+    }
+  }
+]

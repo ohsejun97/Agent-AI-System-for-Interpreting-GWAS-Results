@@ -1,0 +1,133 @@
+[Step 4~5] 11개 SNP 처리 시작 (표현형: insomnia)
+======================================================================
+
+[ 1/11] rs11693221 | genes: MEIS1
+  [Step 4] 초기 해석 생성
+    [Groq] rs11693221 initial interpretation | in=466, out=372, reasoning=14, total=838
+    [Groq pacing] 6.7초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq 빈 응답] rs11693221 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq 빈 응답] rs11693221 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq 빈 응답] rs11693221 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq 빈 응답] rs11693221 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq 빈 응답] rs11693221 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs11693221 verification | in=421, out=96, reasoning=94, total=517
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=94, total=509
+    [Groq 빈 응답] rs11693221 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=93, total=509
+    [Groq 빈 응답] rs11693221 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=94, total=509
+    [Groq 빈 응답] rs11693221 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=94, total=509
+    [Groq 빈 응답] rs11693221 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=94, total=509
+    [Groq 빈 응답] rs11693221 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs11693221 verification | in=413, out=96, reasoning=93, total=509
+    [Groq] rs11693221 verification | in=421, out=59, reasoning=49, total=480
+    [Groq pacing] 3.8초 대기
+  → S:1 P:0 U:2
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs11693221 correction | in=927, out=224, reasoning=55, total=1,151
+    [Groq pacing] 9.2초 대기
+
+[ 2/11] rs6561715 | genes: OLFM4, PCDH8
+  [Step 4] 초기 해석 생성
+    [Groq] rs6561715 initial interpretation | in=528, out=343, reasoning=5, total=871
+    [Groq pacing] 7.0초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq 빈 응답] rs6561715 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq 빈 응답] rs6561715 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq 빈 응답] rs6561715 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq 빈 응답] rs6561715 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq 빈 응답] rs6561715 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs6561715 verification | in=478, out=96, reasoning=94, total=574
+    [Groq] rs6561715 verification | in=480, out=95, reasoning=85, total=575
+    [Groq pacing] 4.6초 대기
+    [Groq] rs6561715 verification | in=474, out=81, reasoning=71, total=555
+    [Groq pacing] 4.4초 대기
+  → S:2 P:0 U:1
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6561715 correction | in=959, out=352, reasoning=75, total=1,311
+    [Groq pacing] 10.5초 대기
+
+[ 3/11] rs4986172 | genes: ACBD4, HEXIM1, PLCD3
+  [Step 4] 초기 해석 생성
+    [Groq] rs4986172 initial interpretation | in=565, out=512, reasoning=11, total=1,077
+    [Groq pacing] 8.6초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq 빈 응답] rs4986172 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq 빈 응답] rs4986172 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq 빈 응답] rs4986172 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq 빈 응답] rs4986172 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq 빈 응답] rs4986172 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs4986172 verification | in=511, out=96, reasoning=94, total=607
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq 빈 응답] rs4986172 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq 빈 응답] rs4986172 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq 빈 응답] rs4986172 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq 빈 응답] rs4986172 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq 빈 응답] rs4986172 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs4986172 verification | in=531, out=96, reasoning=94, total=627
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+    [Groq 빈 응답] rs4986172 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+    [Groq 빈 응답] rs4986172 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+    [Groq 빈 응답] rs4986172 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+    [Groq 빈 응답] rs4986172 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+    [Groq 빈 응답] rs4986172 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs4986172 verification | in=501, out=96, reasoning=94, total=597
+  → S:0 P:0 U:3
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4986172 correction | in=1,163, out=251, reasoning=15, total=1,414
+    [Groq pacing] 11.3초 대기
+
+[ 4/11] rs370771 | genes: LIN28B, HACE1, BVES
+  [Step 4] 초기 해석 생성
+    [Groq] rs370771 initial interpretation | in=600, out=437, reasoning=14, total=1,037
+    [Groq pacing] 8.3초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs370771 verification | in=545, out=56, reasoning=46, total=601
+    [Groq pacing] 4.8초 대기
+    [Groq] rs370771 verification | in=560, out=96, reasoning=86, total=656
+    [Groq pacing] 5.2초 대기
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+    [Groq 빈 응답] rs370771 verification | 2.0초 후 재시도 (1/6)
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+    [Groq 빈 응답] rs370771 verification | 4.0초 후 재시도 (2/6)
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+    [Groq 빈 응답] rs370771 verification | 6.0초 후 재시도 (3/6)
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+    [Groq 빈 응답] rs370771 verification | 8.0초 후 재시도 (4/6)
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+    [Groq 빈 응답] rs370771 verification | 10.0초 후 재시도 (5/6)
+    [Groq] rs370771 verification | in=562, out=96, reasoning=94, total=658
+  → S:2 P:0 U:1
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs370771 correction | in=1,135, out=328, reasoning=54, total=1,463
+    [Groq pacing] 11.7초 대기

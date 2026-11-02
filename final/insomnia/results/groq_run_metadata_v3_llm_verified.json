@@ -1,0 +1,26 @@
+{
+  "provider": "Groq",
+  "generation_model": "openai/gpt-oss-20b",
+  "verification_model": "llama-3.1-8b-instant",
+  "phenotype": "insomnia",
+  "temperature": 0.0,
+  "pipeline_version": "groq_v3_calibrated",
+  "generation_reasoning_effort": "low",
+  "verification_reasoning_effort": null,
+  "generation_max_completion_tokens": 768,
+  "verification_max_completion_tokens": 16,
+  "verification_stop": [
+    "\n"
+  ],
+  "api_statistics": {
+    "requests": 55,
+    "successful_requests": 55,
+    "failed_requests": 0,
+    "rate_limit_retries": 0,
+    "empty_response_retries": 0,
+    "prompt_tokens": 43757,
+    "completion_tokens": 7897,
+    "reasoning_tokens": 2012,
+    "total_tokens": 51654
+  }
+}

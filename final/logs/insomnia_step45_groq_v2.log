@@ -1,0 +1,212 @@
+[Step 4~5] 11개 SNP 처리 시작 (표현형: insomnia)
+======================================================================
+
+[ 1/11] rs11693221 | genes: MEIS1
+  [Step 4] 초기 해석 생성
+    [Groq] rs11693221 initial interpretation | in=466, out=371, reasoning=14, total=837
+    [Groq pacing] 6.7초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs11693221 verification | in=383, out=16, reasoning=0, total=399
+    [Groq pacing] 4.4초 대기
+    [Groq] rs11693221 verification | in=396, out=16, reasoning=0, total=412
+    [Groq pacing] 4.5초 대기
+    [Groq] rs11693221 verification | in=391, out=16, reasoning=0, total=407
+    [Groq pacing] 4.4초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs11693221 correction | in=1,005, out=379, reasoning=98, total=1,384
+    [Groq pacing] 11.1초 대기
+
+[ 2/11] rs6561715 | genes: OLFM4, PCDH8
+  [Step 4] 초기 해석 생성
+    [Groq] rs6561715 initial interpretation | in=528, out=343, reasoning=5, total=871
+    [Groq pacing] 7.0초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs6561715 verification | in=444, out=16, reasoning=0, total=460
+    [Groq pacing] 5.0초 대기
+    [Groq] rs6561715 verification | in=447, out=16, reasoning=0, total=463
+    [Groq pacing] 5.1초 대기
+    [Groq] rs6561715 verification | in=440, out=16, reasoning=0, total=456
+    [Groq pacing] 5.0초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6561715 correction | in=1,013, out=359, reasoning=55, total=1,372
+    [Groq pacing] 11.0초 대기
+
+[ 3/11] rs4986172 | genes: ACBD4, HEXIM1, PLCD3
+  [Step 4] 초기 해석 생성
+    [Groq] rs4986172 initial interpretation | in=565, out=512, reasoning=11, total=1,077
+    [Groq pacing] 8.6초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs4986172 verification | in=477, out=16, reasoning=0, total=493
+    [Groq pacing] 5.4초 대기
+    [Groq] rs4986172 verification | in=498, out=16, reasoning=0, total=514
+    [Groq pacing] 5.6초 대기
+    [Groq] rs4986172 verification | in=468, out=16, reasoning=0, total=484
+    [Groq pacing] 5.3초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4986172 correction | in=1,218, out=355, reasoning=131, total=1,573
+    [Groq pacing] 12.6초 대기
+
+[ 4/11] rs370771 | genes: LIN28B, HACE1, BVES
+  [Step 4] 초기 해석 생성
+    [Groq] rs370771 initial interpretation | in=600, out=470, reasoning=14, total=1,070
+    [Groq pacing] 8.6초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs370771 verification | in=511, out=16, reasoning=0, total=527
+    [Groq pacing] 5.7초 대기
+    [Groq] rs370771 verification | in=532, out=16, reasoning=0, total=548
+    [Groq pacing] 6.0초 대기
+    [Groq] rs370771 verification | in=536, out=16, reasoning=0, total=552
+    [Groq pacing] 6.0초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs370771 correction | in=1,241, out=488, reasoning=127, total=1,729
+    [Groq pacing] 13.8초 대기
+
+[ 5/11] rs6938026 | genes: DNPH1, CUL9, SRF
+  [Step 4] 초기 해석 생성
+    [Groq] rs6938026 initial interpretation | in=582, out=354, reasoning=11, total=936
+    [Groq pacing] 7.5초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs6938026 verification | in=495, out=16, reasoning=0, total=511
+    [Groq pacing] 5.6초 대기
+    [Groq] rs6938026 verification | in=498, out=16, reasoning=0, total=514
+    [Groq pacing] 5.6초 대기
+    [Groq] rs6938026 verification | in=514, out=16, reasoning=0, total=530
+    [Groq pacing] 5.8초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6938026 correction | in=1,109, out=440, reasoning=94, total=1,549
+    [Groq pacing] 12.4초 대기
+
+[ 6/11] rs6984111 | genes: MSRA, PRSS55, RP1L1
+  [Step 4] 초기 해석 생성
+    [Groq] rs6984111 initial interpretation | in=559, out=376, reasoning=14, total=935
+    [Groq pacing] 7.5초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs6984111 verification | in=472, out=16, reasoning=0, total=488
+    [Groq pacing] 5.3초 대기
+    [Groq] rs6984111 verification | in=502, out=16, reasoning=0, total=518
+    [Groq pacing] 5.7초 대기
+    [Groq] rs6984111 verification | in=500, out=16, reasoning=0, total=516
+    [Groq pacing] 5.6초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6984111 correction | in=1,114, out=494, reasoning=133, total=1,608
+    [Groq pacing] 12.9초 대기
+
+[ 7/11] rs4073582 | genes: CNIH2, YIF1A, RAB1B
+  [Step 4] 초기 해석 생성
+    [Groq] rs4073582 initial interpretation | in=599, out=452, reasoning=5, total=1,051
+    [Groq pacing] 8.4초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs4073582 verification | in=527, out=16, reasoning=0, total=543
+    [Groq pacing] 5.9초 대기
+    [Groq] rs4073582 verification | in=532, out=16, reasoning=0, total=548
+    [Groq pacing] 6.0초 대기
+    [Groq] rs4073582 verification | in=522, out=16, reasoning=0, total=538
+    [Groq pacing] 5.9초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4073582 correction | in=1,228, out=437, reasoning=99, total=1,665
+    [Groq pacing] 13.3초 대기
+
+[ 8/11] rs9576155 | genes: SUPT20H, EXOSC8, ALG5
+  [Step 4] 초기 해석 생성
+    [Groq] rs9576155 initial interpretation | in=607, out=362, reasoning=5, total=969
+    [Groq pacing] 7.8초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs9576155 verification | in=537, out=16, reasoning=0, total=553
+    [Groq pacing] 6.0초 대기
+    [Groq] rs9576155 verification | in=536, out=16, reasoning=0, total=552
+    [Groq pacing] 6.0초 대기
+    [Groq] rs9576155 verification | in=539, out=16, reasoning=0, total=555
+    [Groq pacing] 6.1초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs9576155 correction | in=1,142, out=368, reasoning=77, total=1,510
+    [Groq pacing] 12.1초 대기
+
+[ 9/11] rs4884332 | genes: DIAPH3
+  [Step 4] 초기 해석 생성
+    [Groq] rs4884332 initial interpretation | in=462, out=381, reasoning=10, total=843
+    [Groq pacing] 6.7초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs4884332 verification | in=377, out=16, reasoning=0, total=393
+    [Groq pacing] 4.3초 대기
+    [Groq] rs4884332 verification | in=375, out=16, reasoning=0, total=391
+    [Groq pacing] 4.3초 대기
+    [Groq] rs4884332 verification | in=387, out=16, reasoning=0, total=403
+    [Groq pacing] 4.4초 대기
+  → S:1 P:2 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4884332 correction | in=989, out=472, reasoning=152, total=1,461
+    [Groq pacing] 11.7초 대기
+
+[10/11] rs1456193 | genes: LSAMP
+  [Step 4] 초기 해석 생성
+    [Groq] rs1456193 initial interpretation | in=453, out=272, reasoning=10, total=725
+    [Groq pacing] 5.8초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs1456193 verification | in=361, out=16, reasoning=0, total=377
+    [Groq pacing] 4.1초 대기
+    [Groq] rs1456193 verification | in=363, out=16, reasoning=0, total=379
+    [Groq pacing] 4.1초 대기
+    [Groq] rs1456193 verification | in=374, out=16, reasoning=0, total=390
+    [Groq pacing] 4.3초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs1456193 correction | in=858, out=373, reasoning=68, total=1,231
+    [Groq pacing] 9.8초 대기
+
+[11/11] rs7228159 | genes: TCF4, CCDC68
+  [Step 4] 초기 해석 생성
+    [Groq] rs7228159 initial interpretation | in=556, out=512, reasoning=14, total=1,068
+    [Groq pacing] 8.5초 대기
+  → 초기 클레임: 3개
+  [Step 5-A] 클레임 검증
+    [Groq] rs7228159 verification | in=501, out=16, reasoning=0, total=517
+    [Groq pacing] 5.6초 대기
+    [Groq] rs7228159 verification | in=493, out=16, reasoning=0, total=509
+    [Groq pacing] 5.6초 대기
+    [Groq] rs7228159 verification | in=482, out=16, reasoning=0, total=498
+    [Groq pacing] 5.4초 대기
+  → S:0 P:3 U:0
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs7228159 correction | in=1,258, out=512, reasoning=104, total=1,770
+    [Groq pacing] 14.2초 대기
+
+======================================================================
+완료 SNP: 11
+전체 초기 클레임: 33
+SUPPORTED: 1 (3.0%)
+PARTIALLY_SUPPORTED: 32 (97.0%)
+UNSUPPORTED: 0 (0.0%)
+초기 claim DB 근거 지지율 (S+P): 100.0%
+초기 claim unsupported rate: 0.0%
+
+저장 완료: /data/ohsejun/curt/Agent-AI-System-for-Interpreting-GWAS-Results/insomnia/results/interpretation_results_verified.json
+
+===== Groq API 사용량 =====
+전체 요청 시도: 55
+성공 요청:      55
+실패 요청:      0
+429 재시도:     0
+빈 응답 재시도: 0
+입력 토큰:      33,562
+출력 토큰:      9,610
+추론 토큰:      1,251
+전체 토큰:      43,172
+메타데이터:     /data/ohsejun/curt/Agent-AI-System-for-Interpreting-GWAS-Results/insomnia/results/groq_run_metadata.json

@@ -1,0 +1,180 @@
+[Step 4~5 v4] 11개 SNP 처리 시작 (표현형: insomnia)
+======================================================================
+
+[ 1/11] rs11693221 | genes: MEIS1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs11693221 structured interpretation | in=706, out=414, reasoning=41, total=1,120
+    [Groq pacing] 9.0초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs11693221은(는) GWAS Catalog에서 Sleep medication purchases | Short sleep duration (<5 hours)와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: MEIS1은(는) rs11693221 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 MEIS1-insomnia=0.512입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs11693221 correction | in=909, out=232, reasoning=30, total=1,141
+    [Groq pacing] 9.1초 대기
+
+[ 2/11] rs6561715 | genes: OLFM4, PCDH8
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6561715 structured interpretation | in=768, out=430, reasoning=40, total=1,198
+    [Groq pacing] 9.6초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs6561715은(는) GWAS Catalog에서 Insomnia (standard GWA) | Insomnia와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: OLFM4은(는) rs6561715 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 OLFM4-major depressive disorder=0.501; OLFM4-bipolar disorder=0.397; OLFM4-insomnia=0.395입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6561715 correction | in=979, out=263, reasoning=48, total=1,242
+    [Groq pacing] 9.9초 대기
+
+[ 3/11] rs4986172 | genes: ACBD4, HEXIM1, PLCD3
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs4986172 structured interpretation | in=805, out=402, reasoning=41, total=1,207
+    [Groq pacing] 9.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs4986172은(는) GWAS Catalog에서 Height와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: ACBD4은(는) rs4986172 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 HEXIM1-insomnia=0.336입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4986172 correction | in=990, out=294, reasoning=83, total=1,284
+    [Groq pacing] 10.3초 대기
+
+[ 4/11] rs370771 | genes: LIN28B, HACE1, BVES
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs370771 structured interpretation | in=839, out=439, reasoning=40, total=1,278
+    [Groq pacing] 10.2초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs370771은(는) GWAS Catalog에서 Lung function (FVC) | Hip circumference adjusted for BMI | Childhood body mass index와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: LIN28B은(는) rs370771 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 LIN28B-Abnormality of the skeletal system=0.463입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs370771 correction | in=1,051, out=541, reasoning=296, total=1,592
+    [Groq pacing] 12.7초 대기
+
+[ 5/11] rs6938026 | genes: DNPH1, CUL9, SRF
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6938026 structured interpretation | in=822, out=479, reasoning=54, total=1,301
+    [Groq pacing] 10.4초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs6938026은(는) GWAS Catalog에서 Height | Schizophrenia와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: DNPH1은(는) rs6938026 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 DNPH1-intelligence=0.249; DNPH1-asthma=0.064; DNPH1-prostate cancer=0.043입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6938026 correction | in=1,065, out=351, reasoning=143, total=1,416
+    [Groq pacing] 11.3초 대기
+
+[ 6/11] rs6984111 | genes: MSRA, PRSS55, RP1L1
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs6984111 structured interpretation | in=799, out=416, reasoning=64, total=1,215
+    [Groq pacing] 9.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: MSRA은(는) rs6984111 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 MSRA-hypertensive disorder=0.478; MSRA-type 2 diabetes mellitus=0.453; MSRA-alcohol drinking=0.449입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+    - SUPPORTED: 제공된 GWAS Catalog 근거에는 rs6984111과(와) 분석 대상 표현형의 직접 연관이 보고되지 않았습니다. [제공된 GWAS trait에 분석 대상 phenotype이 없습니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs6984111 correction | in=996, out=390, reasoning=158, total=1,386
+    [Groq pacing] 11.1초 대기
+
+[ 7/11] rs4073582 | genes: CNIH2, YIF1A, RAB1B
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs4073582 structured interpretation | in=839, out=491, reasoning=39, total=1,330
+    [Groq pacing] 10.6초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs4073582은(는) GWAS Catalog에서 Gout | Body mass index (MTAG) | Body mass index와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: CNIH2은(는) rs4073582 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets에서 CNIH2은(는) neurodegenerative disease | insomnia | mathematical ability와(과) 유전자-질환 연관성을 보입니다. [모든 gene-disease 조합이 해당 gene 행에 정확히 존재합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4073582 correction | in=1,116, out=289, reasoning=63, total=1,405
+    [Groq pacing] 11.2초 대기
+
+[ 8/11] rs9576155 | genes: SUPT20H, EXOSC8, ALG5
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs9576155 structured interpretation | in=847, out=404, reasoning=40, total=1,251
+    [Groq pacing] 10.0초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs9576155은(는) GWAS Catalog에서 Decaffeinated coffee consumption and/or insomnia와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: SUPT20H은(는) rs9576155 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 SUPT20H-insomnia=0.273입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs9576155 correction | in=1,027, out=375, reasoning=147, total=1,402
+    [Groq pacing] 11.2초 대기
+
+[ 9/11] rs4884332 | genes: DIAPH3
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs4884332 structured interpretation | in=702, out=372, reasoning=41, total=1,074
+    [Groq pacing] 8.6초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs4884332은(는) GWAS Catalog에서 Insomnia와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: DIAPH3은(는) rs4884332 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 DIAPH3-insomnia=0.32입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs4884332 correction | in=848, out=247, reasoning=36, total=1,095
+    [Groq pacing] 8.8초 대기
+
+[10/11] rs1456193 | genes: LSAMP
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs1456193 structured interpretation | in=693, out=372, reasoning=41, total=1,065
+    [Groq pacing] 8.5초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:2 P:0 U:1
+    - UNSUPPORTED: rs1456193은(는) GWAS Catalog에서 insomnia와(과) 연관된 것으로 보고되었습니다. [trait가 제공된 GWAS Catalog 근거에 없습니다.]
+    - SUPPORTED: LSAMP은(는) rs1456193 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 LSAMP-insomnia=0.385; LSAMP-ovarian neoplasm=0.343; LSAMP-frozen shoulder=0.318입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs1456193 correction | in=840, out=241, reasoning=59, total=1,081
+    [Groq pacing] 8.6초 대기
+
+[11/11] rs7228159 | genes: TCF4, CCDC68
+  [Step 4] 구조화 초기 해석 생성
+    [Groq] rs7228159 structured interpretation | in=796, out=418, reasoning=45, total=1,214
+    [Groq pacing] 9.7초 대기
+  → 구조화 클레임: 3개 | JSON parse=OK
+  [Step 5-A] Python 규칙 기반 검증
+  → S:3 P:0 U:0
+    - SUPPORTED: rs7228159은(는) GWAS Catalog에서 Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeling worry와(과) 연관된 것으로 보고되었습니다. [모든 trait가 제공된 GWAS Catalog 근거에 정확히 존재합니다.]
+    - SUPPORTED: TCF4은(는) rs7228159 주변 ±500 kb에서 매핑된 후보 유전자입니다. [gene이 ±500 kb candidate gene 목록에 존재합니다.]
+    - SUPPORTED: Open Targets 유전자-질환 연관성 점수는 TCF4-Pitt-Hopkins syndrome=0.848입니다. [모든 gene-disease-score 쌍이 제공 근거에 정확히 일치합니다.]
+  [Step 5-B] 검증 결과 기반 최종 해석 생성
+    [Groq] rs7228159 correction | in=997, out=281, reasoning=56, total=1,278
+    [Groq pacing] 10.2초 대기
+
+======================================================================
+완료 SNP: 11
+구조화 JSON 정상: 11/11
+전체 초기 클레임: 33
+SUPPORTED: 32 (97.0%)
+PARTIALLY_SUPPORTED: 0 (0.0%)
+UNSUPPORTED: 1 (3.0%)
+초기 claim DB 근거 지지율 (S+P): 97.0%
+초기 claim unsupported rate: 3.0%
+
+저장 완료: /data/ohsejun/curt/Agent-AI-System-for-Interpreting-GWAS-Results/insomnia/results/interpretation_results_verified.json
+
+===== Groq API 사용량 =====
+전체 요청 시도: 22
+성공 요청:      22
+실패 요청:      0
+429 재시도:     0
+빈 응답 재시도: 0
+입력 토큰:      19,434
+출력 토큰:      8,141
+추론 토큰:      1,605
+전체 토큰:      27,575
+메타데이터:     /data/ohsejun/curt/Agent-AI-System-for-Interpreting-GWAS-Results/insomnia/results/groq_run_metadata.json

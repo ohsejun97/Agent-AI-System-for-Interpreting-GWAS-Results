@@ -1,0 +1,56 @@
+[Step 3] 근거 수집: 11개 SNP  (표현형: insomnia)
+============================================================
+[ 1/11] rs11693221  →  MEIS1
+    GC : Sleep medication purchases | Short sleep duration (<5 hours)
+    OT [MEIS1]: restless legs syndrome | insomnia | prostate carcinoma
+[ 2/11] rs6561715  →  OLFM4, PCDH8
+    GC : Insomnia (standard GWA) | Insomnia
+    OT [OLFM4]: major depressive disorder | bipolar disorder | insomnia
+    OT [PCDH8]: abnormality of serum enzyme levels | arthritic joint disease
+[ 3/11] rs4986172  →  ACBD4, HEXIM1, PLCD3
+    GC : Height | Height | Height
+    OT [ACBD4]: neurodegenerative disease | essential hypertension | hyperte
+    OT [HEXIM1]: neurodegenerative disease | intelligence | insomnia
+    OT [PLCD3]: Headache | migraine disorder | coronary artery disorder
+[ 4/11] rs370771  →  LIN28B, HACE1, BVES
+    GC : Lung function (FVC) | Hip circumference adjusted for BMI | Childhood b
+    OT [LIN28B]: Abnormality of the skeletal system | major depressive disord
+    OT [HACE1]: spastic paraplegia-severe developmental delay-epilepsy syndr
+    OT [BVES]: 없음
+[ 5/11] rs6938026  →  DNPH1, CUL9, SRF
+    GC : Height | Schizophrenia | Schizophrenia
+    OT [DNPH1]: intelligence | asthma | prostate cancer
+    OT [CUL9]: neurodegenerative disease | schizophrenia | placental abrupt
+    OT [SRF]: neurodegenerative disease | hepatocellular carcinoma | cance
+[ 6/11] rs6984111  →  MSRA, PRSS55, RP1L1
+    GC : 없음
+    OT [MSRA]: hypertensive disorder | type 2 diabetes mellitus | alcohol d
+    OT [PRSS55]: polycythemia | hypertensive disorder | essential hypertensio
+    OT [RP1L1]: occult macular dystrophy | retinitis pigmentosa 88 | retinit
+[ 7/11] rs4073582  →  CNIH2, YIF1A, RAB1B
+    GC : Gout | Body mass index (MTAG) | Body mass index
+    OT [CNIH2]: neurodegenerative disease | insomnia | mathematical ability
+    OT [YIF1A]: type 2 diabetes mellitus | skeletal system disorder | bladde
+    OT [RAB1B]: neurodegenerative disease | infection | colorectal carcinoma
+[ 8/11] rs9576155  →  SUPT20H, EXOSC8, ALG5
+    GC : Decaffeinated coffee consumption and/or insomnia
+    OT [SUPT20H]: neurodegenerative disease | bacterial arthritis | insomnia
+    OT [EXOSC8]: pontocerebellar hypoplasia, type 1C | pontocerebellar hypopl
+    OT [ALG5]: polycystic kidney disease 7 | autosomal dominant polycystic 
+[ 9/11] rs4884332  →  DIAPH3
+    GC : Insomnia
+    OT [DIAPH3]: autosomal dominant nonsyndromic hearing loss | smoking initi
+[10/11] rs1456193  →  LSAMP
+    GC : 없음
+    OT [LSAMP]: insomnia | ovarian neoplasm | frozen shoulder
+[11/11] rs7228159  →  TCF4, CCDC68
+    GC : Cognitive performance (MTAG) | Highest math class taken (MTAG) | Feeli
+    OT [TCF4]: Pitt-Hopkins syndrome | corneal dystrophy, Fuchs endothelial
+    OT [CCDC68]: presbycusis | Irritability | schizophrenia
+
+============================================================
+완료: 11개 SNP × 유전자 최대 3개 = 25행
+GWAS Catalog 근거: 21/25행
+Open Targets 근거: 24/25행
+
+✓ results/evidence_results.csv 저장 완료
