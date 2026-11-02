@@ -1,5 +1,7 @@
 # GWAS 해석 Agent AI System
 
+> **상태 안내**: 이 저장소는 2026-06-26 중간보고 시점의 스냅샷이다. Step 4~5 자기검증은 LLM(qwen2.5:3b)이 판정하는 방식이고, insomnia 결과는 SUPPORTED 3.8%, 지지율(S+P) 42.3%다 ([docs/pipeline_status.md](docs/pipeline_status.md)). 최종 버전(2026-07 CURT 최종보고서)은 아직 반영하지 않았다.
+
 Raw GWAS summary statistics를 입력받아 DB 근거 기반 SNP 해석과 자기검증 결과를 출력하는 end-to-end 파이프라인.
 
 ## 선행 연구(GeneAgent) 대비 차별점
